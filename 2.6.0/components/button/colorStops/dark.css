@@ -1,5 +1,5 @@
-/* generated from dna-version: 5.3.0 */
-/* generated from dna-version: 5.3.0 */
+/* generated from dna-version: 5.0.1 */
+/* generated from dna-version: 5.0.1 */
 /* Temporary skin variables that need to be moved into origins */
 :root {
   /* Icon Button*/
@@ -108,12 +108,12 @@
 */
 .spectrum-Button--secondary {
   background-color: rgba(0, 0, 0, 0);
-  border-color: rgb(157, 157, 157);
-  color: rgb(157, 157, 157);
+  border-color: rgb(153, 153, 153);
+  color: rgb(153, 153, 153);
 }
 .spectrum-Button--secondary:hover {
-    background-color: rgb(157, 157, 157);
-    border-color: rgb(157, 157, 157);
+    background-color: rgb(153, 153, 153);
+    border-color: rgb(153, 153, 153);
     color: rgb(37, 37, 37);
   }
 .spectrum-Button--secondary.focus-ring {
@@ -261,7 +261,7 @@
 .spectrum-Button--secondary.spectrum-Button--quiet {
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum-Button--secondary.spectrum-Button--quiet:hover {
     background-color: rgb(57, 57, 57);
@@ -295,11 +295,11 @@
 }
 .spectrum-ActionButton .spectrum-Icon,
 .spectrum-Tool .spectrum-Icon {
-    color: rgb(157, 157, 157);
+    color: rgb(153, 153, 153);
   }
 .spectrum-ActionButton .spectrum-ActionButton-hold,
 .spectrum-Tool .spectrum-ActionButton-hold {
-    color: rgb(157, 157, 157);
+    color: rgb(153, 153, 153);
   }
 .spectrum-ActionButton:hover,
 .spectrum-Tool:hover {
@@ -365,7 +365,7 @@
     color: rgb(205, 205, 205);
   }
 .spectrum-ActionButton.is-selected .spectrum-Icon {
-      color: rgb(157, 157, 157);
+      color: rgb(153, 153, 153);
     }
 .spectrum-ActionButton.is-selected.focus-ring {
       background-color: rgb(57, 57, 57);
@@ -674,7 +674,7 @@
         color: rgb(77, 77, 77);
       }
 .spectrum-Tool .spectrum-Tool-hold {
-    color: rgb(157, 157, 157);
+    color: rgb(153, 153, 153);
   }
 .spectrum-Tool:hover .spectrum-Tool-hold {
       color: rgb(255, 255, 255);

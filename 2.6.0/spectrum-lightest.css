@@ -19,11 +19,11 @@
   /* Prevent tap highlights */
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-/* generated from dna-version: 5.3.0 */
+/* generated from dna-version: 5.0.1 */
 .spectrum--lightest .spectrum-Body1 {
           color: rgb(80, 80, 80);
         }
-/* generated from dna-version: 5.3.0 */
+/* generated from dna-version: 5.0.1 */
 .spectrum--lightest .spectrum-Body2 {
           color: rgb(80, 80, 80);
         }
@@ -55,7 +55,7 @@
           color: rgb(50, 50, 50);
         }
 .spectrum--lightest .spectrum-Subheading {
-          color: rgb(50, 50, 50);
+          color: rgb(80, 80, 80);
         }
 .spectrum--lightest .spectrum-Detail {
           color: rgb(80, 80, 80);
@@ -124,7 +124,7 @@
           color: rgb(50, 50, 50);
         }
 .spectrum--lightest .spectrum-Article .spectrum-Subheading {
-          color: rgb(50, 50, 50);
+          color: rgb(80, 80, 80);
         }
 .spectrum--lightest .spectrum-Article .spectrum-Detail {
           color: rgb(80, 80, 80);
@@ -181,7 +181,7 @@
           color: rgb(50, 50, 50);
         }
 .spectrum--lightest .spectrum:lang(ja) .spectrum-Subheading, .spectrum--lightest .spectrum:lang(ko) .spectrum-Subheading, .spectrum--lightest .spectrum:lang(zh) .spectrum-Subheading {
-          color: rgb(50, 50, 50);
+          color: rgb(80, 80, 80);
         }
 .spectrum--lightest .spectrum:lang(ja) .spectrum-Detail, .spectrum--lightest .spectrum:lang(ko) .spectrum-Detail, .spectrum--lightest .spectrum:lang(zh) .spectrum-Detail {
           color: rgb(80, 80, 80);
@@ -242,13 +242,13 @@
   color: rgb(80, 80, 80);
 }
 .spectrum--lightest .spectrum-Body--secondary {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Heading--display {
   color: rgb(50, 50, 50);
 }
 .spectrum--lightest .spectrum-Heading--pageTitle {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Heading--subtitle1 {
   color: rgb(50, 50, 50);
@@ -257,7 +257,7 @@
   color: rgb(50, 50, 50);
 }
 .spectrum--lightest .spectrum-Heading--subtitle3 {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Link {
   color: rgb(20, 115, 230);
@@ -398,12 +398,12 @@
 */
 .spectrum--lightest .spectrum-Button--secondary {
   background-color: rgba(0, 0, 0, 0);
-  border-color: rgb(116, 116, 116);
-  color: rgb(116, 116, 116);
+  border-color: rgb(118, 118, 118);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Button--secondary:hover {
-    background-color: rgb(116, 116, 116);
-    border-color: rgb(116, 116, 116);
+    background-color: rgb(118, 118, 118);
+    border-color: rgb(118, 118, 118);
     color: rgb(255, 255, 255);
   }
 .spectrum--lightest .spectrum-Button--secondary.focus-ring {
@@ -551,7 +551,7 @@
 .spectrum--lightest .spectrum-Button--secondary.spectrum-Button--quiet {
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Button--secondary.spectrum-Button--quiet:hover {
     background-color: rgb(244, 244, 244);
@@ -585,11 +585,11 @@
 }
 .spectrum--lightest .spectrum-ActionButton .spectrum-Icon,
 .spectrum--lightest .spectrum-Tool .spectrum-Icon {
-    color: rgb(116, 116, 116);
+    color: rgb(118, 118, 118);
   }
 .spectrum--lightest .spectrum-ActionButton .spectrum-ActionButton-hold,
 .spectrum--lightest .spectrum-Tool .spectrum-ActionButton-hold {
-    color: rgb(116, 116, 116);
+    color: rgb(118, 118, 118);
   }
 .spectrum--lightest .spectrum-ActionButton:hover,
 .spectrum--lightest .spectrum-Tool:hover {
@@ -655,7 +655,7 @@
     color: rgb(80, 80, 80);
   }
 .spectrum--lightest .spectrum-ActionButton.is-selected .spectrum-Icon {
-      color: rgb(116, 116, 116);
+      color: rgb(118, 118, 118);
     }
 .spectrum--lightest .spectrum-ActionButton.is-selected.focus-ring {
       background-color: rgb(244, 244, 244);
@@ -964,7 +964,7 @@
         color: rgb(211, 211, 211);
       }
 .spectrum--lightest .spectrum-Tool .spectrum-Tool-hold {
-    color: rgb(116, 116, 116);
+    color: rgb(118, 118, 118);
   }
 .spectrum--lightest .spectrum-Tool:hover .spectrum-Tool-hold {
       color: rgb(50, 50, 50);
@@ -983,7 +983,7 @@
       color: rgb(211, 211, 211);
     }
 .spectrum--lightest .spectrum-Breadcrumbs-item {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Breadcrumbs-item .spectrum-Breadcrumbs-itemSeparator {
     color: rgb(188, 188, 188);
@@ -1009,7 +1009,7 @@
     color: rgb(50, 50, 50);
   }
 .spectrum--lightest .spectrum-Breadcrumbs-item.is-selected ~ .spectrum-Breadcrumb:last-of-type {
-        color: rgb(116, 116, 116);
+        color: rgb(118, 118, 118);
       }
 .spectrum--lightest .spectrum-Breadcrumbs-item.is-selected .spectrum-Breadcrumbs-itemLink.focus-ring {
         color: rgb(50, 50, 50);
@@ -1026,7 +1026,7 @@
 */
 .spectrum--lightest .spectrum-Label--inactive,
 .spectrum--lightest .spectrum-Label--grey {
-  background-color: rgb(116, 116, 116);
+  background-color: rgb(118, 118, 118);
 }
 /* topdoc
 {{ breadcrumb/breadcrumb.yml }}
@@ -1055,13 +1055,13 @@
 .spectrum--lightest .spectrum-Alert {
   background-color: rgb(255, 255, 255);
   /* default color set to body color, header element overwrites this */
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Alert-header {
   color: rgb(50, 50, 50);
 }
 .spectrum--lightest .spectrum-Alert-content {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 /* topdoc
 {{ alert/alert-info.yml }}
@@ -1147,7 +1147,7 @@
   border-color: rgb(149, 149, 149);
 }
 .spectrum--lightest .spectrum-Checkbox:hover .spectrum-Checkbox-box {
-      border-color: rgb(116, 116, 116);
+      border-color: rgb(118, 118, 118);
 
       box-shadow: none;
     }
@@ -1185,7 +1185,7 @@
 */
 .spectrum--lightest .spectrum-Checkbox--quiet.is-indeterminate .spectrum-Checkbox-box,
   .spectrum--lightest .spectrum-Checkbox--quiet .spectrum-Checkbox-input:checked + .spectrum-Checkbox-box {
-  border-color: rgb(116, 116, 116);
+  border-color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Checkbox--quiet:hover.is-indeterminate .spectrum-Checkbox-box,
   .spectrum--lightest .spectrum-Checkbox--quiet:hover .spectrum-Checkbox-input:checked + .spectrum-Checkbox-box {
@@ -1231,7 +1231,7 @@
 {{ radio/radio.yml }}
 */
 .spectrum--lightest .spectrum-Radio:hover .spectrum-Radio-button {
-      border-color: rgb(116, 116, 116);
+      border-color: rgb(118, 118, 118);
       box-shadow: none;
     }
 .spectrum--lightest .spectrum-Radio:hover .spectrum-Radio-input:checked + .spectrum-Radio-button {
@@ -1252,7 +1252,7 @@
       color: rgb(50, 50, 50);
     }
 .spectrum--lightest .spectrum-Radio--quiet .spectrum-Radio-input:checked + .spectrum-Radio-button {
-    border-color: rgb(116, 116, 116);
+    border-color: rgb(118, 118, 118);
   }
 .spectrum--lightest .spectrum-Radio--quiet:hover .spectrum-Radio-input:checked + .spectrum-Radio-button {
       border-color: rgb(80, 80, 80);
@@ -1436,12 +1436,12 @@
           border-color: rgb(227, 72, 80);
         }
 .spectrum--lightest .spectrum-Tooltip {
-  background-color: rgb(116, 116, 116);
+  background-color: rgb(118, 118, 118);
 
   color: rgb(255, 255, 255);
 }
 .spectrum--lightest .spectrum-Tooltip-tip {
-  border-top-color: rgb(116, 116, 116);
+  border-top-color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Tooltip--negative,
 .spectrum--lightest .spectrum-Tooltip--error {
@@ -1491,15 +1491,15 @@
     }
 .spectrum--lightest .spectrum-BarLoader-label,
 .spectrum--lightest .spectrum-BarLoader-percentage {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-BarLoader-label,
 .spectrum--lightest .spectrum-BarLoader-percentage {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-BarLoader-label,
 .spectrum--lightest .spectrum-BarLoader-percentage {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-CoachMarkPopover {
   background-color: rgb(255, 255, 255);
@@ -1510,7 +1510,7 @@
   color: rgb(50, 50, 50);
 }
 .spectrum--lightest .spectrum-CoachMarkPopover-step {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-CoachMarkPopover-content {
   color: rgb(80, 80, 80);
@@ -1583,13 +1583,13 @@
 */
 .spectrum--lightest .spectrum-Slider-labelContainer,
 .spectrum--lightest .spectrum-Dial-labelContainer {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 /* topdoc
 {{ slider/slider-tick.yml }}
 */
 .spectrum--lightest .spectrum-Slider--filled .spectrum-Slider-track:first-child::before {
-      background: rgb(116, 116, 116);
+      background: rgb(118, 118, 118);
     }
 /* topdoc
 {{ slider/slider-player.yml }}
@@ -1608,7 +1608,7 @@
 {{ slider/slider-label.yml }}
 */
 .spectrum--lightest .spectrum-Slider-handle {
-  border-color: rgb(116, 116, 116);
+  border-color: rgb(118, 118, 118);
   background: rgb(255, 255, 255);
 }
 /* topdoc
@@ -1646,7 +1646,7 @@
 {{ slider/slider-range.yml }}
 */
 .spectrum--lightest .spectrum-Slider--range .spectrum-Slider-track:not(:first-of-type):not(:last-of-type):before {
-        background: rgb(116, 116, 116);
+        background: rgb(118, 118, 118);
       }
 /* topdoc
 {{ slider/slider-colored.yml }}
@@ -1695,7 +1695,7 @@
 {{ slider/dial.yml }}
 */
 .spectrum--lightest .spectrum-Dial-handle::after {
-    background-color: rgb(116, 116, 116);
+    background-color: rgb(118, 118, 118);
   }
 .spectrum--lightest .spectrum-Dial-handle:hover::after {
       background-color: rgb(80, 80, 80);
@@ -1800,7 +1800,7 @@
 {{ tabs/tabs-compact.yml }}
 */
 .spectrum--lightest .spectrum-Tabs-item {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 /* topdoc
 {{ tabs/tabs-quiet.yml }}
@@ -1840,7 +1840,7 @@
   }
 /* Step Completed */
 .spectrum--lightest .spectrum-Steplist .spectrum-Steplist-item.is-complete .spectrum-Steplist-label {
-        color: rgb(116, 116, 116)
+        color: rgb(118, 118, 118)
       }
 .spectrum--lightest .spectrum-Steplist .spectrum-Steplist-item.is-complete .spectrum-Steplist-marker {
         background-color: rgb(149, 149, 149)
@@ -1882,7 +1882,7 @@
     }
 /* Hover */
 .spectrum--lightest .spectrum-ToggleSwitch:hover .spectrum-ToggleSwitch-input + .spectrum-ToggleSwitch-switch::after {
-        border-color: rgb(116, 116, 116);
+        border-color: rgb(118, 118, 118);
         box-shadow: none;
       }
 .spectrum--lightest .spectrum-ToggleSwitch:hover .spectrum-ToggleSwitch-input ~ .spectrum-ToggleSwitch-label {
@@ -1931,11 +1931,11 @@
     }
 /* Quiet Selected */
 .spectrum--lightest .spectrum-ToggleSwitch--quiet .spectrum-ToggleSwitch-input:checked + .spectrum-ToggleSwitch-switch::before {
-      background-color: rgb(116, 116, 116);
+      background-color: rgb(118, 118, 118);
     }
 /* Quiet */
 .spectrum--lightest .spectrum-ToggleSwitch--quiet .spectrum-ToggleSwitch-input:checked + .spectrum-ToggleSwitch-switch::after {
-      border-color: rgb(116, 116, 116);
+      border-color: rgb(118, 118, 118);
     }
 /* Quiet Selected Hover */
 .spectrum--lightest .spectrum-ToggleSwitch--quiet:hover .spectrum-ToggleSwitch-input:checked:enabled + .spectrum-ToggleSwitch-switch::before {
@@ -1999,7 +1999,7 @@
           background-color: rgb(234, 234, 234);
         }
 .spectrum--lightest .spectrum-ToggleSwitch--ab:hover .spectrum-ToggleSwitch-input:checked:enabled + .spectrum-ToggleSwitch-switch::after {
-          border-color: rgb(116, 116, 116);
+          border-color: rgb(118, 118, 118);
         }
 .spectrum--lightest .spectrum-ToggleSwitch--ab:active .spectrum-ToggleSwitch-input:checked:enabled + .spectrum-ToggleSwitch-switch::before {
           background-color: rgb(234, 234, 234);
@@ -2049,7 +2049,7 @@
     cursor: default;
   }
 .spectrum--lightest .spectrum-Menu-sectionHeading {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Menu-divider {
   background-color: rgb(255, 255, 255);
@@ -2074,7 +2074,7 @@
         color: rgb(188, 188, 188);
       }
 .spectrum--lightest .spectrum-Dropdown-icon {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Dropdown-label.is-placeholder {
     color: rgb(149, 149, 149);
@@ -2117,17 +2117,14 @@
   margin: 0;
 }
 .spectrum--lightest .spectrum-Toast {
-  background-color: rgb(116, 116, 116);
-  color: rgb(116, 116, 116);
+  background-color: rgb(118, 118, 118);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Toast-content {
   color: rgb(255, 255, 255);
 }
 .spectrum--lightest .spectrum-Toast-typeIcon {
   color: white;
-}
-.spectrum--lightest .spectrum-Toast-buttons {
-  border-left-color: rgba(255, 255, 255, 0.2);
 }
 .spectrum--lightest .spectrum-Toast--warning {
   background-color: rgb(203, 111, 16);
@@ -2186,7 +2183,7 @@
   color: rgb(149, 149, 149);
 }
 .spectrum--lightest .spectrum-Accordion-itemHeader {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Accordion-itemHeader:focus,
   .spectrum--lightest .spectrum-Accordion-itemHeader:hover {
@@ -2221,7 +2218,7 @@
 }
 .spectrum--lightest .spectrum-FieldLabel,
 .spectrum--lightest .spectrum-Form-itemLabel {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-FieldLabel.is-disabled, .spectrum--lightest .spectrum-Form-itemLabel.is-disabled {
     color: rgb(188, 188, 188);
@@ -2233,7 +2230,7 @@
   color: rgb(149, 149, 149);
 }
 .spectrum--lightest .spectrum-Search-icon {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Search-input:disabled ~ .spectrum-Search-icon {
       color: rgb(188, 188, 188);
@@ -2443,13 +2440,13 @@
             box-shadow: 0 1px 0 0 rgb(227, 72, 80);
           }
 .spectrum--lightest .spectrum-Calendar-prevMonth {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Calendar-nextMonth {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Calendar-dayOfWeek {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Calendar-date:hover {
     color: rgb(50, 50, 50);
@@ -2527,7 +2524,7 @@
       color: rgb(188, 188, 188);
     }
 .spectrum--lightest .spectrum-Table-headCell {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
   background-color: rgba(0, 0, 0, 0);
 }
 .spectrum--lightest .spectrum-Table-headCell.is-sortable .spectrum-Table-sortedIcon {
@@ -2753,7 +2750,7 @@
           stroke-width: 1px;
         }
 .spectrum--lightest .spectrum-Tags-item {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
   background-color: rgb(255, 255, 255);
   border-color: rgb(149, 149, 149);
 }
@@ -2778,7 +2775,7 @@
       color: rgb(50, 50, 50);
     }
 .spectrum--lightest .spectrum-Tags-item.is-invalid {
-    color: rgb(116, 116, 116);
+    color: rgb(118, 118, 118);
     border-color: rgb(227, 72, 80);
   }
 .spectrum--lightest .spectrum-Tags-item.is-invalid .spectrum-ClearButton {
@@ -2809,39 +2806,39 @@
       opacity: 0.3;
     }
 .spectrum--lightest .spectrum-Tags-item--deletable:hover {
-    color: rgb(116, 116, 116);
+    color: rgb(118, 118, 118);
   }
 .spectrum--lightest .spectrum-Tags-item--deletable:hover .spectrum-ClearButton {
       color: rgb(50, 50, 50);
     }
 .spectrum--lightest .spectrum-Tags-item--deletable:active {
-    color: rgb(116, 116, 116);
+    color: rgb(118, 118, 118);
   }
 .spectrum--lightest .spectrum-Tags-item--deletable:active .spectrum-ClearButton {
       color: rgb(50, 50, 50);
     }
 .spectrum--lightest .spectrum-Tags-item--deletable.is-invalid:hover {
       border-color: rgb(215, 55, 63);
-      color: rgb(116, 116, 116);
+      color: rgb(118, 118, 118);
     }
 .spectrum--lightest .spectrum-Tags-item--deletable.is-invalid:hover .spectrum-ClearButton {
         color: rgb(215, 55, 63);
       }
 .spectrum--lightest .spectrum-Tags-item--deletable.is-invalid:active {
       border-color: rgb(201, 37, 45);
-      color: rgb(116, 116, 116);
+      color: rgb(118, 118, 118);
     }
 .spectrum--lightest .spectrum-Tags-item--deletable.is-invalid:active .spectrum-ClearButton {
         color: rgb(201, 37, 45);
       }
 .spectrum--lightest .spectrum-Tags-item--deletable.focus-ring {
-    color: rgb(116, 116, 116);
+    color: rgb(118, 118, 118);
   }
 .spectrum--lightest .spectrum-Tags-item--deletable.focus-ring .spectrum-ClearButton {
       color: rgb(50, 50, 50);
     }
 .spectrum--lightest .spectrum-Tags-item--deletable.focus-ring.is-invalid {
-      color: rgb(116, 116, 116);
+      color: rgb(118, 118, 118);
     }
 .spectrum--lightest .spectrum-Tags-item.is-disabled .spectrum-ClearButton .spectrum-Icon {
     color: rgb(188, 188, 188);
@@ -2955,7 +2952,7 @@
   background-color: rgb(234, 234, 234);
 }
 .spectrum--lightest .spectrum-Rule--small {
-  background-color: rgb(234, 234, 234);
+  background-color: rgb(244, 244, 244);
 }
 .spectrum--lightest .spectrum-StatusLight {
   color: rgb(80, 80, 80);
@@ -2981,7 +2978,7 @@
   background-color: rgb(55, 142, 240);
 }
 .spectrum--lightest .spectrum-StatusLight--neutral {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-StatusLight--neutral::before {
     background-color: rgb(188, 188, 188);
@@ -3073,7 +3070,7 @@
       border-color: rgb(55, 142, 240);
     }
 .spectrum--lightest .spectrum-SideNav-heading {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-IllustratedMessage-illustration {
   color: rgb(188, 188, 188);
@@ -3099,86 +3096,10 @@
     border-color: rgb(55, 142, 240);
     box-shadow: 0 0 0 1px rgb(55, 142, 240);
   }
-.spectrum--lightest .spectrum-Card.is-drop-target {
-    border-color: rgb(55, 142, 240);
-    box-shadow: 0 0 0 1px rgb(55, 142, 240);
-    background-color: rgba(38,128,235,0.1);
-  }
 .spectrum--lightest .spectrum-Card-description {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
 }
 .spectrum--lightest .spectrum-Card-coverPhoto {
   background-color: rgb(244, 244, 244);
   border-bottom-color: rgb(244, 244, 244);
-}
-.spectrum--lightest .spectrum-Card-footer {
-  border-color: rgb(244, 244, 244);
-}
-.spectrum--lightest .spectrum-Card--quiet,
-.spectrum--lightest .spectrum-Card--gallery {
-  border-color: transparent;
-  background-color: transparent;
-}
-.spectrum--lightest .spectrum-Card--quiet .spectrum-Card-preview, .spectrum--lightest .spectrum-Card--gallery .spectrum-Card-preview {
-    background-color: rgb(244, 244, 244);
-  }
-.spectrum--lightest .spectrum-Card--quiet:hover, .spectrum--lightest .spectrum-Card--gallery:hover {
-    border-color: transparent;
-  }
-.spectrum--lightest .spectrum-Card--quiet:hover .spectrum-Card-preview, .spectrum--lightest .spectrum-Card--gallery:hover .spectrum-Card-preview {
-      background-color: rgb(234, 234, 234);
-    }
-.spectrum--lightest .spectrum-Card--quiet.is-selected,
-  .spectrum--lightest .spectrum-Card--quiet:focus,
-  .spectrum--lightest .spectrum-Card--gallery.is-selected,
-  .spectrum--lightest .spectrum-Card--gallery:focus {
-    border-color: transparent;
-    box-shadow: none;
-  }
-.spectrum--lightest .spectrum-Card--quiet.is-selected .spectrum-Card-preview, .spectrum--lightest .spectrum-Card--quiet:focus .spectrum-Card-preview, .spectrum--lightest .spectrum-Card--gallery.is-selected .spectrum-Card-preview, .spectrum--lightest .spectrum-Card--gallery:focus .spectrum-Card-preview {
-      background-color: rgb(244, 244, 244);
-    }
-.spectrum--lightest .spectrum-Card--quiet.is-selected .spectrum-Card-preview:before, .spectrum--lightest .spectrum-Card--quiet:focus .spectrum-Card-preview:before, .spectrum--lightest .spectrum-Card--gallery.is-selected .spectrum-Card-preview:before, .spectrum--lightest .spectrum-Card--gallery:focus .spectrum-Card-preview:before {
-        border-color: rgb(38, 128, 235);
-        box-shadow: 0 0 0 1px rgb(38, 128, 235);
-      }
-.spectrum--lightest .spectrum-Card--quiet.is-drop-target, .spectrum--lightest .spectrum-Card--gallery.is-drop-target {
-    border-color: transparent;
-    background-color: transparent;
-    box-shadow: none;
-  }
-.spectrum--lightest .spectrum-Card--quiet.is-drop-target .spectrum-Card-preview, .spectrum--lightest .spectrum-Card--gallery.is-drop-target .spectrum-Card-preview {
-      background-color: rgba(38,128,235,0.1);
-    }
-.spectrum--lightest .spectrum-Card--quiet.is-drop-target .spectrum-Card-preview:before, .spectrum--lightest .spectrum-Card--gallery.is-drop-target .spectrum-Card-preview:before {
-        border-color: rgb(38, 128, 235);
-        box-shadow: 0 0 0 1px rgb(38, 128, 235);
-      }
-.spectrum--lightest .spectrum-Card--quiet.is-drop-target .spectrum-Asset-folderBackground,
-    .spectrum--lightest .spectrum-Card--quiet.is-drop-target .spectrum-Asset-fileBackground,
-    .spectrum--lightest .spectrum-Card--gallery.is-drop-target .spectrum-Asset-folderBackground,
-    .spectrum--lightest .spectrum-Card--gallery.is-drop-target .spectrum-Asset-fileBackground {
-      fill: rgba(38,128,235,0.1);
-    }
-.spectrum--lightest .spectrum-Card--quiet.is-drop-target .spectrum-Asset-folderOutline,
-    .spectrum--lightest .spectrum-Card--quiet.is-drop-target .spectrum-Asset-fileOutline,
-    .spectrum--lightest .spectrum-Card--gallery.is-drop-target .spectrum-Asset-folderOutline,
-    .spectrum--lightest .spectrum-Card--gallery.is-drop-target .spectrum-Asset-fileOutline {
-      fill: rgb(38, 128, 235);
-    }
-.spectrum--lightest .spectrum-Card--quiet .spectrum-Card-title, .spectrum--lightest .spectrum-Card--gallery .spectrum-Card-title {
-    color: rgb(80, 80, 80);
-  }
-.spectrum--lightest .spectrum-Card--quiet .spectrum-Card-subtitle, .spectrum--lightest .spectrum-Card--gallery .spectrum-Card-subtitle {
-    color: rgb(116, 116, 116);
-  }
-.spectrum--lightest .spectrum-Asset-folderBackground {
-  fill: rgb(234, 234, 234);
-}
-.spectrum--lightest .spectrum-Asset-fileBackground {
-  fill: rgb(255, 255, 255);
-}
-.spectrum--lightest .spectrum-Asset-folderOutline,
-.spectrum--lightest .spectrum-Asset-fileOutline {
-  fill: rgb(188, 188, 188);
 }

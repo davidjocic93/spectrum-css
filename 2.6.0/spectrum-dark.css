@@ -19,11 +19,11 @@
   /* Prevent tap highlights */
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-/* generated from dna-version: 5.3.0 */
+/* generated from dna-version: 5.0.1 */
 .spectrum--dark .spectrum-Body1 {
           color: rgb(205, 205, 205);
         }
-/* generated from dna-version: 5.3.0 */
+/* generated from dna-version: 5.0.1 */
 .spectrum--dark .spectrum-Body2 {
           color: rgb(205, 205, 205);
         }
@@ -55,7 +55,7 @@
           color: rgb(255, 255, 255);
         }
 .spectrum--dark .spectrum-Subheading {
-          color: rgb(255, 255, 255);
+          color: rgb(205, 205, 205);
         }
 .spectrum--dark .spectrum-Detail {
           color: rgb(205, 205, 205);
@@ -124,7 +124,7 @@
           color: rgb(255, 255, 255);
         }
 .spectrum--dark .spectrum-Article .spectrum-Subheading {
-          color: rgb(255, 255, 255);
+          color: rgb(205, 205, 205);
         }
 .spectrum--dark .spectrum-Article .spectrum-Detail {
           color: rgb(205, 205, 205);
@@ -181,7 +181,7 @@
           color: rgb(255, 255, 255);
         }
 .spectrum--dark .spectrum:lang(ja) .spectrum-Subheading, .spectrum--dark .spectrum:lang(ko) .spectrum-Subheading, .spectrum--dark .spectrum:lang(zh) .spectrum-Subheading {
-          color: rgb(255, 255, 255);
+          color: rgb(205, 205, 205);
         }
 .spectrum--dark .spectrum:lang(ja) .spectrum-Detail, .spectrum--dark .spectrum:lang(ko) .spectrum-Detail, .spectrum--dark .spectrum:lang(zh) .spectrum-Detail {
           color: rgb(205, 205, 205);
@@ -242,13 +242,13 @@
   color: rgb(205, 205, 205);
 }
 .spectrum--dark .spectrum-Body--secondary {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-Heading--display {
   color: rgb(255, 255, 255);
 }
 .spectrum--dark .spectrum-Heading--pageTitle {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-Heading--subtitle1 {
   color: rgb(255, 255, 255);
@@ -257,7 +257,7 @@
   color: rgb(255, 255, 255);
 }
 .spectrum--dark .spectrum-Heading--subtitle3 {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-Link {
   color: rgb(75, 156, 245);
@@ -398,12 +398,12 @@
 */
 .spectrum--dark .spectrum-Button--secondary {
   background-color: rgba(0, 0, 0, 0);
-  border-color: rgb(157, 157, 157);
-  color: rgb(157, 157, 157);
+  border-color: rgb(153, 153, 153);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-Button--secondary:hover {
-    background-color: rgb(157, 157, 157);
-    border-color: rgb(157, 157, 157);
+    background-color: rgb(153, 153, 153);
+    border-color: rgb(153, 153, 153);
     color: rgb(37, 37, 37);
   }
 .spectrum--dark .spectrum-Button--secondary.focus-ring {
@@ -551,7 +551,7 @@
 .spectrum--dark .spectrum-Button--secondary.spectrum-Button--quiet {
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-Button--secondary.spectrum-Button--quiet:hover {
     background-color: rgb(57, 57, 57);
@@ -585,11 +585,11 @@
 }
 .spectrum--dark .spectrum-ActionButton .spectrum-Icon,
 .spectrum--dark .spectrum-Tool .spectrum-Icon {
-    color: rgb(157, 157, 157);
+    color: rgb(153, 153, 153);
   }
 .spectrum--dark .spectrum-ActionButton .spectrum-ActionButton-hold,
 .spectrum--dark .spectrum-Tool .spectrum-ActionButton-hold {
-    color: rgb(157, 157, 157);
+    color: rgb(153, 153, 153);
   }
 .spectrum--dark .spectrum-ActionButton:hover,
 .spectrum--dark .spectrum-Tool:hover {
@@ -655,7 +655,7 @@
     color: rgb(205, 205, 205);
   }
 .spectrum--dark .spectrum-ActionButton.is-selected .spectrum-Icon {
-      color: rgb(157, 157, 157);
+      color: rgb(153, 153, 153);
     }
 .spectrum--dark .spectrum-ActionButton.is-selected.focus-ring {
       background-color: rgb(57, 57, 57);
@@ -964,7 +964,7 @@
         color: rgb(77, 77, 77);
       }
 .spectrum--dark .spectrum-Tool .spectrum-Tool-hold {
-    color: rgb(157, 157, 157);
+    color: rgb(153, 153, 153);
   }
 .spectrum--dark .spectrum-Tool:hover .spectrum-Tool-hold {
       color: rgb(255, 255, 255);
@@ -983,7 +983,7 @@
       color: rgb(77, 77, 77);
     }
 .spectrum--dark .spectrum-Breadcrumbs-item {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-Breadcrumbs-item .spectrum-Breadcrumbs-itemSeparator {
     color: rgb(92, 92, 92);
@@ -1009,7 +1009,7 @@
     color: rgb(255, 255, 255);
   }
 .spectrum--dark .spectrum-Breadcrumbs-item.is-selected ~ .spectrum-Breadcrumb:last-of-type {
-        color: rgb(157, 157, 157);
+        color: rgb(153, 153, 153);
       }
 .spectrum--dark .spectrum-Breadcrumbs-item.is-selected .spectrum-Breadcrumbs-itemLink.focus-ring {
         color: rgb(255, 255, 255);
@@ -1026,7 +1026,7 @@
 */
 .spectrum--dark .spectrum-Label--inactive,
 .spectrum--dark .spectrum-Label--grey {
-  background-color: rgb(116, 116, 116);
+  background-color: rgb(118, 118, 118);
 }
 /* topdoc
 {{ breadcrumb/breadcrumb.yml }}
@@ -1055,13 +1055,13 @@
 .spectrum--dark .spectrum-Alert {
   background-color: rgb(37, 37, 37);
   /* default color set to body color, header element overwrites this */
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-Alert-header {
   color: rgb(255, 255, 255);
 }
 .spectrum--dark .spectrum-Alert-content {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 /* topdoc
 {{ alert/alert-info.yml }}
@@ -1147,7 +1147,7 @@
   border-color: rgb(123, 123, 123);
 }
 .spectrum--dark .spectrum-Checkbox:hover .spectrum-Checkbox-box {
-      border-color: rgb(157, 157, 157);
+      border-color: rgb(153, 153, 153);
 
       box-shadow: none;
     }
@@ -1185,7 +1185,7 @@
 */
 .spectrum--dark .spectrum-Checkbox--quiet.is-indeterminate .spectrum-Checkbox-box,
   .spectrum--dark .spectrum-Checkbox--quiet .spectrum-Checkbox-input:checked + .spectrum-Checkbox-box {
-  border-color: rgb(157, 157, 157);
+  border-color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-Checkbox--quiet:hover.is-indeterminate .spectrum-Checkbox-box,
   .spectrum--dark .spectrum-Checkbox--quiet:hover .spectrum-Checkbox-input:checked + .spectrum-Checkbox-box {
@@ -1231,7 +1231,7 @@
 {{ radio/radio.yml }}
 */
 .spectrum--dark .spectrum-Radio:hover .spectrum-Radio-button {
-      border-color: rgb(157, 157, 157);
+      border-color: rgb(153, 153, 153);
       box-shadow: none;
     }
 .spectrum--dark .spectrum-Radio:hover .spectrum-Radio-input:checked + .spectrum-Radio-button {
@@ -1252,7 +1252,7 @@
       color: rgb(255, 255, 255);
     }
 .spectrum--dark .spectrum-Radio--quiet .spectrum-Radio-input:checked + .spectrum-Radio-button {
-    border-color: rgb(157, 157, 157);
+    border-color: rgb(153, 153, 153);
   }
 .spectrum--dark .spectrum-Radio--quiet:hover .spectrum-Radio-input:checked + .spectrum-Radio-button {
       border-color: rgb(205, 205, 205);
@@ -1436,12 +1436,12 @@
           border-color: rgb(236, 91, 98);
         }
 .spectrum--dark .spectrum-Tooltip {
-  background-color: rgb(116, 116, 116);
+  background-color: rgb(118, 118, 118);
 
   color: rgb(255, 255, 255);
 }
 .spectrum--dark .spectrum-Tooltip-tip {
-  border-top-color: rgb(116, 116, 116);
+  border-top-color: rgb(118, 118, 118);
 }
 .spectrum--dark .spectrum-Tooltip--negative,
 .spectrum--dark .spectrum-Tooltip--error {
@@ -1491,15 +1491,15 @@
     }
 .spectrum--dark .spectrum-BarLoader-label,
 .spectrum--dark .spectrum-BarLoader-percentage {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-BarLoader-label,
 .spectrum--dark .spectrum-BarLoader-percentage {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-BarLoader-label,
 .spectrum--dark .spectrum-BarLoader-percentage {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-CoachMarkPopover {
   background-color: rgb(37, 37, 37);
@@ -1510,7 +1510,7 @@
   color: rgb(255, 255, 255);
 }
 .spectrum--dark .spectrum-CoachMarkPopover-step {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-CoachMarkPopover-content {
   color: rgb(205, 205, 205);
@@ -1583,13 +1583,13 @@
 */
 .spectrum--dark .spectrum-Slider-labelContainer,
 .spectrum--dark .spectrum-Dial-labelContainer {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 /* topdoc
 {{ slider/slider-tick.yml }}
 */
 .spectrum--dark .spectrum-Slider--filled .spectrum-Slider-track:first-child::before {
-      background: rgb(157, 157, 157);
+      background: rgb(153, 153, 153);
     }
 /* topdoc
 {{ slider/slider-player.yml }}
@@ -1608,7 +1608,7 @@
 {{ slider/slider-label.yml }}
 */
 .spectrum--dark .spectrum-Slider-handle {
-  border-color: rgb(157, 157, 157);
+  border-color: rgb(153, 153, 153);
   background: rgb(50, 50, 50);
 }
 /* topdoc
@@ -1646,7 +1646,7 @@
 {{ slider/slider-range.yml }}
 */
 .spectrum--dark .spectrum-Slider--range .spectrum-Slider-track:not(:first-of-type):not(:last-of-type):before {
-        background: rgb(157, 157, 157);
+        background: rgb(153, 153, 153);
       }
 /* topdoc
 {{ slider/slider-colored.yml }}
@@ -1695,7 +1695,7 @@
 {{ slider/dial.yml }}
 */
 .spectrum--dark .spectrum-Dial-handle::after {
-    background-color: rgb(157, 157, 157);
+    background-color: rgb(153, 153, 153);
   }
 .spectrum--dark .spectrum-Dial-handle:hover::after {
       background-color: rgb(205, 205, 205);
@@ -1800,7 +1800,7 @@
 {{ tabs/tabs-compact.yml }}
 */
 .spectrum--dark .spectrum-Tabs-item {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 /* topdoc
 {{ tabs/tabs-quiet.yml }}
@@ -1840,7 +1840,7 @@
   }
 /* Step Completed */
 .spectrum--dark .spectrum-Steplist .spectrum-Steplist-item.is-complete .spectrum-Steplist-label {
-        color: rgb(157, 157, 157)
+        color: rgb(153, 153, 153)
       }
 .spectrum--dark .spectrum-Steplist .spectrum-Steplist-item.is-complete .spectrum-Steplist-marker {
         background-color: rgb(123, 123, 123)
@@ -1882,7 +1882,7 @@
     }
 /* Hover */
 .spectrum--dark .spectrum-ToggleSwitch:hover .spectrum-ToggleSwitch-input + .spectrum-ToggleSwitch-switch::after {
-        border-color: rgb(157, 157, 157);
+        border-color: rgb(153, 153, 153);
         box-shadow: none;
       }
 .spectrum--dark .spectrum-ToggleSwitch:hover .spectrum-ToggleSwitch-input ~ .spectrum-ToggleSwitch-label {
@@ -1931,11 +1931,11 @@
     }
 /* Quiet Selected */
 .spectrum--dark .spectrum-ToggleSwitch--quiet .spectrum-ToggleSwitch-input:checked + .spectrum-ToggleSwitch-switch::before {
-      background-color: rgb(157, 157, 157);
+      background-color: rgb(153, 153, 153);
     }
 /* Quiet */
 .spectrum--dark .spectrum-ToggleSwitch--quiet .spectrum-ToggleSwitch-input:checked + .spectrum-ToggleSwitch-switch::after {
-      border-color: rgb(157, 157, 157);
+      border-color: rgb(153, 153, 153);
     }
 /* Quiet Selected Hover */
 .spectrum--dark .spectrum-ToggleSwitch--quiet:hover .spectrum-ToggleSwitch-input:checked:enabled + .spectrum-ToggleSwitch-switch::before {
@@ -1999,7 +1999,7 @@
           background-color: rgb(62, 62, 62);
         }
 .spectrum--dark .spectrum-ToggleSwitch--ab:hover .spectrum-ToggleSwitch-input:checked:enabled + .spectrum-ToggleSwitch-switch::after {
-          border-color: rgb(157, 157, 157);
+          border-color: rgb(153, 153, 153);
         }
 .spectrum--dark .spectrum-ToggleSwitch--ab:active .spectrum-ToggleSwitch-input:checked:enabled + .spectrum-ToggleSwitch-switch::before {
           background-color: rgb(62, 62, 62);
@@ -2049,7 +2049,7 @@
     cursor: default;
   }
 .spectrum--dark .spectrum-Menu-sectionHeading {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-Menu-divider {
   background-color: rgb(50, 50, 50);
@@ -2074,7 +2074,7 @@
         color: rgb(92, 92, 92);
       }
 .spectrum--dark .spectrum-Dropdown-icon {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-Dropdown-label.is-placeholder {
     color: rgb(123, 123, 123);
@@ -2117,17 +2117,14 @@
   margin: 0;
 }
 .spectrum--dark .spectrum-Toast {
-  background-color: rgb(116, 116, 116);
-  color: rgb(116, 116, 116);
+  background-color: rgb(118, 118, 118);
+  color: rgb(118, 118, 118);
 }
 .spectrum--dark .spectrum-Toast-content {
   color: rgb(255, 255, 255);
 }
 .spectrum--dark .spectrum-Toast-typeIcon {
   color: white;
-}
-.spectrum--dark .spectrum-Toast-buttons {
-  border-left-color: rgba(255, 255, 255, 0.2);
 }
 .spectrum--dark .spectrum-Toast--warning {
   background-color: rgb(203, 111, 16);
@@ -2186,7 +2183,7 @@
   color: rgb(123, 123, 123);
 }
 .spectrum--dark .spectrum-Accordion-itemHeader {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-Accordion-itemHeader:focus,
   .spectrum--dark .spectrum-Accordion-itemHeader:hover {
@@ -2221,7 +2218,7 @@
 }
 .spectrum--dark .spectrum-FieldLabel,
 .spectrum--dark .spectrum-Form-itemLabel {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-FieldLabel.is-disabled, .spectrum--dark .spectrum-Form-itemLabel.is-disabled {
     color: rgb(92, 92, 92);
@@ -2233,7 +2230,7 @@
   color: rgb(123, 123, 123);
 }
 .spectrum--dark .spectrum-Search-icon {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-Search-input:disabled ~ .spectrum-Search-icon {
       color: rgb(92, 92, 92);
@@ -2443,13 +2440,13 @@
             box-shadow: 0 1px 0 0 rgb(236, 91, 98);
           }
 .spectrum--dark .spectrum-Calendar-prevMonth {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-Calendar-nextMonth {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-Calendar-dayOfWeek {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-Calendar-date:hover {
     color: rgb(255, 255, 255);
@@ -2527,7 +2524,7 @@
       color: rgb(92, 92, 92);
     }
 .spectrum--dark .spectrum-Table-headCell {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
   background-color: rgba(0, 0, 0, 0);
 }
 .spectrum--dark .spectrum-Table-headCell.is-sortable .spectrum-Table-sortedIcon {
@@ -2753,7 +2750,7 @@
           stroke-width: 1px;
         }
 .spectrum--dark .spectrum-Tags-item {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
   background-color: rgb(47, 47, 47);
   border-color: rgb(123, 123, 123);
 }
@@ -2778,7 +2775,7 @@
       color: rgb(255, 255, 255);
     }
 .spectrum--dark .spectrum-Tags-item.is-invalid {
-    color: rgb(157, 157, 157);
+    color: rgb(153, 153, 153);
     border-color: rgb(236, 91, 98);
   }
 .spectrum--dark .spectrum-Tags-item.is-invalid .spectrum-ClearButton {
@@ -2809,39 +2806,39 @@
       opacity: 0.3;
     }
 .spectrum--dark .spectrum-Tags-item--deletable:hover {
-    color: rgb(157, 157, 157);
+    color: rgb(153, 153, 153);
   }
 .spectrum--dark .spectrum-Tags-item--deletable:hover .spectrum-ClearButton {
       color: rgb(255, 255, 255);
     }
 .spectrum--dark .spectrum-Tags-item--deletable:active {
-    color: rgb(157, 157, 157);
+    color: rgb(153, 153, 153);
   }
 .spectrum--dark .spectrum-Tags-item--deletable:active .spectrum-ClearButton {
       color: rgb(255, 255, 255);
     }
 .spectrum--dark .spectrum-Tags-item--deletable.is-invalid:hover {
       border-color: rgb(247, 109, 116);
-      color: rgb(157, 157, 157);
+      color: rgb(153, 153, 153);
     }
 .spectrum--dark .spectrum-Tags-item--deletable.is-invalid:hover .spectrum-ClearButton {
         color: rgb(247, 109, 116);
       }
 .spectrum--dark .spectrum-Tags-item--deletable.is-invalid:active {
       border-color: rgb(255, 123, 130);
-      color: rgb(157, 157, 157);
+      color: rgb(153, 153, 153);
     }
 .spectrum--dark .spectrum-Tags-item--deletable.is-invalid:active .spectrum-ClearButton {
         color: rgb(255, 123, 130);
       }
 .spectrum--dark .spectrum-Tags-item--deletable.focus-ring {
-    color: rgb(157, 157, 157);
+    color: rgb(153, 153, 153);
   }
 .spectrum--dark .spectrum-Tags-item--deletable.focus-ring .spectrum-ClearButton {
       color: rgb(255, 255, 255);
     }
 .spectrum--dark .spectrum-Tags-item--deletable.focus-ring.is-invalid {
-      color: rgb(157, 157, 157);
+      color: rgb(153, 153, 153);
     }
 .spectrum--dark .spectrum-Tags-item.is-disabled .spectrum-ClearButton .spectrum-Icon {
     color: rgb(92, 92, 92);
@@ -2955,7 +2952,7 @@
   background-color: rgb(62, 62, 62);
 }
 .spectrum--dark .spectrum-Rule--small {
-  background-color: rgb(62, 62, 62);
+  background-color: rgb(57, 57, 57);
 }
 .spectrum--dark .spectrum-StatusLight {
   color: rgb(205, 205, 205);
@@ -2981,7 +2978,7 @@
   background-color: rgb(38, 128, 235);
 }
 .spectrum--dark .spectrum-StatusLight--neutral {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-StatusLight--neutral::before {
     background-color: rgb(92, 92, 92);
@@ -3073,7 +3070,7 @@
       border-color: rgb(38, 128, 235);
     }
 .spectrum--dark .spectrum-SideNav-heading {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-IllustratedMessage-illustration {
   color: rgb(92, 92, 92);
@@ -3099,86 +3096,10 @@
     border-color: rgb(38, 128, 235);
     box-shadow: 0 0 0 1px rgb(38, 128, 235);
   }
-.spectrum--dark .spectrum-Card.is-drop-target {
-    border-color: rgb(38, 128, 235);
-    box-shadow: 0 0 0 1px rgb(38, 128, 235);
-    background-color: rgba(55,142,240,0.1);
-  }
 .spectrum--dark .spectrum-Card-description {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-Card-coverPhoto {
   background-color: rgb(57, 57, 57);
   border-bottom-color: rgb(57, 57, 57);
-}
-.spectrum--dark .spectrum-Card-footer {
-  border-color: rgb(57, 57, 57);
-}
-.spectrum--dark .spectrum-Card--quiet,
-.spectrum--dark .spectrum-Card--gallery {
-  border-color: transparent;
-  background-color: transparent;
-}
-.spectrum--dark .spectrum-Card--quiet .spectrum-Card-preview, .spectrum--dark .spectrum-Card--gallery .spectrum-Card-preview {
-    background-color: rgb(57, 57, 57);
-  }
-.spectrum--dark .spectrum-Card--quiet:hover, .spectrum--dark .spectrum-Card--gallery:hover {
-    border-color: transparent;
-  }
-.spectrum--dark .spectrum-Card--quiet:hover .spectrum-Card-preview, .spectrum--dark .spectrum-Card--gallery:hover .spectrum-Card-preview {
-      background-color: rgb(62, 62, 62);
-    }
-.spectrum--dark .spectrum-Card--quiet.is-selected,
-  .spectrum--dark .spectrum-Card--quiet:focus,
-  .spectrum--dark .spectrum-Card--gallery.is-selected,
-  .spectrum--dark .spectrum-Card--gallery:focus {
-    border-color: transparent;
-    box-shadow: none;
-  }
-.spectrum--dark .spectrum-Card--quiet.is-selected .spectrum-Card-preview, .spectrum--dark .spectrum-Card--quiet:focus .spectrum-Card-preview, .spectrum--dark .spectrum-Card--gallery.is-selected .spectrum-Card-preview, .spectrum--dark .spectrum-Card--gallery:focus .spectrum-Card-preview {
-      background-color: rgb(57, 57, 57);
-    }
-.spectrum--dark .spectrum-Card--quiet.is-selected .spectrum-Card-preview:before, .spectrum--dark .spectrum-Card--quiet:focus .spectrum-Card-preview:before, .spectrum--dark .spectrum-Card--gallery.is-selected .spectrum-Card-preview:before, .spectrum--dark .spectrum-Card--gallery:focus .spectrum-Card-preview:before {
-        border-color: rgb(55, 142, 240);
-        box-shadow: 0 0 0 1px rgb(55, 142, 240);
-      }
-.spectrum--dark .spectrum-Card--quiet.is-drop-target, .spectrum--dark .spectrum-Card--gallery.is-drop-target {
-    border-color: transparent;
-    background-color: transparent;
-    box-shadow: none;
-  }
-.spectrum--dark .spectrum-Card--quiet.is-drop-target .spectrum-Card-preview, .spectrum--dark .spectrum-Card--gallery.is-drop-target .spectrum-Card-preview {
-      background-color: rgba(55,142,240,0.1);
-    }
-.spectrum--dark .spectrum-Card--quiet.is-drop-target .spectrum-Card-preview:before, .spectrum--dark .spectrum-Card--gallery.is-drop-target .spectrum-Card-preview:before {
-        border-color: rgb(55, 142, 240);
-        box-shadow: 0 0 0 1px rgb(55, 142, 240);
-      }
-.spectrum--dark .spectrum-Card--quiet.is-drop-target .spectrum-Asset-folderBackground,
-    .spectrum--dark .spectrum-Card--quiet.is-drop-target .spectrum-Asset-fileBackground,
-    .spectrum--dark .spectrum-Card--gallery.is-drop-target .spectrum-Asset-folderBackground,
-    .spectrum--dark .spectrum-Card--gallery.is-drop-target .spectrum-Asset-fileBackground {
-      fill: rgba(55,142,240,0.1);
-    }
-.spectrum--dark .spectrum-Card--quiet.is-drop-target .spectrum-Asset-folderOutline,
-    .spectrum--dark .spectrum-Card--quiet.is-drop-target .spectrum-Asset-fileOutline,
-    .spectrum--dark .spectrum-Card--gallery.is-drop-target .spectrum-Asset-folderOutline,
-    .spectrum--dark .spectrum-Card--gallery.is-drop-target .spectrum-Asset-fileOutline {
-      fill: rgb(55, 142, 240);
-    }
-.spectrum--dark .spectrum-Card--quiet .spectrum-Card-title, .spectrum--dark .spectrum-Card--gallery .spectrum-Card-title {
-    color: rgb(205, 205, 205);
-  }
-.spectrum--dark .spectrum-Card--quiet .spectrum-Card-subtitle, .spectrum--dark .spectrum-Card--gallery .spectrum-Card-subtitle {
-    color: rgb(157, 157, 157);
-  }
-.spectrum--dark .spectrum-Asset-folderBackground {
-  fill: rgb(62, 62, 62);
-}
-.spectrum--dark .spectrum-Asset-fileBackground {
-  fill: rgb(37, 37, 37);
-}
-.spectrum--dark .spectrum-Asset-folderOutline,
-.spectrum--dark .spectrum-Asset-fileOutline {
-  fill: rgb(92, 92, 92);
 }

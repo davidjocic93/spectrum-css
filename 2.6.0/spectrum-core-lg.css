@@ -1,5 +1,5 @@
-/* generated from dna-version: 5.3.0 */
-/* generated from dna-version: 5.3.0 */
+/* generated from dna-version: 5.0.1 */
+/* generated from dna-version: 5.0.1 */
 .spectrum {
   font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-size: 17px;
@@ -23,8 +23,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum-Body1 em {
               font-size: 24px;
@@ -33,8 +34,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Body1 strong {
@@ -44,8 +43,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Body2,
@@ -56,8 +53,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum-Body2 em,
 .spectrum-Body--large em {
@@ -67,8 +65,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Body2 strong,
@@ -79,8 +75,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Body3 {
@@ -90,8 +84,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum-Body3 em {
               font-size: 19px;
@@ -100,8 +95,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Body3 strong {
@@ -111,8 +104,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Body4,
@@ -123,8 +114,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum-Body4 em,
 .spectrum-Body--secondary em {
@@ -134,8 +126,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Body4 strong,
@@ -146,8 +136,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Body5,
@@ -158,8 +146,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum-Body5 em,
 .spectrum-Body--small em {
@@ -169,8 +158,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Body5 strong,
@@ -181,8 +168,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading1 {
@@ -192,8 +177,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Heading1 em {
               font-size: 39px;
@@ -202,8 +188,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading1 strong {
@@ -213,8 +197,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading2 {
@@ -224,8 +206,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Heading2 em {
               font-size: 31px;
@@ -234,8 +217,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading2 strong {
@@ -245,8 +226,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading3 {
@@ -256,8 +235,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Heading3 em {
               font-size: 24px;
@@ -266,8 +246,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading3 strong {
@@ -277,8 +255,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading4,
@@ -289,8 +265,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Heading4 em,
 .spectrum-Heading--subtitle1 em {
@@ -300,8 +277,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading4 strong,
@@ -312,8 +287,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading5 {
@@ -323,8 +296,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Heading5 em {
               font-size: 19px;
@@ -333,8 +307,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading5 strong {
@@ -344,8 +316,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading6,
@@ -356,8 +326,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Heading6 em,
 .spectrum-Heading--subtitle2 em {
@@ -367,8 +338,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading6 strong,
@@ -379,8 +348,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Subheading,
@@ -391,8 +358,9 @@
   font-style: normal;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Subheading em,
 .spectrum-Heading--subtitle3 em {
@@ -402,8 +370,6 @@
   font-style: italic;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Subheading strong,
@@ -414,8 +380,6 @@
   font-style: normal;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Detail {
@@ -425,8 +389,9 @@
   font-style: normal;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum-Detail em {
               font-size: 13px;
@@ -435,8 +400,6 @@
   font-style: italic;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Detail strong {
@@ -446,8 +409,6 @@
   font-style: normal;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading1--quiet {
@@ -457,8 +418,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Heading1--quiet em {
               font-size: 39px;
@@ -467,8 +429,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading1--quiet strong {
@@ -478,8 +438,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading2--quiet,
@@ -490,8 +448,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Heading2--quiet em,
 .spectrum-Heading--pageTitle em {
@@ -501,8 +460,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading2--quiet strong,
@@ -513,8 +470,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading1--strong {
@@ -524,8 +479,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Heading1--strong em {
               font-size: 39px;
@@ -534,8 +490,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading1--strong strong {
@@ -545,8 +499,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading2--strong {
@@ -556,8 +508,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Heading2--strong em {
               font-size: 31px;
@@ -566,8 +519,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading2--strong strong {
@@ -577,8 +528,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading1--display {
@@ -588,8 +537,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Heading1--display em {
               font-size: 49px;
@@ -598,8 +548,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading1--display strong {
@@ -609,8 +557,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading2--display {
@@ -620,8 +566,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Heading2--display em {
               font-size: 44px;
@@ -630,19 +577,15 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading2--display strong {
               font-size: 44px;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.3;
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading1--display.spectrum-Heading1--strong {
@@ -652,8 +595,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Heading1--display.spectrum-Heading1--strong em {
               font-size: 49px;
@@ -662,8 +606,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading1--display.spectrum-Heading1--strong strong {
@@ -673,8 +615,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading2--display.spectrum-Heading2--strong {
@@ -684,8 +624,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Heading2--display.spectrum-Heading2--strong em {
               font-size: 44px;
@@ -694,8 +635,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading2--display.spectrum-Heading2--strong strong {
@@ -705,8 +644,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading1--display.spectrum-Heading1--quiet {
@@ -716,8 +653,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Heading1--display.spectrum-Heading1--quiet em {
               font-size: 49px;
@@ -726,8 +664,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading1--display.spectrum-Heading1--quiet strong {
@@ -737,8 +673,6 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading2--display.spectrum-Heading2--quiet,
@@ -749,8 +683,9 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Heading2--display.spectrum-Heading2--quiet em,
 .spectrum-Heading--display em {
@@ -760,8 +695,6 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Heading2--display.spectrum-Heading2--quiet strong,
@@ -772,132 +705,29 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
-.spectrum-Typography .spectrum-Body1 {
-          margin-top: 0px;
-          margin-bottom: 20px;
-        }
-.spectrum-Typography .spectrum-Body2,
-.spectrum-Typography .spectrum-Body--large {
-          margin-top: 0px;
-          margin-bottom: 16px;
-        }
-.spectrum-Typography .spectrum-Body3 {
-          margin-top: 0px;
-          margin-bottom: 15px;
-        }
-.spectrum-Typography .spectrum-Body4,
-.spectrum-Typography .spectrum-Body--secondary {
-          margin-top: 0px;
-          margin-bottom: 13px;
-        }
-.spectrum-Typography .spectrum-Body5,
-.spectrum-Typography .spectrum-Body--small {
-          margin-top: 0px;
-          margin-bottom: 11px;
-        }
-.spectrum-Typography .spectrum-Heading1 {
-          margin-top: 34px;
-          margin-bottom: 11px;
-        }
-.spectrum-Typography .spectrum-Heading2 {
-          margin-top: 27px;
-          margin-bottom: 9px;
-        }
-.spectrum-Typography .spectrum-Heading3 {
-          margin-top: 22px;
-          margin-bottom: 8px;
-        }
-.spectrum-Typography .spectrum-Heading4,
-.spectrum-Typography .spectrum-Heading--subtitle1 {
-          margin-top: 19px;
-          margin-bottom: 6px;
-        }
-.spectrum-Typography .spectrum-Heading5 {
-          margin-top: 17px;
-          margin-bottom: 5px;
-        }
-.spectrum-Typography .spectrum-Heading6,
-.spectrum-Typography .spectrum-Heading--subtitle2 {
-          margin-top: 15px;
-          margin-bottom: 4px;
-        }
-.spectrum-Typography .spectrum-Subheading,
-.spectrum-Typography .spectrum-Heading--subtitle3 {
-          margin-top: 15px;
-          margin-bottom: 4px;
-        }
-.spectrum-Typography .spectrum-Detail {
-          margin-top: 0px;
-          margin-bottom: 10px;
-        }
-.spectrum-Typography .spectrum-Heading1--quiet {
-          margin-top: 34px;
-          margin-bottom: 11px;
-        }
-.spectrum-Typography .spectrum-Heading2--quiet,
-.spectrum-Typography .spectrum-Heading--pageTitle {
-          margin-top: 27px;
-          margin-bottom: 9px;
-        }
-.spectrum-Typography .spectrum-Heading1--strong {
-          margin-top: 34px;
-          margin-bottom: 11px;
-        }
-.spectrum-Typography .spectrum-Heading2--strong {
-          margin-top: 27px;
-          margin-bottom: 9px;
-        }
-.spectrum-Typography .spectrum-Heading1--display {
-          margin-top: 44px;
-          margin-bottom: 14px;
-        }
-.spectrum-Typography .spectrum-Heading2--display {
-          margin-top: 39px;
-          margin-bottom: 13px;
-        }
-.spectrum-Typography .spectrum-Heading1--display.spectrum-Heading1--strong {
-          margin-top: 44px;
-          margin-bottom: 14px;
-        }
-.spectrum-Typography .spectrum-Heading2--display.spectrum-Heading2--strong {
-          margin-top: 39px;
-          margin-bottom: 13px;
-        }
-.spectrum-Typography .spectrum-Heading1--display.spectrum-Heading1--quiet {
-          margin-top: 44px;
-          margin-bottom: 14px;
-        }
-.spectrum-Typography .spectrum-Heading2--display.spectrum-Heading2--quiet,
-.spectrum-Typography .spectrum-Heading--display {
-          margin-top: 39px;
-          margin-bottom: 13px;
-        }
 .spectrum-Article {
-  font-family: adobe-clean-serif, "Source Serif Pro", Georgia, serif;
+  font-family: Adobe Clean Serif, Times New Roman, serif;
 }
 .spectrum-Article .spectrum-Body1 {
           font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0;
+  letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Body1 em {
               font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
   font-style: italic;
-  letter-spacing: 0;
+  letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body1 strong {
@@ -905,10 +735,8 @@
   font-weight: 900;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0;
+  letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body2,
@@ -917,10 +745,11 @@
   font-weight: 400;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0;
+  letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Body2 em,
 .spectrum-Article .spectrum-Body--large em {
@@ -928,10 +757,8 @@
   font-weight: 400;
   line-height: 1.5;
   font-style: italic;
-  letter-spacing: 0;
+  letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body2 strong,
@@ -940,10 +767,8 @@
   font-weight: 900;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0;
+  letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body3 {
@@ -951,20 +776,19 @@
   font-weight: 400;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0;
+  letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Body3 em {
               font-size: 19px;
   font-weight: 400;
   line-height: 1.5;
   font-style: italic;
-  letter-spacing: 0;
+  letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body3 strong {
@@ -972,10 +796,8 @@
   font-weight: 900;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0;
+  letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body4,
@@ -984,10 +806,11 @@
   font-weight: 400;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0;
+  letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Body4 em,
 .spectrum-Article .spectrum-Body--secondary em {
@@ -995,10 +818,8 @@
   font-weight: 400;
   line-height: 1.5;
   font-style: italic;
-  letter-spacing: 0;
+  letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body4 strong,
@@ -1007,10 +828,8 @@
   font-weight: 900;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0;
+  letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body5,
@@ -1019,10 +838,11 @@
   font-weight: 400;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0;
+  letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Body5 em,
 .spectrum-Article .spectrum-Body--small em {
@@ -1030,10 +850,8 @@
   font-weight: 400;
   line-height: 1.5;
   font-style: italic;
-  letter-spacing: 0;
+  letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body5 strong,
@@ -1042,10 +860,8 @@
   font-weight: 900;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0;
+  letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading1 {
@@ -1055,8 +871,9 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Heading1 em {
               font-size: 39px;
@@ -1065,8 +882,6 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading1 strong {
@@ -1076,8 +891,6 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading2 {
@@ -1087,8 +900,9 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Heading2 em {
               font-size: 31px;
@@ -1097,8 +911,6 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading2 strong {
@@ -1108,8 +920,6 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading3 {
@@ -1119,8 +929,9 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Heading3 em {
               font-size: 24px;
@@ -1129,8 +940,6 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading3 strong {
@@ -1140,8 +949,6 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading4,
@@ -1152,8 +959,9 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Heading4 em,
 .spectrum-Article .spectrum-Heading--subtitle1 em {
@@ -1163,8 +971,6 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading4 strong,
@@ -1175,8 +981,6 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading5 {
@@ -1186,8 +990,9 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Heading5 em {
               font-size: 19px;
@@ -1196,8 +1001,6 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading5 strong {
@@ -1207,8 +1010,6 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading6,
@@ -1219,8 +1020,9 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Heading6 em,
 .spectrum-Article .spectrum-Heading--subtitle2 em {
@@ -1230,8 +1032,6 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading6 strong,
@@ -1242,8 +1042,6 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Subheading,
@@ -1252,10 +1050,11 @@
   font-weight: 700;
   line-height: 1.3;
   font-style: normal;
-  letter-spacing: 0.0125em;
-  text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Subheading em,
 .spectrum-Article .spectrum-Heading--subtitle3 em {
@@ -1263,10 +1062,8 @@
   font-weight: 700;
   line-height: 1.3;
   font-style: italic;
-  letter-spacing: 0.0125em;
-  text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 
           }
 .spectrum-Article .spectrum-Subheading strong,
@@ -1275,10 +1072,8 @@
   font-weight: 900;
   line-height: 1.3;
   font-style: normal;
-  letter-spacing: 0.0125em;
-  text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 
           }
 .spectrum-Article .spectrum-Detail {
@@ -1286,20 +1081,19 @@
   font-weight: 400;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0;
-  text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Detail em {
               font-size: 13px;
   font-weight: 400;
   line-height: 1.5;
   font-style: italic;
-  letter-spacing: 0;
-  text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 
           }
 .spectrum-Article .spectrum-Detail strong {
@@ -1307,10 +1101,8 @@
   font-weight: 700;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0;
-  text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 
           }
 .spectrum-Article .spectrum-Heading1--quiet {
@@ -1320,8 +1112,9 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Heading1--quiet em {
               font-size: 39px;
@@ -1330,8 +1123,6 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading1--quiet strong {
@@ -1341,8 +1132,6 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading2--quiet,
@@ -1353,8 +1142,9 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Heading2--quiet em,
 .spectrum-Article .spectrum-Heading--pageTitle em {
@@ -1364,8 +1154,6 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading2--quiet strong,
@@ -1376,8 +1164,6 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading1--display {
@@ -1387,8 +1173,9 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Heading1--display em {
               font-size: 49px;
@@ -1397,8 +1184,6 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading1--display strong {
@@ -1408,8 +1193,6 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading2--display {
@@ -1419,8 +1202,9 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Heading2--display em {
               font-size: 44px;
@@ -1429,8 +1213,6 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading2--display strong {
@@ -1440,8 +1222,6 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading1--display.spectrum-Heading1--quiet {
@@ -1451,8 +1231,9 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Heading1--display.spectrum-Heading1--quiet em {
               font-size: 49px;
@@ -1461,8 +1242,6 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading1--display.spectrum-Heading1--quiet strong {
@@ -1472,8 +1251,6 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading2--display.spectrum-Heading2--quiet,
@@ -1484,8 +1261,9 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum-Article .spectrum-Heading2--display.spectrum-Heading2--quiet em,
 .spectrum-Article .spectrum-Heading--display em {
@@ -1495,8 +1273,6 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading2--display.spectrum-Heading2--quiet strong,
@@ -1507,8 +1283,6 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body1, .spectrum:lang(ko) .spectrum-Body1, .spectrum:lang(zh) .spectrum-Body1 {
@@ -1518,8 +1292,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Body1 em, .spectrum:lang(ko) .spectrum-Body1 em, .spectrum:lang(zh) .spectrum-Body1 em {
               font-size: 24px;
@@ -1528,8 +1303,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body1 strong, .spectrum:lang(ko) .spectrum-Body1 strong, .spectrum:lang(zh) .spectrum-Body1 strong {
@@ -1539,8 +1312,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body2,
@@ -1555,8 +1326,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Body2 em,
 .spectrum:lang(ko) .spectrum-Body2 em,
@@ -1570,8 +1342,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body2 strong,
@@ -1586,8 +1356,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body3, .spectrum:lang(ko) .spectrum-Body3, .spectrum:lang(zh) .spectrum-Body3 {
@@ -1597,8 +1365,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Body3 em, .spectrum:lang(ko) .spectrum-Body3 em, .spectrum:lang(zh) .spectrum-Body3 em {
               font-size: 19px;
@@ -1607,8 +1376,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body3 strong, .spectrum:lang(ko) .spectrum-Body3 strong, .spectrum:lang(zh) .spectrum-Body3 strong {
@@ -1618,8 +1385,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body4,
@@ -1634,8 +1399,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Body4 em,
 .spectrum:lang(ko) .spectrum-Body4 em,
@@ -1649,8 +1415,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body4 strong,
@@ -1665,8 +1429,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body5,
@@ -1681,8 +1443,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Body5 em,
 .spectrum:lang(ko) .spectrum-Body5 em,
@@ -1696,8 +1459,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body5 strong,
@@ -1712,8 +1473,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1, .spectrum:lang(ko) .spectrum-Heading1, .spectrum:lang(zh) .spectrum-Heading1 {
@@ -1723,8 +1482,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Heading1 em, .spectrum:lang(ko) .spectrum-Heading1 em, .spectrum:lang(zh) .spectrum-Heading1 em {
               font-size: 39px;
@@ -1733,8 +1493,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1 strong, .spectrum:lang(ko) .spectrum-Heading1 strong, .spectrum:lang(zh) .spectrum-Heading1 strong {
@@ -1744,8 +1502,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2, .spectrum:lang(ko) .spectrum-Heading2, .spectrum:lang(zh) .spectrum-Heading2 {
@@ -1755,8 +1511,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Heading2 em, .spectrum:lang(ko) .spectrum-Heading2 em, .spectrum:lang(zh) .spectrum-Heading2 em {
               font-size: 31px;
@@ -1765,8 +1522,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2 strong, .spectrum:lang(ko) .spectrum-Heading2 strong, .spectrum:lang(zh) .spectrum-Heading2 strong {
@@ -1776,8 +1531,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading3, .spectrum:lang(ko) .spectrum-Heading3, .spectrum:lang(zh) .spectrum-Heading3 {
@@ -1787,8 +1540,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Heading3 em, .spectrum:lang(ko) .spectrum-Heading3 em, .spectrum:lang(zh) .spectrum-Heading3 em {
               font-size: 24px;
@@ -1797,8 +1551,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading3 strong, .spectrum:lang(ko) .spectrum-Heading3 strong, .spectrum:lang(zh) .spectrum-Heading3 strong {
@@ -1808,8 +1560,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading4,
@@ -1824,8 +1574,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Heading4 em,
 .spectrum:lang(ko) .spectrum-Heading4 em,
@@ -1839,8 +1590,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading4 strong,
@@ -1855,8 +1604,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading5, .spectrum:lang(ko) .spectrum-Heading5, .spectrum:lang(zh) .spectrum-Heading5 {
@@ -1866,8 +1613,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Heading5 em, .spectrum:lang(ko) .spectrum-Heading5 em, .spectrum:lang(zh) .spectrum-Heading5 em {
               font-size: 19px;
@@ -1876,8 +1624,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading5 strong, .spectrum:lang(ko) .spectrum-Heading5 strong, .spectrum:lang(zh) .spectrum-Heading5 strong {
@@ -1887,8 +1633,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading6,
@@ -1903,8 +1647,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Heading6 em,
 .spectrum:lang(ko) .spectrum-Heading6 em,
@@ -1918,8 +1663,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading6 strong,
@@ -1934,8 +1677,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Subheading,
@@ -1946,12 +1687,13 @@
 .spectrum:lang(zh) .spectrum-Heading--subtitle3 {
           font-size: 13px;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.3;
   font-style: normal;
-  letter-spacing: 0.05em;
-  text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Subheading em,
 .spectrum:lang(ko) .spectrum-Subheading em,
@@ -1961,12 +1703,10 @@
 .spectrum:lang(zh) .spectrum-Heading--subtitle3 em {
               font-size: 13px;
   font-weight: 800;
-  line-height: 1.5;
+  line-height: 1.3;
   font-style: normal;
-  letter-spacing: 0.05em;
-  text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 
           }
 .spectrum:lang(ja) .spectrum-Subheading strong,
@@ -1977,12 +1717,10 @@
 .spectrum:lang(zh) .spectrum-Heading--subtitle3 strong {
               font-size: 13px;
   font-weight: 900;
-  line-height: 1.5;
+  line-height: 1.3;
   font-style: normal;
-  letter-spacing: 0.05em;
-  text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 
           }
 .spectrum:lang(ja) .spectrum-Detail, .spectrum:lang(ko) .spectrum-Detail, .spectrum:lang(zh) .spectrum-Detail {
@@ -1990,20 +1728,19 @@
   font-weight: 400;
   line-height: 1.7;
   font-style: normal;
-  letter-spacing: 0.05em;
-  text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Detail em, .spectrum:lang(ko) .spectrum-Detail em, .spectrum:lang(zh) .spectrum-Detail em {
               font-size: 13px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.7;
   font-style: normal;
-  letter-spacing: 0.05em;
-  text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 
           }
 .spectrum:lang(ja) .spectrum-Detail strong, .spectrum:lang(ko) .spectrum-Detail strong, .spectrum:lang(zh) .spectrum-Detail strong {
@@ -2011,10 +1748,8 @@
   font-weight: 900;
   line-height: 1.7;
   font-style: normal;
-  letter-spacing: 0.05em;
-  text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--quiet, .spectrum:lang(ko) .spectrum-Heading1--quiet, .spectrum:lang(zh) .spectrum-Heading1--quiet {
@@ -2024,8 +1759,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Heading1--quiet em, .spectrum:lang(ko) .spectrum-Heading1--quiet em, .spectrum:lang(zh) .spectrum-Heading1--quiet em {
               font-size: 39px;
@@ -2034,8 +1770,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--quiet strong, .spectrum:lang(ko) .spectrum-Heading1--quiet strong, .spectrum:lang(zh) .spectrum-Heading1--quiet strong {
@@ -2045,8 +1779,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--quiet,
@@ -2061,8 +1793,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Heading2--quiet em,
 .spectrum:lang(ko) .spectrum-Heading2--quiet em,
@@ -2076,8 +1809,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--quiet strong,
@@ -2092,8 +1823,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--strong, .spectrum:lang(ko) .spectrum-Heading1--strong, .spectrum:lang(zh) .spectrum-Heading1--strong {
@@ -2103,8 +1832,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Heading1--strong em, .spectrum:lang(ko) .spectrum-Heading1--strong em, .spectrum:lang(zh) .spectrum-Heading1--strong em {
               font-size: 39px;
@@ -2113,8 +1843,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--strong strong, .spectrum:lang(ko) .spectrum-Heading1--strong strong, .spectrum:lang(zh) .spectrum-Heading1--strong strong {
@@ -2124,8 +1852,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--strong, .spectrum:lang(ko) .spectrum-Heading2--strong, .spectrum:lang(zh) .spectrum-Heading2--strong {
@@ -2135,8 +1861,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Heading2--strong em, .spectrum:lang(ko) .spectrum-Heading2--strong em, .spectrum:lang(zh) .spectrum-Heading2--strong em {
               font-size: 31px;
@@ -2145,8 +1872,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--strong strong, .spectrum:lang(ko) .spectrum-Heading2--strong strong, .spectrum:lang(zh) .spectrum-Heading2--strong strong {
@@ -2156,8 +1881,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--display, .spectrum:lang(ko) .spectrum-Heading1--display, .spectrum:lang(zh) .spectrum-Heading1--display {
@@ -2167,8 +1890,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Heading1--display em, .spectrum:lang(ko) .spectrum-Heading1--display em, .spectrum:lang(zh) .spectrum-Heading1--display em {
               font-size: 49px;
@@ -2177,8 +1901,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--display strong, .spectrum:lang(ko) .spectrum-Heading1--display strong, .spectrum:lang(zh) .spectrum-Heading1--display strong {
@@ -2188,8 +1910,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--display, .spectrum:lang(ko) .spectrum-Heading2--display, .spectrum:lang(zh) .spectrum-Heading2--display {
@@ -2199,8 +1919,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Heading2--display em, .spectrum:lang(ko) .spectrum-Heading2--display em, .spectrum:lang(zh) .spectrum-Heading2--display em {
               font-size: 44px;
@@ -2209,8 +1930,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--display strong, .spectrum:lang(ko) .spectrum-Heading2--display strong, .spectrum:lang(zh) .spectrum-Heading2--display strong {
@@ -2220,8 +1939,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--display.spectrum-Heading1--strong, .spectrum:lang(ko) .spectrum-Heading1--display.spectrum-Heading1--strong, .spectrum:lang(zh) .spectrum-Heading1--display.spectrum-Heading1--strong {
@@ -2231,8 +1948,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Heading1--display.spectrum-Heading1--strong em, .spectrum:lang(ko) .spectrum-Heading1--display.spectrum-Heading1--strong em, .spectrum:lang(zh) .spectrum-Heading1--display.spectrum-Heading1--strong em {
               font-size: 49px;
@@ -2241,8 +1959,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--display.spectrum-Heading1--strong strong, .spectrum:lang(ko) .spectrum-Heading1--display.spectrum-Heading1--strong strong, .spectrum:lang(zh) .spectrum-Heading1--display.spectrum-Heading1--strong strong {
@@ -2252,8 +1968,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--display.spectrum-Heading2--strong, .spectrum:lang(ko) .spectrum-Heading2--display.spectrum-Heading2--strong, .spectrum:lang(zh) .spectrum-Heading2--display.spectrum-Heading2--strong {
@@ -2263,8 +1977,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Heading2--display.spectrum-Heading2--strong em, .spectrum:lang(ko) .spectrum-Heading2--display.spectrum-Heading2--strong em, .spectrum:lang(zh) .spectrum-Heading2--display.spectrum-Heading2--strong em {
               font-size: 44px;
@@ -2273,8 +1988,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--display.spectrum-Heading2--strong strong, .spectrum:lang(ko) .spectrum-Heading2--display.spectrum-Heading2--strong strong, .spectrum:lang(zh) .spectrum-Heading2--display.spectrum-Heading2--strong strong {
@@ -2284,8 +1997,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--display.spectrum-Heading1--quiet, .spectrum:lang(ko) .spectrum-Heading1--display.spectrum-Heading1--quiet, .spectrum:lang(zh) .spectrum-Heading1--display.spectrum-Heading1--quiet {
@@ -2295,8 +2006,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Heading1--display.spectrum-Heading1--quiet em, .spectrum:lang(ko) .spectrum-Heading1--display.spectrum-Heading1--quiet em, .spectrum:lang(zh) .spectrum-Heading1--display.spectrum-Heading1--quiet em {
               font-size: 49px;
@@ -2305,8 +2017,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--display.spectrum-Heading1--quiet strong, .spectrum:lang(ko) .spectrum-Heading1--display.spectrum-Heading1--quiet strong, .spectrum:lang(zh) .spectrum-Heading1--display.spectrum-Heading1--quiet strong {
@@ -2316,8 +2026,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--display.spectrum-Heading2--quiet,
@@ -2332,8 +2040,9 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+          margin-bottom: 10px;
+          margin-top: 10px;
         }
 .spectrum:lang(ja) .spectrum-Heading2--display.spectrum-Heading2--quiet em,
 .spectrum:lang(ko) .spectrum-Heading2--display.spectrum-Heading2--quiet em,
@@ -2347,8 +2056,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--display.spectrum-Heading2--quiet strong,
@@ -2363,8 +2070,6 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Code1 {
@@ -2373,9 +2078,10 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: "Source Code Pro", Monaco, monospace;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
+  font-family: Source Code Pro, Monaco, monospace;
         }
 .spectrum-Code1 em {
               font-size: 24px;
@@ -2383,8 +2089,6 @@
   line-height: 1.5;
   font-style: italic;
   letter-spacing: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Code1 strong {
@@ -2393,8 +2097,6 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Code2 {
@@ -2403,9 +2105,10 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: "Source Code Pro", Monaco, monospace;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
+  font-family: Source Code Pro, Monaco, monospace;
         }
 .spectrum-Code2 em {
               font-size: 22px;
@@ -2413,8 +2116,6 @@
   line-height: 1.5;
   font-style: italic;
   letter-spacing: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Code2 strong {
@@ -2423,8 +2124,6 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Code3 {
@@ -2433,9 +2132,10 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: "Source Code Pro", Monaco, monospace;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
+  font-family: Source Code Pro, Monaco, monospace;
         }
 .spectrum-Code3 em {
               font-size: 19px;
@@ -2443,8 +2143,6 @@
   line-height: 1.5;
   font-style: italic;
   letter-spacing: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Code3 strong {
@@ -2453,8 +2151,6 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Code4 {
@@ -2463,9 +2159,10 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: "Source Code Pro", Monaco, monospace;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
+  font-family: Source Code Pro, Monaco, monospace;
         }
 .spectrum-Code4 em {
               font-size: 17px;
@@ -2473,8 +2170,6 @@
   line-height: 1.5;
   font-style: italic;
   letter-spacing: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Code4 strong {
@@ -2483,8 +2178,6 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Code5 {
@@ -2493,9 +2186,10 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: "Source Code Pro", Monaco, monospace;
+
+          margin-bottom: 20px;
+          margin-top: 10px;
+  font-family: Source Code Pro, Monaco, monospace;
         }
 .spectrum-Code5 em {
               font-size: 15px;
@@ -2503,8 +2197,6 @@
   line-height: 1.5;
   font-style: italic;
   letter-spacing: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 .spectrum-Code5 strong {
@@ -2513,8 +2205,6 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 
           }
 /* topdoc
@@ -4715,17 +4405,17 @@ a.spectrum-ActionButton {
 */
 .spectrum-CircleLoader {
   display: inline-block;
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   position: relative;
 }
 .spectrum-CircleLoader-track {
   box-sizing: border-box;
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   border-style: solid;
   border-width: 4px;
-  border-radius: 32px;
+  border-radius: 40px;
 }
 .spectrum-CircleLoader-fills {
   position: absolute;
@@ -4736,11 +4426,11 @@ a.spectrum-ActionButton {
 }
 .spectrum-CircleLoader-fill {
   box-sizing: border-box;
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   border-style: solid;
   border-width: 4px;
-  border-radius: 32px;
+  border-radius: 40px;
 }
 .spectrum-CircleLoader-fillMask1,
 .spectrum-CircleLoader-fillMask2 {
@@ -4766,22 +4456,22 @@ a.spectrum-ActionButton {
 {{ circleloader/circleloader-small.yml }}
 */
 .spectrum-CircleLoader--small {
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
 }
 .spectrum-CircleLoader--small .spectrum-CircleLoader-track {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     border-style: solid;
     border-width: 3px;
-    border-radius: 16px;
+    border-radius: 20px;
   }
 .spectrum-CircleLoader--small .spectrum-CircleLoader-fill {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     border-style: solid;
     border-width: 3px;
-    border-radius: 16px;
+    border-radius: 20px;
   }
 /* topdoc
 {{ circleloader/circleloader-large.yml }}
@@ -4845,17 +4535,14 @@ a.spectrum-ActionButton {
 {{ toast/toast.yml }}
 */
 .spectrum-Toast {
-  box-sizing: border-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -ms-flex-direction: row;
       flex-direction: row;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+  -ms-flex-align: start;
+      align-items: flex-start;
 
   border-radius: 4px;
-
-  padding: 10px 10px 10px 20px;
 
   font-size: 17px;
   font-weight: 700;
@@ -4867,49 +4554,27 @@ a.spectrum-ActionButton {
   -ms-flex-positive: 0;
       flex-grow: 0;
 
-  margin: 9px 15px 9px 0;
-}
-.spectrum-Toast-content {
-  -ms-flex: 1;
-      flex: 1;
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 6px 20px 6px 0;
-  text-align: left;
+  margin: 19px -5px 19px 20px;
 }
 .spectrum-Toast-buttons {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex: 0 0 auto;
-      flex: 0 0 auto;
-  -ms-flex-align: end;
-      align-items: flex-end;
+  -ms-flex: 1 0 auto;
+      flex: 1 0 auto;
   -ms-flex-wrap: wrap-reverse;
       flex-wrap: wrap-reverse;
-}
-.spectrum-Toast-buttons .spectrum-Button + .spectrum-Button,
-    .spectrum-Toast-buttons .spectrum-Button + .spectrum-ClearButton,
-    .spectrum-Toast-buttons .spectrum-ClearButton + .spectrum-Button,
-    .spectrum-Toast-buttons .spectrum-ClearButton + .spectrum-ClearButton {
-      margin-left: 10px;
-    }
-.spectrum-Toast-body {
-  -ms-flex: 1;
-      flex: 1;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-.spectrum-Toast-body .spectrum-Button {
-    float: right;
-    margin-right: 14px;
-  }
-.spectrum-Toast-body + .spectrum-Toast-buttons {
-    padding-left: 10px;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
 
-    border-left-width: 1px;
-    border-left-style: solid;
+  margin: 10px 10px 0 -10px;
+}
+.spectrum-Toast-buttons .spectrum-Button,
+  .spectrum-Toast-buttons .spectrum-ClearButton {
+    margin: 0 0 10px 10px;
   }
+.spectrum-Toast-content {
+  margin: 18px 20px 18px 20px;
+}
 .spectrum-Underlay {
 
   position: fixed;
@@ -7958,12 +7623,6 @@ a.spectrum-ActionButton {
 /* topdoc
 {{ card/card.yml }}
 */
-/*! topdoc
-{{ card/card-asset.yml }}
-*/
-/*! topdoc
-{{ card/card-small.yml }}
-*/
 .spectrum-Card {
   position: relative;
 
@@ -7982,24 +7641,12 @@ a.spectrum-ActionButton {
 .spectrum-Card:focus {
     outline: none;
   }
-.spectrum-Card.is-selected .spectrum-Card-quickActions,
-    .spectrum-Card.is-selected .spectrum-Card-actions,
-    .spectrum-Card:focus .spectrum-Card-quickActions,
-    .spectrum-Card:focus .spectrum-Card-actions,
-    .spectrum-Card:hover .spectrum-Card-quickActions,
-    .spectrum-Card:hover .spectrum-Card-actions {
+.spectrum-Card.is-selected .spectrum-Card-quickActions, .spectrum-Card:focus .spectrum-Card-quickActions, .spectrum-Card:hover .spectrum-Card-quickActions {
       /* Ideally, this would simply apply is-open to the QuickActions component */
       visibility: visible;
       opacity: 1;
       pointer-events: all;
     }
-.spectrum-Card-actions {
-  position: absolute;
-  right: 13px;
-  top: 13px;
-  height: 50px;
-  visibility: hidden;
-}
 .spectrum-Card-quickActions {
   position: absolute;
   left: 20px;
@@ -8026,187 +7673,25 @@ a.spectrum-ActionButton {
       justify-content: center;
 
   border-bottom: 1px solid transparent;
-  border-radius: 4px 4px 0 0;
-
-  background-size: cover;
-  background-position: center center;
+  border-radius: 5px 5px 0 0;
 }
 .spectrum-Card-body {
   padding-top: 25px;
-  padding-right: 30px;
+  padding-right: 18px;
   padding-bottom: 25px;
   padding-left: 30px;
 }
 .spectrum-Card-body:last-child {
     border-radius: 0 0 5px 5px;
   }
-.spectrum-Card-preview {
-  overflow: hidden;
-  border-radius: 4px 4px 0 0;
-}
-.spectrum-Card-header {
-  height: 22px;
-}
-.spectrum-Card-content {
-  display: -ms-flexbox;
-  display: flex;
-  height: 18px;
-  margin-top: 8px;
-}
-.spectrum-Card-title {
-  font-size: 17px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding-right: 10px;
-}
-.spectrum-Card-subtitle {
-  font-size: 13px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  padding-right: 10px;
-}
-.spectrum-Card-description {
-  font-size: 13px;
-}
-.spectrum-Card-subtitle + .spectrum-Card-description:before {
-  content: "•";
-  padding-right: 10px;
-}
 .spectrum-Card-footer {
-  padding-top: 18px;
-  margin-right: 30px;
-  padding-bottom: 25px;
-  margin-left: 30px;
-
-  border-top: 1px solid;
+  border-radius: 0 0 5px 5px;
 }
 .spectrum-Card-header {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: baseline;
-      align-items: baseline;
-}
-.spectrum-Card-actionButton {
-  -ms-flex: 1;
-      flex: 1;
-  -ms-flex-item-align: center;
-      align-self: center;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
-}
-/* topdoc
-{{ card/card-quiet-large.yml }}
-*/
-/* topdoc
-{{ card/card-quiet-small.yml }}
-*/
-/* topdoc
-{{ card/card-quiet-folder.yml }}
-*/
-/* topdoc
-{{ card/card-quiet-file.yml }}
-*/
-/* topdoc
-{{ card/card-gallery.yml }}
-*/
-.spectrum-Card--quiet,
-.spectrum-Card--gallery {
-  width: 100%;
-  height: 100%;
-  min-width: 212px;
-  border-width: 0;
-  border-radius: 0;
-  overflow: visible;
-}
-.spectrum-Card--quiet .spectrum-Card-preview, .spectrum-Card--gallery .spectrum-Card-preview {
-    width: 100%;
-    -ms-flex: 1;
-        flex: 1;
-    min-height: 212px;
-    padding: 25px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    border-radius: 5px;
-    position: relative;
-    transition: background-color 130ms;
-  }
-/* Use a :before to show the selection outline so that the border doesn't
-     * affect the layout of the content within the preview. */
-.spectrum-Card--quiet .spectrum-Card-preview:before, .spectrum-Card--gallery .spectrum-Card-preview:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      box-sizing: border-box;
-      border-radius: inherit;
-      border: 1px solid transparent;
-    }
-.spectrum-Card--quiet.is-drop-target .spectrum-Card-preview, .spectrum-Card--gallery.is-drop-target .spectrum-Card-preview {
-      transition: none;
-    }
-.spectrum-Card--quiet .spectrum-Card-header, .spectrum-Card--gallery .spectrum-Card-header {
-    height: 22px;
-    margin-top: 18px;
-  }
-.spectrum-Card--quiet .spectrum-Card-body, .spectrum-Card--gallery .spectrum-Card-body {
-    padding: 0;
-  }
-.spectrum-Card--small {
-  min-width: 112px;
-}
-.spectrum-Card--small .spectrum-Card-quickActions {
-    left: 13px;
-    top: 13px;
-  }
-.spectrum-Card--small .spectrum-Card-preview {
-    padding: 15px;
-    min-height: 112px;
-  }
-.spectrum-Card--small .spectrum-Card-header {
-    margin-top: 10px;
-    height: 15px;
-  }
-.spectrum-Card--small .spectrum-Card-title {
-    font-size: 15px;
-  }
-.spectrum-Card--small .spectrum-Card-content,
-  .spectrum-Card--small .spectrum-Card-subtitle,
-  .spectrum-Card--small .spectrum-Card-description {
-    display: none;
-  }
-.spectrum-Card--gallery {
-  min-width: 0;
-}
-.spectrum-Card--gallery .spectrum-Card-preview {
-    padding: 0;
-    border-radius: 0;
-  }
-.spectrum-Asset {
-  width: 100%;
-  height: 100%;
-  display: -ms-flexbox;
-  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
   -ms-flex-align: center;
       align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-}
-.spectrum-Asset-image {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  transition: opacity 130ms;
-}
-.spectrum-Asset-folder,
-.spectrum-Asset-file {
-  width: 100%;
-  height: 100%;
-  min-width: 60px;
-  max-width: 80px;
-  margin: 25px;
 }

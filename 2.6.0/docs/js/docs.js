@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-/* global document, window, Element, loadIcons, URLSearchParams */
+/* global document, window, Element, AdobeSpectrum, URLSearchParams */
 
 'use strict';
 
@@ -286,8 +286,8 @@ document.addEventListener('blur', toggleSliderFocus, true);
 //   // Immediately remove from the DOM -- it will be added back when we switch scale
 //   largeIcons.parentElement.removeChild(largeIcons);
 // });
-loadIcons('../icons/spectrum-css-icons.svg');
-loadIcons('../icons/spectrum-icons.svg');
+AdobeSpectrum.loadIcons('../icons/spectrum-css-icons.svg');
+AdobeSpectrum.loadIcons('../icons/spectrum-icons.svg');
 
 function changeLoader(loader, value, submask1, submask2) {
   submask1 = submask1 || loader.querySelector('.spectrum-CircleLoader-fillSubMask1');
@@ -306,6 +306,8 @@ function changeLoader(loader, value, submask1, submask2) {
 }
 
 function makeDoubleSlider(slider) {
+  var sliderOffsetWidth = slider.offsetWidth;
+  var sliderOffsetLeft = slider.offsetLeft + slider.offsetParent.offsetLeft;
   var tracks = slider.querySelectorAll('.spectrum-Slider-track');
   var leftTrack = tracks[0];
   var middleTrack = tracks[1];
@@ -331,9 +333,6 @@ function makeDoubleSlider(slider) {
     if (!handle) {
       return;
     }
-
-    var sliderOffsetWidth = slider.offsetWidth;
-    var sliderOffsetLeft = slider.offsetLeft + slider.offsetParent.offsetLeft;
 
     var x = Math.max(Math.min(e.x-sliderOffsetLeft, sliderOffsetWidth), 0);
     var percent = (x / sliderOffsetWidth) * 100;
@@ -368,6 +367,8 @@ function makeDoubleSlider(slider) {
 }
 
 function makeSlider(slider) {
+  var sliderOffsetWidth = slider.offsetWidth;
+  var sliderOffsetLeft = slider.offsetLeft + slider.offsetParent.offsetLeft;
   var tracks = slider.querySelectorAll('.spectrum-Slider-track');
   var leftTrack = tracks[0];
   var rightTrack = tracks[1];
@@ -396,9 +397,6 @@ function makeSlider(slider) {
     window.removeEventListener('mousemove', onMouseMove);
   }
   function onMouseMove(e, sliderHandle) {
-    var sliderOffsetWidth = slider.offsetWidth;
-    var sliderOffsetLeft = slider.offsetLeft + slider.offsetParent.offsetLeft;
-
     var x = Math.max(Math.min(e.x-sliderOffsetLeft, sliderOffsetWidth), 0);
     var percent = (x / sliderOffsetWidth) * 100;
     if (leftTrack && rightTrack && !isColor) {

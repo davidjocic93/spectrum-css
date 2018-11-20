@@ -1,5 +1,5 @@
-/* generated from dna-version: 5.3.0 */
-/* generated from dna-version: 5.3.0 */
+/* generated from dna-version: 5.0.1 */
+/* generated from dna-version: 5.0.1 */
 /* Temporary skin variables that need to be moved into origins */
 :root {
   /* Icon Button*/
@@ -13,7 +13,7 @@
   /* Custom selection color for placeholders using global blue-500 at 30% opacity. Should be updated in Spectrum-DNA */
 }
 .spectrum-Table-headCell {
-  color: rgb(116, 116, 116);
+  color: rgb(118, 118, 118);
   background-color: rgba(0, 0, 0, 0);
 }
 .spectrum-Table-headCell.is-sortable .spectrum-Table-sortedIcon {

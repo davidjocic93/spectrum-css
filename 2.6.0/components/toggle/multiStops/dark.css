@@ -1,5 +1,5 @@
-/* generated from dna-version: 5.3.0 */
-/* generated from dna-version: 5.3.0 */
+/* generated from dna-version: 5.0.1 */
+/* generated from dna-version: 5.0.1 */
 /* Temporary skin variables that need to be moved into origins */
 :root {
   /* Icon Button*/
@@ -39,7 +39,7 @@
     }
 /* Hover */
 .spectrum--dark .spectrum-ToggleSwitch:hover .spectrum-ToggleSwitch-input + .spectrum-ToggleSwitch-switch::after {
-        border-color: rgb(157, 157, 157);
+        border-color: rgb(153, 153, 153);
         box-shadow: none;
       }
 .spectrum--dark .spectrum-ToggleSwitch:hover .spectrum-ToggleSwitch-input ~ .spectrum-ToggleSwitch-label {
@@ -88,10 +88,10 @@
     }
 /* Quiet Selected */
 .spectrum--dark .spectrum-ToggleSwitch--quiet .spectrum-ToggleSwitch-input:checked + .spectrum-ToggleSwitch-switch::before {
-      background-color: rgb(157, 157, 157);
+      background-color: rgb(153, 153, 153);
     }
 .spectrum--dark .spectrum-ToggleSwitch--quiet .spectrum-ToggleSwitch-input:checked + .spectrum-ToggleSwitch-switch::after {
-      border-color: rgb(157, 157, 157);
+      border-color: rgb(153, 153, 153);
     }
 /* Quiet Selected Hover */
 .spectrum--dark .spectrum-ToggleSwitch--quiet:hover .spectrum-ToggleSwitch-input:checked:enabled + .spectrum-ToggleSwitch-switch::before {
@@ -153,7 +153,7 @@
           background-color: rgb(62, 62, 62);
         }
 .spectrum--dark .spectrum-ToggleSwitch--ab:hover .spectrum-ToggleSwitch-input:checked:enabled + .spectrum-ToggleSwitch-switch::after {
-          border-color: rgb(157, 157, 157);
+          border-color: rgb(153, 153, 153);
         }
 .spectrum--dark .spectrum-ToggleSwitch--ab:active .spectrum-ToggleSwitch-input:checked:enabled + .spectrum-ToggleSwitch-switch::before {
           background-color: rgb(62, 62, 62);

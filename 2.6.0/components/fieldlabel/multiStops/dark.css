@@ -1,5 +1,5 @@
-/* generated from dna-version: 5.3.0 */
-/* generated from dna-version: 5.3.0 */
+/* generated from dna-version: 5.0.1 */
+/* generated from dna-version: 5.0.1 */
 /* Temporary skin variables that need to be moved into origins */
 :root {
   /* Icon Button*/
@@ -14,7 +14,7 @@
 }
 .spectrum--dark .spectrum-FieldLabel,
 .spectrum--dark .spectrum-Form-itemLabel {
-  color: rgb(157, 157, 157);
+  color: rgb(153, 153, 153);
 }
 .spectrum--dark .spectrum-FieldLabel.is-disabled, .spectrum--dark .spectrum-Form-itemLabel.is-disabled {
     color: rgb(92, 92, 92);
