@@ -13,14 +13,14 @@
     <link rel="stylesheet" type="text/css" href="../spectrum-dark.css">
     <link rel="stylesheet" type="text/css" href="../spectrum-darkest.css">
     <link rel="stylesheet" type="text/css" href="css/docs.css">
-    <script src="../icons/AS.loadIcons.js"></script>
+    <script src="../icons/loadIcons.js"></script>
     <script src="js/docs.js"></script>
     <script src="js/vendor/focus-ring-polyfill.js"></script>
   </head>
   <body class="spectrum spectrum--light">
     <div class="sdldocs-outer">
       <header class="sdldocs-header">
-        <h2 class="spectrum-Heading--pageTitle"><img class="sdldocs-header-logo-image" src="img/spectrum_logo_light.svg" alt="Adobe Spectrum Logo"><span class="sdldocs-header-title">spectrum-css 2.5.1</span></h2>
+        <h2 class="spectrum-Heading--pageTitle"><img class="sdldocs-header-logo-image" src="img/spectrum_logo_light.svg" alt="Adobe Spectrum Logo"><span class="sdldocs-header-title">spectrum-css 2.6.0</span></h2>
         <div class="sdldocs-spectrumVersion sdldocs-badge">
           <div class="sdldocs-badge-label">Spectrum</div>
           <div class="sdldocs-badge-version">4</div>
@@ -95,6 +95,11 @@
               <li class="spectrum-SideNav-item"><a class="spectrum-SideNav-itemLink" href="#calendar---focused">Calendar - Focused</a></li>
               <li class="spectrum-SideNav-item"><a class="spectrum-SideNav-itemLink" href="#calendar---range-selection">Calendar - Range Selection</a></li>
               <li class="spectrum-SideNav-item"><a class="spectrum-SideNav-itemLink" href="#card">Card</a></li>
+              <li class="spectrum-SideNav-item"><a class="spectrum-SideNav-itemLink" href="#card---gallery">Card - Gallery</a></li>
+              <li class="spectrum-SideNav-item"><a class="spectrum-SideNav-itemLink" href="#card---quiet-file">Card - Quiet, File</a></li>
+              <li class="spectrum-SideNav-item"><a class="spectrum-SideNav-itemLink" href="#card---quiet-folder">Card - Quiet, Folder</a></li>
+              <li class="spectrum-SideNav-item"><a class="spectrum-SideNav-itemLink" href="#card---quiet-large-image">Card - Quiet, Large Image</a></li>
+              <li class="spectrum-SideNav-item"><a class="spectrum-SideNav-itemLink" href="#card---quiet-small-image">Card - Quiet, Small Image</a></li>
               <li class="spectrum-SideNav-item"><a class="spectrum-SideNav-itemLink" href="#checkbox">Checkbox</a></li>
               <li class="spectrum-SideNav-item"><a class="spectrum-SideNav-itemLink" href="#checkbox---quiet">Checkbox - Quiet</a></li>
               <li class="spectrum-SideNav-item"><a class="spectrum-SideNav-itemLink" href="#circle-loader">Circle Loader</a></li>
@@ -3410,77 +3415,537 @@
               </header>
               <section class="sdldocs-component-description spectrum-Body"><p>The Default variant of Card</p>
 
-<p>The non-quiet Card component.</p></section>
+<p>The standard Card component with cover photo and footer.</p></section>
               <section class="cssdocs-example spectrum">
-                <div class="cssdocs-example-demo"><div class="spectrum-Card" tabindex="0">
-  <div class="spectrum-QuickActions spectrum-Card-quickActions">
-    <label class="spectrum-Checkbox">
-      <input type="checkbox" class="spectrum-Checkbox-input" id="checkbox-0">
-      <span class="spectrum-Checkbox-box">
-        <svg class="spectrum-Icon spectrum-UIIcon-CheckmarkSmall spectrum-Checkbox-checkmark" focusable="false" aria-hidden="true">
-          <use xlink:href="#spectrum-css-icon-CheckmarkSmall" />
-        </svg>
-        <svg class="spectrum-Icon spectrum-UIIcon-DashSmall spectrum-Checkbox-partialCheckmark" focusable="false" aria-hidden="true">
-          <use xlink:href="#spectrum-css-icon-DashSmall" />
-        </svg>
-      </span>
-    </label>
-  </div>
-
-  <div class="spectrum-Card-coverPhoto">
-    <svg class="spectrum-Icon spectrum-Icon--sizeXXL" focusable="false" aria-hidden="true" aria-label="FileChart">
-      <use xlink:href="#spectrum-icon-24-FileChart" />
-    </svg>
-  </div>
-
-  <div class="spectrum-Card-body">
-    <div class="spectrum-Card-header">
-      <span class="spectrum-Card-title">Card Title</span>
-      <button class="spectrum-ActionButton spectrum-ActionButton--quiet">
-        <svg class="spectrum-Icon spectrum-Icon--sizeS" focusable="false" aria-hidden="true">
-          <use xlink:href="#spectrum-icon-18-More" />
-        </svg>
-      </button>
+                <div class="cssdocs-example-demo"><div style="width: 208px;">
+  <div class="spectrum-Card">
+    <div class="spectrum-Card-coverPhoto" style="background-image: url(img/example-card-portrait.jpg)"></div>
+    <div class="spectrum-Card-body">
+      <div class="spectrum-Card-header">
+        <div class="spectrum-Card-title">Card Title</div>
+        <div class="spectrum-Card-actionButton">
+          <button aria-haspopup="true" class="spectrum-ActionButton spectrum-ActionButton--quiet">
+            <svg class="spectrum-Icon spectrum-Icon--sizeS" focusable="false" aria-hidden="true">
+              <use xlink:href="#spectrum-icon-18-More" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="spectrum-Card-content">
+        <div class="spectrum-Card-subtitle">jpg</div>
+      </div>
     </div>
-    <div class="spectrum-Card-description">Optional Metadata<br> Can be two to three lines.</div>
+    <div class="spectrum-Card-footer">
+      Footer
+    </div>
+    <div class="spectrum-QuickActions spectrum-Card-quickActions">
+      <div class="spectrum-Checkbox">
+        <input type="checkbox" class="spectrum-Checkbox-input" aria-checked="false" title="Select" value="">
+        <span class="spectrum-Checkbox-box">
+          <svg class="spectrum-Icon spectrum-UIIcon-CheckmarkSmall spectrum-Checkbox-checkmark" focusable="false" aria-hidden="true">
+            <use xlink:href="#spectrum-css-icon-CheckmarkSmall" />
+          </svg>
+          <svg class="spectrum-Icon spectrum-UIIcon-DashSmall spectrum-Checkbox-partialCheckmark" focusable="false" aria-hidden="true">
+            <use xlink:href="#spectrum-css-icon-DashSmall" />
+          </svg>
+        </span>
+      </div>
+    </div>
   </div>
-
 </div>
 </div>
                 <div class="cssdocs-example-markup"><a class="js-markup-toggle cssdocs-example-markupToggle spectrum-Link" href="#">Show Markup</a>
-                  <pre><code data-language="html">&lt;div class=&quot;spectrum-Card&quot; tabindex=&quot;0&quot;&gt;
-  &lt;div class=&quot;spectrum-QuickActions spectrum-Card-quickActions&quot;&gt;
-    &lt;label class=&quot;spectrum-Checkbox&quot;&gt;
-      &lt;input type=&quot;checkbox&quot; class=&quot;spectrum-Checkbox-input&quot; id=&quot;checkbox-0&quot;&gt;
-      &lt;span class=&quot;spectrum-Checkbox-box&quot;&gt;
-        &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CheckmarkSmall spectrum-Checkbox-checkmark&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
-          &lt;use xlink:href=&quot;#spectrum-css-icon-CheckmarkSmall&quot; /&gt;
-        &lt;/svg&gt;
-        &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-DashSmall spectrum-Checkbox-partialCheckmark&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
-          &lt;use xlink:href=&quot;#spectrum-css-icon-DashSmall&quot; /&gt;
-        &lt;/svg&gt;
-      &lt;/span&gt;
-    &lt;/label&gt;
-  &lt;/div&gt;
-
-  &lt;div class=&quot;spectrum-Card-coverPhoto&quot;&gt;
-    &lt;svg class=&quot;spectrum-Icon spectrum-Icon--sizeXXL&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot; aria-label=&quot;FileChart&quot;&gt;
-      &lt;use xlink:href=&quot;#spectrum-icon-24-FileChart&quot; /&gt;
-    &lt;/svg&gt;
-  &lt;/div&gt;
-
-  &lt;div class=&quot;spectrum-Card-body&quot;&gt;
-    &lt;div class=&quot;spectrum-Card-header&quot;&gt;
-      &lt;span class=&quot;spectrum-Card-title&quot;&gt;Card Title&lt;/span&gt;
-      &lt;button class=&quot;spectrum-ActionButton spectrum-ActionButton--quiet&quot;&gt;
-        &lt;svg class=&quot;spectrum-Icon spectrum-Icon--sizeS&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
-          &lt;use xlink:href=&quot;#spectrum-icon-18-More&quot; /&gt;
-        &lt;/svg&gt;
-      &lt;/button&gt;
+                  <pre><code data-language="html">&lt;div style=&quot;width: 208px;&quot;&gt;
+  &lt;div class=&quot;spectrum-Card&quot;&gt;
+    &lt;div class=&quot;spectrum-Card-coverPhoto&quot; style=&quot;background-image: url(img/example-card-portrait.jpg)&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;spectrum-Card-body&quot;&gt;
+      &lt;div class=&quot;spectrum-Card-header&quot;&gt;
+        &lt;div class=&quot;spectrum-Card-title&quot;&gt;Card Title&lt;/div&gt;
+        &lt;div class=&quot;spectrum-Card-actionButton&quot;&gt;
+          &lt;button aria-haspopup=&quot;true&quot; class=&quot;spectrum-ActionButton spectrum-ActionButton--quiet&quot;&gt;
+            &lt;svg class=&quot;spectrum-Icon spectrum-Icon--sizeS&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+              &lt;use xlink:href=&quot;#spectrum-icon-18-More&quot; /&gt;
+            &lt;/svg&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;spectrum-Card-content&quot;&gt;
+        &lt;div class=&quot;spectrum-Card-subtitle&quot;&gt;jpg&lt;/div&gt;
+      &lt;/div&gt;
     &lt;/div&gt;
-    &lt;div class=&quot;spectrum-Card-description&quot;&gt;Optional Metadata&lt;br&gt; Can be two to three lines.&lt;/div&gt;
+    &lt;div class=&quot;spectrum-Card-footer&quot;&gt;
+      Footer
+    &lt;/div&gt;
+    &lt;div class=&quot;spectrum-QuickActions spectrum-Card-quickActions&quot;&gt;
+      &lt;div class=&quot;spectrum-Checkbox&quot;&gt;
+        &lt;input type=&quot;checkbox&quot; class=&quot;spectrum-Checkbox-input&quot; aria-checked=&quot;false&quot; title=&quot;Select&quot; value=&quot;&quot;&gt;
+        &lt;span class=&quot;spectrum-Checkbox-box&quot;&gt;
+          &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CheckmarkSmall spectrum-Checkbox-checkmark&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+            &lt;use xlink:href=&quot;#spectrum-css-icon-CheckmarkSmall&quot; /&gt;
+          &lt;/svg&gt;
+          &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-DashSmall spectrum-Checkbox-partialCheckmark&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+            &lt;use xlink:href=&quot;#spectrum-css-icon-DashSmall&quot; /&gt;
+          &lt;/svg&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                </div>
+              </section>
+            </article>
+            <article class="cssdocs-component">
+              <header class="row middle-sm" id="card---gallery"><a class="sdldocs-subtleLink js-hashtitle" href="#card---gallery">
+                  <h2 class="sdldocs-component-name spectrum-Heading--pageTitle">Card - Gallery</h2></a>
+                <div class="u-tooltip-showOnHover">
+                  <div class="sdldocs-dnaStatus spectrum-Label spectrum-Label--orange">Beta Precursor</div>
+                  <div class="sdldocs-cssStatus spectrum-Label spectrum-Label--yellow">CSS Unverified</div>
+                </div>
+              </header>
+              <section class="sdldocs-component-description spectrum-Body"><p>A spectrum gallery card for an image</p></section>
+              <section class="cssdocs-example spectrum">
+                <div class="cssdocs-example-demo"><div style="width: 532px; height: 224px;">
+  <div class="spectrum-Card spectrum-Card--gallery">
+    <div class="spectrum-Card-preview">
+      <div class="spectrum-Asset">
+        <img class="spectrum-Asset-image" src="img/example-card-landscape.jpeg" />
+      </div>
+    </div>
+    <div class="spectrum-Card-body">
+      <div class="spectrum-Card-header">
+        <div class="spectrum-Card-title">Name</div>
+        <div class="spectrum-Card-subtitle">jpg</div>
+        <div class="spectrum-Card-description">10/15/18</div>
+        <div class="spectrum-Card-actionButton">
+          <div style="display: inline-block;">
+            <button aria-haspopup="true" class="spectrum-ActionButton spectrum-ActionButton--quiet">
+              <svg class="spectrum-Icon spectrum-Icon--sizeS" focusable="false" aria-hidden="true">
+                <use xlink:href="#spectrum-icon-18-More" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spectrum-QuickActions spectrum-Card-quickActions">
+      <div class="spectrum-Checkbox">
+        <input type="checkbox" class="spectrum-Checkbox-input" aria-checked="false" title="Select" value="">
+        <span class="spectrum-Checkbox-box">
+          <svg class="spectrum-Icon spectrum-UIIcon-CheckmarkSmall spectrum-Checkbox-checkmark" focusable="false" aria-hidden="true">
+            <use xlink:href="#spectrum-css-icon-CheckmarkSmall" />
+          </svg>
+          <svg class="spectrum-Icon spectrum-UIIcon-DashSmall spectrum-Checkbox-partialCheckmark" focusable="false" aria-hidden="true">
+            <use xlink:href="#spectrum-css-icon-DashSmall" />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+                <div class="cssdocs-example-markup"><a class="js-markup-toggle cssdocs-example-markupToggle spectrum-Link" href="#">Show Markup</a>
+                  <pre><code data-language="html">&lt;div style=&quot;width: 532px; height: 224px;&quot;&gt;
+  &lt;div class=&quot;spectrum-Card spectrum-Card--gallery&quot;&gt;
+    &lt;div class=&quot;spectrum-Card-preview&quot;&gt;
+      &lt;div class=&quot;spectrum-Asset&quot;&gt;
+        &lt;img class=&quot;spectrum-Asset-image&quot; src=&quot;img/example-card-landscape.jpeg&quot; /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spectrum-Card-body&quot;&gt;
+      &lt;div class=&quot;spectrum-Card-header&quot;&gt;
+        &lt;div class=&quot;spectrum-Card-title&quot;&gt;Name&lt;/div&gt;
+        &lt;div class=&quot;spectrum-Card-subtitle&quot;&gt;jpg&lt;/div&gt;
+        &lt;div class=&quot;spectrum-Card-description&quot;&gt;10/15/18&lt;/div&gt;
+        &lt;div class=&quot;spectrum-Card-actionButton&quot;&gt;
+          &lt;div style=&quot;display: inline-block;&quot;&gt;
+            &lt;button aria-haspopup=&quot;true&quot; class=&quot;spectrum-ActionButton spectrum-ActionButton--quiet&quot;&gt;
+              &lt;svg class=&quot;spectrum-Icon spectrum-Icon--sizeS&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+                &lt;use xlink:href=&quot;#spectrum-icon-18-More&quot; /&gt;
+              &lt;/svg&gt;
+            &lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spectrum-QuickActions spectrum-Card-quickActions&quot;&gt;
+      &lt;div class=&quot;spectrum-Checkbox&quot;&gt;
+        &lt;input type=&quot;checkbox&quot; class=&quot;spectrum-Checkbox-input&quot; aria-checked=&quot;false&quot; title=&quot;Select&quot; value=&quot;&quot;&gt;
+        &lt;span class=&quot;spectrum-Checkbox-box&quot;&gt;
+          &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CheckmarkSmall spectrum-Checkbox-checkmark&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+            &lt;use xlink:href=&quot;#spectrum-css-icon-CheckmarkSmall&quot; /&gt;
+          &lt;/svg&gt;
+          &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-DashSmall spectrum-Checkbox-partialCheckmark&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+            &lt;use xlink:href=&quot;#spectrum-css-icon-DashSmall&quot; /&gt;
+          &lt;/svg&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                </div>
+              </section>
+            </article>
+            <article class="cssdocs-component">
+              <header class="row middle-sm" id="card---quiet-file"><a class="sdldocs-subtleLink js-hashtitle" href="#card---quiet-file">
+                  <h2 class="sdldocs-component-name spectrum-Heading--pageTitle">Card - Quiet, File</h2></a>
+                <div class="u-tooltip-showOnHover">
+                  <div class="sdldocs-dnaStatus spectrum-Label spectrum-Label--orange">Beta Precursor</div>
+                  <div class="sdldocs-cssStatus spectrum-Label spectrum-Label--yellow">CSS Unverified</div>
+                </div>
+              </header>
+              <section class="sdldocs-component-description spectrum-Body"><p>A spectrum Quiet Card for a file asset</p></section>
+              <section class="cssdocs-example spectrum">
+                <div class="cssdocs-example-demo"><div style="width: 208px; height: 264px;">
+  <div class="spectrum-Card spectrum-Card--quiet">
+    <div class="spectrum-Card-preview">
+      <div class="spectrum-Asset">
+        <svg viewBox="0 0 128 128" class="spectrum-Asset-file">
+          <g>
+            <path class="spectrum-Asset-fileBackground" d="M24,126c-5.5,0-10-4.5-10-10V12c0-5.5,4.5-10,10-10h61.5c2.1,0,4.1,0.8,5.6,2.3l20.5,20.4c1.5,1.5,2.4,3.5,2.4,5.7V116c0,5.5-4.5,10-10,10H24z"></path>
+            <g>
+              <path class="spectrum-Asset-fileOutline" d="M113.1,23.3L92.6,2.9C90.7,1,88.2,0,85.5,0H24c-6.6,0-12,5.4-12,12v104c0,6.6,5.4,12,12,12h80c6.6,0,12-5.4,12-12V30.4C116,27.8,114.9,25.2,113.1,23.3z M90,6l20.1,20H92c-1.1,0-2-0.9-2-2V6z M112,116c0,4.4-3.6,8-8,8H24c-4.4,0-8-3.6-8-8V12c0-4.4,3.6-8,8-8h61.5c0.2,0,0.3,0,0.5,0v20c0,3.3,2.7,6,6,6h20c0,0.1,0,0.3,0,0.4V116z"></path>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div class="spectrum-Card-body">
+      <div class="spectrum-Card-header">
+        <div class="spectrum-Card-title">FileName</div>
+      </div>
+      <div class="spectrum-Card-content">
+        <div class="spectrum-Card-subtitle">pdf</div>
+      </div>
+    </div>
+    <div class="spectrum-QuickActions spectrum-Card-quickActions">
+      <div class="spectrum-Checkbox">
+        <input type="checkbox" class="spectrum-Checkbox-input" aria-checked="false" title="Select" value="">
+          <span class="spectrum-Checkbox-box">
+          <svg class="spectrum-Icon spectrum-UIIcon-CheckmarkSmall spectrum-Checkbox-checkmark" focusable="false" aria-hidden="true">
+            <use xlink:href="#spectrum-css-icon-CheckmarkSmall" />
+          </svg>
+          <svg class="spectrum-Icon spectrum-UIIcon-DashSmall spectrum-Checkbox-partialCheckmark" focusable="false" aria-hidden="true">
+            <use xlink:href="#spectrum-css-icon-DashSmall" />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+                <div class="cssdocs-example-markup"><a class="js-markup-toggle cssdocs-example-markupToggle spectrum-Link" href="#">Show Markup</a>
+                  <pre><code data-language="html">&lt;div style=&quot;width: 208px; height: 264px;&quot;&gt;
+  &lt;div class=&quot;spectrum-Card spectrum-Card--quiet&quot;&gt;
+    &lt;div class=&quot;spectrum-Card-preview&quot;&gt;
+      &lt;div class=&quot;spectrum-Asset&quot;&gt;
+        &lt;svg viewBox=&quot;0 0 128 128&quot; class=&quot;spectrum-Asset-file&quot;&gt;
+          &lt;g&gt;
+            &lt;path class=&quot;spectrum-Asset-fileBackground&quot; d=&quot;M24,126c-5.5,0-10-4.5-10-10V12c0-5.5,4.5-10,10-10h61.5c2.1,0,4.1,0.8,5.6,2.3l20.5,20.4c1.5,1.5,2.4,3.5,2.4,5.7V116c0,5.5-4.5,10-10,10H24z&quot;&gt;&lt;/path&gt;
+            &lt;g&gt;
+              &lt;path class=&quot;spectrum-Asset-fileOutline&quot; d=&quot;M113.1,23.3L92.6,2.9C90.7,1,88.2,0,85.5,0H24c-6.6,0-12,5.4-12,12v104c0,6.6,5.4,12,12,12h80c6.6,0,12-5.4,12-12V30.4C116,27.8,114.9,25.2,113.1,23.3z M90,6l20.1,20H92c-1.1,0-2-0.9-2-2V6z M112,116c0,4.4-3.6,8-8,8H24c-4.4,0-8-3.6-8-8V12c0-4.4,3.6-8,8-8h61.5c0.2,0,0.3,0,0.5,0v20c0,3.3,2.7,6,6,6h20c0,0.1,0,0.3,0,0.4V116z&quot;&gt;&lt;/path&gt;
+            &lt;/g&gt;
+          &lt;/g&gt;
+        &lt;/svg&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spectrum-Card-body&quot;&gt;
+      &lt;div class=&quot;spectrum-Card-header&quot;&gt;
+        &lt;div class=&quot;spectrum-Card-title&quot;&gt;FileName&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;spectrum-Card-content&quot;&gt;
+        &lt;div class=&quot;spectrum-Card-subtitle&quot;&gt;pdf&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spectrum-QuickActions spectrum-Card-quickActions&quot;&gt;
+      &lt;div class=&quot;spectrum-Checkbox&quot;&gt;
+        &lt;input type=&quot;checkbox&quot; class=&quot;spectrum-Checkbox-input&quot; aria-checked=&quot;false&quot; title=&quot;Select&quot; value=&quot;&quot;&gt;
+          &lt;span class=&quot;spectrum-Checkbox-box&quot;&gt;
+          &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CheckmarkSmall spectrum-Checkbox-checkmark&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+            &lt;use xlink:href=&quot;#spectrum-css-icon-CheckmarkSmall&quot; /&gt;
+          &lt;/svg&gt;
+          &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-DashSmall spectrum-Checkbox-partialCheckmark&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+            &lt;use xlink:href=&quot;#spectrum-css-icon-DashSmall&quot; /&gt;
+          &lt;/svg&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                </div>
+              </section>
+            </article>
+            <article class="cssdocs-component">
+              <header class="row middle-sm" id="card---quiet-folder"><a class="sdldocs-subtleLink js-hashtitle" href="#card---quiet-folder">
+                  <h2 class="sdldocs-component-name spectrum-Heading--pageTitle">Card - Quiet, Folder</h2></a>
+                <div class="u-tooltip-showOnHover">
+                  <div class="sdldocs-dnaStatus spectrum-Label spectrum-Label--orange">Beta Precursor</div>
+                  <div class="sdldocs-cssStatus spectrum-Label spectrum-Label--yellow">CSS Unverified</div>
+                </div>
+              </header>
+              <section class="sdldocs-component-description spectrum-Body"><p>A spectrum Quiet Card for a folder asset</p></section>
+              <section class="cssdocs-example spectrum">
+                <div class="cssdocs-example-demo"><div style="width: 208px; height: 264px;">
+  <div class="spectrum-Card spectrum-Card--quiet">
+    <div class="spectrum-Card-preview">
+      <div class="spectrum-Asset">
+        <svg viewBox="0 0 32 32" class="spectrum-Asset-folder">
+          <path class="spectrum-Asset-folderBackground" d="M3,29.5c-1.4,0-2.5-1.1-2.5-2.5V5c0-1.4,1.1-2.5,2.5-2.5h10.1c0.5,0,1,0.2,1.4,0.6l3.1,3.1c0.2,0.2,0.4,0.3,0.7,0.3H29c1.4,0,2.5,1.1,2.5,2.5v18c0,1.4-1.1,2.5-2.5,2.5H3z"></path>
+          <path class="spectrum-Asset-folderOutline" d="M29,6H18.3c-0.1,0-0.2,0-0.4-0.2l-3.1-3.1C14.4,2.3,13.8,2,13.1,2H3C1.3,2,0,3.3,0,5v22c0,1.6,1.3,3,3,3h26c1.7,0,3-1.4,3-3V9C32,7.3,30.7,6,29,6z M31,27c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7h28c1.1,0,2,0.9,2,2V27z"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="spectrum-Card-body">
+      <div class="spectrum-Card-header">
+        <div class="spectrum-Card-title">FolderName</div>
+      </div>
+      <div class="spectrum-Card-content">
+        <div class="spectrum-Card-subtitle">folder</div>
+      </div>
+    </div>
+    <div class="spectrum-QuickActions spectrum-Card-quickActions">
+      <div class="spectrum-Checkbox">
+        <input type="checkbox" class="spectrum-Checkbox-input" aria-checked="false" title="Select" value="">
+        <span class="spectrum-Checkbox-box">
+          <svg class="spectrum-Icon spectrum-UIIcon-CheckmarkSmall spectrum-Checkbox-checkmark" focusable="false" aria-hidden="true">
+            <use xlink:href="#spectrum-css-icon-CheckmarkSmall" />
+          </svg>
+          <svg class="spectrum-Icon spectrum-UIIcon-DashSmall spectrum-Checkbox-partialCheckmark" focusable="false" aria-hidden="true">
+            <use xlink:href="#spectrum-css-icon-DashSmall" />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+                <div class="cssdocs-example-markup"><a class="js-markup-toggle cssdocs-example-markupToggle spectrum-Link" href="#">Show Markup</a>
+                  <pre><code data-language="html">&lt;div style=&quot;width: 208px; height: 264px;&quot;&gt;
+  &lt;div class=&quot;spectrum-Card spectrum-Card--quiet&quot;&gt;
+    &lt;div class=&quot;spectrum-Card-preview&quot;&gt;
+      &lt;div class=&quot;spectrum-Asset&quot;&gt;
+        &lt;svg viewBox=&quot;0 0 32 32&quot; class=&quot;spectrum-Asset-folder&quot;&gt;
+          &lt;path class=&quot;spectrum-Asset-folderBackground&quot; d=&quot;M3,29.5c-1.4,0-2.5-1.1-2.5-2.5V5c0-1.4,1.1-2.5,2.5-2.5h10.1c0.5,0,1,0.2,1.4,0.6l3.1,3.1c0.2,0.2,0.4,0.3,0.7,0.3H29c1.4,0,2.5,1.1,2.5,2.5v18c0,1.4-1.1,2.5-2.5,2.5H3z&quot;&gt;&lt;/path&gt;
+          &lt;path class=&quot;spectrum-Asset-folderOutline&quot; d=&quot;M29,6H18.3c-0.1,0-0.2,0-0.4-0.2l-3.1-3.1C14.4,2.3,13.8,2,13.1,2H3C1.3,2,0,3.3,0,5v22c0,1.6,1.3,3,3,3h26c1.7,0,3-1.4,3-3V9C32,7.3,30.7,6,29,6z M31,27c0,1.1-0.9,2-2,2H3c-1.1,0-2-0.9-2-2V7h28c1.1,0,2,0.9,2,2V27z&quot;&gt;&lt;/path&gt;
+        &lt;/svg&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spectrum-Card-body&quot;&gt;
+      &lt;div class=&quot;spectrum-Card-header&quot;&gt;
+        &lt;div class=&quot;spectrum-Card-title&quot;&gt;FolderName&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;spectrum-Card-content&quot;&gt;
+        &lt;div class=&quot;spectrum-Card-subtitle&quot;&gt;folder&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spectrum-QuickActions spectrum-Card-quickActions&quot;&gt;
+      &lt;div class=&quot;spectrum-Checkbox&quot;&gt;
+        &lt;input type=&quot;checkbox&quot; class=&quot;spectrum-Checkbox-input&quot; aria-checked=&quot;false&quot; title=&quot;Select&quot; value=&quot;&quot;&gt;
+        &lt;span class=&quot;spectrum-Checkbox-box&quot;&gt;
+          &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CheckmarkSmall spectrum-Checkbox-checkmark&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+            &lt;use xlink:href=&quot;#spectrum-css-icon-CheckmarkSmall&quot; /&gt;
+          &lt;/svg&gt;
+          &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-DashSmall spectrum-Checkbox-partialCheckmark&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+            &lt;use xlink:href=&quot;#spectrum-css-icon-DashSmall&quot; /&gt;
+          &lt;/svg&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                </div>
+              </section>
+            </article>
+            <article class="cssdocs-component">
+              <header class="row middle-sm" id="card---quiet-large-image"><a class="sdldocs-subtleLink js-hashtitle" href="#card---quiet-large-image">
+                  <h2 class="sdldocs-component-name spectrum-Heading--pageTitle">Card - Quiet, Large Image</h2></a>
+                <div class="u-tooltip-showOnHover">
+                  <div class="sdldocs-dnaStatus spectrum-Label spectrum-Label--orange">Beta Precursor</div>
+                  <div class="sdldocs-cssStatus spectrum-Label spectrum-Label--yellow">CSS Unverified</div>
+                </div>
+              </header>
+              <section class="sdldocs-component-description spectrum-Body"><p>A spectrum Quiet Card for an image</p></section>
+              <section class="cssdocs-example spectrum">
+                <div class="cssdocs-example-demo"><div style="width: 208px; height: 264px;">
+  <div class="spectrum-Card spectrum-Card--quiet">
+    <div class="spectrum-Card-preview">
+      <div class="spectrum-Asset">
+        <img class="spectrum-Asset-image" src="img/example-ava.jpg" style="max-width: 75%; max-height: 75%; object-fit: contain;">
+      </div>
+    </div>
+    <div class="spectrum-Card-body">
+      <div class="spectrum-Card-header">
+        <div class="spectrum-Card-title">Name</div>
+        <div class="spectrum-Card-actionButton">
+          <div style="display: inline-block;">
+            <button aria-haspopup="true" class="spectrum-ActionButton spectrum-ActionButton--quiet">
+              <svg class="spectrum-Icon spectrum-Icon--sizeS" focusable="false" aria-hidden="true">
+                <use xlink:href="#spectrum-icon-18-More" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="spectrum-Card-content">
+        <div class="spectrum-Card-subtitle">jpg</div>
+        <div class="spectrum-Card-description">10/15/18</div>
+      </div>
+    </div>
+    <div class="spectrum-QuickActions spectrum-Card-quickActions">
+      <div class="spectrum-Checkbox">
+        <input type="checkbox" class="spectrum-Checkbox-input" aria-checked="false" title="Select" value="">
+        <span class="spectrum-Checkbox-box">
+          <svg class="spectrum-Icon spectrum-UIIcon-CheckmarkSmall spectrum-Checkbox-checkmark" focusable="false" aria-hidden="true">
+            <use xlink:href="#spectrum-css-icon-CheckmarkSmall" />
+          </svg>
+          <svg class="spectrum-Icon spectrum-UIIcon-DashSmall spectrum-Checkbox-partialCheckmark" focusable="false" aria-hidden="true">
+            <use xlink:href="#spectrum-css-icon-DashSmall" />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+                <div class="cssdocs-example-markup"><a class="js-markup-toggle cssdocs-example-markupToggle spectrum-Link" href="#">Show Markup</a>
+                  <pre><code data-language="html">&lt;div style=&quot;width: 208px; height: 264px;&quot;&gt;
+  &lt;div class=&quot;spectrum-Card spectrum-Card--quiet&quot;&gt;
+    &lt;div class=&quot;spectrum-Card-preview&quot;&gt;
+      &lt;div class=&quot;spectrum-Asset&quot;&gt;
+        &lt;img class=&quot;spectrum-Asset-image&quot; src=&quot;img/example-ava.jpg&quot; style=&quot;max-width: 75%; max-height: 75%; object-fit: contain;&quot;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spectrum-Card-body&quot;&gt;
+      &lt;div class=&quot;spectrum-Card-header&quot;&gt;
+        &lt;div class=&quot;spectrum-Card-title&quot;&gt;Name&lt;/div&gt;
+        &lt;div class=&quot;spectrum-Card-actionButton&quot;&gt;
+          &lt;div style=&quot;display: inline-block;&quot;&gt;
+            &lt;button aria-haspopup=&quot;true&quot; class=&quot;spectrum-ActionButton spectrum-ActionButton--quiet&quot;&gt;
+              &lt;svg class=&quot;spectrum-Icon spectrum-Icon--sizeS&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+                &lt;use xlink:href=&quot;#spectrum-icon-18-More&quot; /&gt;
+              &lt;/svg&gt;
+            &lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;spectrum-Card-content&quot;&gt;
+        &lt;div class=&quot;spectrum-Card-subtitle&quot;&gt;jpg&lt;/div&gt;
+        &lt;div class=&quot;spectrum-Card-description&quot;&gt;10/15/18&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spectrum-QuickActions spectrum-Card-quickActions&quot;&gt;
+      &lt;div class=&quot;spectrum-Checkbox&quot;&gt;
+        &lt;input type=&quot;checkbox&quot; class=&quot;spectrum-Checkbox-input&quot; aria-checked=&quot;false&quot; title=&quot;Select&quot; value=&quot;&quot;&gt;
+        &lt;span class=&quot;spectrum-Checkbox-box&quot;&gt;
+          &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CheckmarkSmall spectrum-Checkbox-checkmark&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+            &lt;use xlink:href=&quot;#spectrum-css-icon-CheckmarkSmall&quot; /&gt;
+          &lt;/svg&gt;
+          &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-DashSmall spectrum-Checkbox-partialCheckmark&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+            &lt;use xlink:href=&quot;#spectrum-css-icon-DashSmall&quot; /&gt;
+          &lt;/svg&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                </div>
+              </section>
+            </article>
+            <article class="cssdocs-component">
+              <header class="row middle-sm" id="card---quiet-small-image"><a class="sdldocs-subtleLink js-hashtitle" href="#card---quiet-small-image">
+                  <h2 class="sdldocs-component-name spectrum-Heading--pageTitle">Card - Quiet, Small Image</h2></a>
+                <div class="u-tooltip-showOnHover">
+                  <div class="sdldocs-dnaStatus spectrum-Label spectrum-Label--yellow">Precursor</div>
+                  <div class="sdldocs-cssStatus spectrum-Label spectrum-Label--yellow">CSS Unverified</div>
+                </div>
+              </header>
+              <section class="sdldocs-component-description spectrum-Body"><p>The Quiet small variant of Card</p>
 
+<p>A spectrum Quiet Card for an image</p></section>
+              <section class="cssdocs-example spectrum">
+                <div class="cssdocs-example-demo"><div style="width: 112px; height: 136px;">
+  <div class="spectrum-Card spectrum-Card--quiet spectrum-Card--small">
+    <div class="spectrum-Card-preview">
+      <div class="spectrum-Asset">
+        <img class="spectrum-Asset-image" src="img/example-ava.jpg" style="max-width: 75%; max-height: 75%; object-fit: contain;">
+      </div>
+    </div>
+    <div class="spectrum-Card-body">
+      <div class="spectrum-Card-header">
+        <div class="spectrum-Card-title">Name</div>
+      </div>
+      <div class="spectrum-Card-content">
+        <div class="spectrum-Card-subtitle">jpg</div>
+      </div>
+    </div>
+    <div class="spectrum-QuickActions spectrum-Card-actions">
+      <div style="display: inline-block;">
+        <button aria-haspopup="true" class="spectrum-ActionButton spectrum-ActionButton--quiet">
+          <svg class="spectrum-Icon spectrum-Icon--sizeS" focusable="false" aria-hidden="true">
+            <use xlink:href="#spectrum-icon-18-More" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="spectrum-QuickActions spectrum-Card-quickActions">
+      <div class="spectrum-Checkbox">
+        <input type="checkbox" class="spectrum-Checkbox-input" aria-checked="false" title="Select" value="">
+        <span class="spectrum-Checkbox-box">
+          <svg class="spectrum-Icon spectrum-UIIcon-CheckmarkSmall spectrum-Checkbox-checkmark" focusable="false" aria-hidden="true">
+            <use xlink:href="#spectrum-css-icon-CheckmarkSmall" />
+          </svg>
+          <svg class="spectrum-Icon spectrum-UIIcon-DashSmall spectrum-Checkbox-partialCheckmark" focusable="false" aria-hidden="true">
+            <use xlink:href="#spectrum-css-icon-DashSmall" />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+                <div class="cssdocs-example-markup"><a class="js-markup-toggle cssdocs-example-markupToggle spectrum-Link" href="#">Show Markup</a>
+                  <pre><code data-language="html">&lt;div style=&quot;width: 112px; height: 136px;&quot;&gt;
+  &lt;div class=&quot;spectrum-Card spectrum-Card--quiet spectrum-Card--small&quot;&gt;
+    &lt;div class=&quot;spectrum-Card-preview&quot;&gt;
+      &lt;div class=&quot;spectrum-Asset&quot;&gt;
+        &lt;img class=&quot;spectrum-Asset-image&quot; src=&quot;img/example-ava.jpg&quot; style=&quot;max-width: 75%; max-height: 75%; object-fit: contain;&quot;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spectrum-Card-body&quot;&gt;
+      &lt;div class=&quot;spectrum-Card-header&quot;&gt;
+        &lt;div class=&quot;spectrum-Card-title&quot;&gt;Name&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;spectrum-Card-content&quot;&gt;
+        &lt;div class=&quot;spectrum-Card-subtitle&quot;&gt;jpg&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spectrum-QuickActions spectrum-Card-actions&quot;&gt;
+      &lt;div style=&quot;display: inline-block;&quot;&gt;
+        &lt;button aria-haspopup=&quot;true&quot; class=&quot;spectrum-ActionButton spectrum-ActionButton--quiet&quot;&gt;
+          &lt;svg class=&quot;spectrum-Icon spectrum-Icon--sizeS&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+            &lt;use xlink:href=&quot;#spectrum-icon-18-More&quot; /&gt;
+          &lt;/svg&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;spectrum-QuickActions spectrum-Card-quickActions&quot;&gt;
+      &lt;div class=&quot;spectrum-Checkbox&quot;&gt;
+        &lt;input type=&quot;checkbox&quot; class=&quot;spectrum-Checkbox-input&quot; aria-checked=&quot;false&quot; title=&quot;Select&quot; value=&quot;&quot;&gt;
+        &lt;span class=&quot;spectrum-Checkbox-box&quot;&gt;
+          &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CheckmarkSmall spectrum-Checkbox-checkmark&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+            &lt;use xlink:href=&quot;#spectrum-css-icon-CheckmarkSmall&quot; /&gt;
+          &lt;/svg&gt;
+          &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-DashSmall spectrum-Checkbox-partialCheckmark&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+            &lt;use xlink:href=&quot;#spectrum-css-icon-DashSmall&quot; /&gt;
+          &lt;/svg&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 </code></pre>
                 </div>
@@ -13766,7 +14231,7 @@ Finally, if scaling to large with the diff strategy, a parent tag should have th
                 <header class="row middle-sm sdldocs-subComponent-header" id="tabs-tabs-icon"><a class="sdldocs-subtleLink js-hashtitle" href="#tabs-tabs-icon">
                     <h4 class="sdldocs-subComponent-name spectrum-Heading--subtitle3">Tabs with icons</h4></a>
                   <div class="u-tooltip-showOnHover">
-                    <div class="sdldocs-dnaStatus spectrum-Label spectrum-Label--small spectrum-Label--yellow">Precursor
+                    <div class="sdldocs-dnaStatus spectrum-Label spectrum-Label--small spectrum-Label--green">Canon
                     </div>
                   </div>
                   <div class="sdldocs-cssStatus spectrum-Label spectrum-Label--small spectrum-Label--yellow">CSS Unverified
@@ -14478,7 +14943,7 @@ Finally, if scaling to large with the diff strategy, a parent tag should have th
                 <header class="row middle-sm sdldocs-subComponent-header" id="tabs---vertical-tabs-vertical"><a class="sdldocs-subtleLink js-hashtitle" href="#tabs---vertical-tabs-vertical">
                     <h4 class="sdldocs-subComponent-name spectrum-Heading--subtitle3">Compact vertical tabs</h4></a>
                   <div class="u-tooltip-showOnHover">
-                    <div class="sdldocs-dnaStatus spectrum-Label spectrum-Label--small spectrum-Label--yellow">Precursor
+                    <div class="sdldocs-dnaStatus spectrum-Label spectrum-Label--small spectrum-Label--green">Canon
                     </div>
                   </div>
                   <div class="sdldocs-cssStatus spectrum-Label spectrum-Label--small spectrum-Label--yellow">CSS Unverified
@@ -15234,11 +15699,13 @@ Finally, if scaling to large with the diff strategy, a parent tag should have th
                 <div class="spectrum-Body--small"><p>The default variant of Toast</p></div>
                 <section class="cssdocs-example spectrum">
                   <div class="cssdocs-example-demo"><div class="spectrum-Toast">
-  <div class="spectrum-Toast-content">File archived</div>
-  <div class="spectrum-Toast-buttons">
+  <div class="spectrum-Toast-body">
+    <div class="spectrum-Toast-content">Button.xd has been archived</div>
     <button class="spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet">
       <span class="spectrum-Button-label">Undo</span>
     </button>
+  </div>
+  <div class="spectrum-Toast-buttons">
     <button class="spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground">
       <svg class="spectrum-Icon spectrum-UIIcon-CrossMedium focusable="false" aria-hidden="true">
         <use xlink:href="#spectrum-css-icon-CrossMedium" />
@@ -15246,28 +15713,22 @@ Finally, if scaling to large with the diff strategy, a parent tag should have th
     </button>
   </div>
 </div>
-
-<div class="spectrum-Toast">
-  <div class="spectrum-Toast-content">File archived</div>
-</div>
 </div>
                   <div class="cssdocs-example-markup"><a class="js-markup-toggle cssdocs-example-markupToggle spectrum-Link" href="#">Show Markup</a>
                     <pre><code data-language="html">&lt;div class=&quot;spectrum-Toast&quot;&gt;
-  &lt;div class=&quot;spectrum-Toast-content&quot;&gt;File archived&lt;/div&gt;
-  &lt;div class=&quot;spectrum-Toast-buttons&quot;&gt;
+  &lt;div class=&quot;spectrum-Toast-body&quot;&gt;
+    &lt;div class=&quot;spectrum-Toast-content&quot;&gt;Button.xd has been archived&lt;/div&gt;
     &lt;button class=&quot;spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet&quot;&gt;
       &lt;span class=&quot;spectrum-Button-label&quot;&gt;Undo&lt;/span&gt;
     &lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;spectrum-Toast-buttons&quot;&gt;
     &lt;button class=&quot;spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground&quot;&gt;
       &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CrossMedium focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
         &lt;use xlink:href=&quot;#spectrum-css-icon-CrossMedium&quot; /&gt;
       &lt;/svg&gt;
     &lt;/button&gt;
   &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;spectrum-Toast&quot;&gt;
-  &lt;div class=&quot;spectrum-Toast-content&quot;&gt;File archived&lt;/div&gt;
 &lt;/div&gt;
 </code></pre>
                   </div>
@@ -15290,7 +15751,9 @@ Finally, if scaling to large with the diff strategy, a parent tag should have th
   <svg class="spectrum-Icon spectrum-UIIcon-InfoMedium spectrum-Toast-typeIcon" focusable="false" aria-hidden="true">
     <use xlink:href="#spectrum-css-icon-InfoMedium" />
   </svg>
-  <div class="spectrum-Toast-content">A new version is available</div>
+  <div class="spectrum-Toast-body">
+    <div class="spectrum-Toast-content">The toast is done</div>
+  </div>
   <div class="spectrum-Toast-buttons">
     <button class="spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground">
       <svg class="spectrum-Icon spectrum-UIIcon-CrossMedium focusable="false" aria-hidden="true">
@@ -15305,7 +15768,301 @@ Finally, if scaling to large with the diff strategy, a parent tag should have th
   &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-InfoMedium spectrum-Toast-typeIcon&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
     &lt;use xlink:href=&quot;#spectrum-css-icon-InfoMedium&quot; /&gt;
   &lt;/svg&gt;
-  &lt;div class=&quot;spectrum-Toast-content&quot;&gt;A new version is available&lt;/div&gt;
+  &lt;div class=&quot;spectrum-Toast-body&quot;&gt;
+    &lt;div class=&quot;spectrum-Toast-content&quot;&gt;The toast is done&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;spectrum-Toast-buttons&quot;&gt;
+    &lt;button class=&quot;spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground&quot;&gt;
+      &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CrossMedium focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+        &lt;use xlink:href=&quot;#spectrum-css-icon-CrossMedium&quot; /&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                  </div>
+                </section>
+              </section>
+              <section class="sdldocs-subComponent">
+                <header class="row middle-sm sdldocs-subComponent-header" id="toast-toast-negative"><a class="sdldocs-subtleLink js-hashtitle" href="#toast-toast-negative">
+                    <h4 class="sdldocs-subComponent-name spectrum-Heading--subtitle3">Toast (Negative)</h4></a>
+                  <div class="u-tooltip-showOnHover">
+                    <div class="sdldocs-dnaStatus spectrum-Label spectrum-Label--small spectrum-Label--green">Canon
+                    </div>
+                  </div>
+                  <div class="sdldocs-cssStatus spectrum-Label spectrum-Label--small spectrum-Label--green">CSS Verified
+                    
+                  </div>
+                </header>
+                <div class="spectrum-Body--small"><p>The negative variant of Toast</p></div>
+                <section class="cssdocs-example spectrum">
+                  <div class="cssdocs-example-demo"><div class="spectrum-Toast spectrum-Toast--negative">
+  <svg class="spectrum-Icon spectrum-UIIcon-AlertMedium spectrum-Toast-typeIcon" focusable="false" aria-hidden="true">
+    <use xlink:href="#spectrum-css-icon-AlertMedium" />
+  </svg>
+  <div class="spectrum-Toast-body">
+    <div class="spectrum-Toast-content">The toast is on fire</div>
+    <button class="spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet">
+      <span class="spectrum-Button-label">Eject</span>
+    </button>
+  </div>
+  <div class="spectrum-Toast-buttons">
+    <button class="spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground">
+      <svg class="spectrum-Icon spectrum-UIIcon-CrossMedium focusable="false" aria-hidden="true">
+        <use xlink:href="#spectrum-css-icon-CrossMedium" />
+      </svg>
+    </button>
+  </div>
+</div>
+</div>
+                  <div class="cssdocs-example-markup"><a class="js-markup-toggle cssdocs-example-markupToggle spectrum-Link" href="#">Show Markup</a>
+                    <pre><code data-language="html">&lt;div class=&quot;spectrum-Toast spectrum-Toast--negative&quot;&gt;
+  &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-AlertMedium spectrum-Toast-typeIcon&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+    &lt;use xlink:href=&quot;#spectrum-css-icon-AlertMedium&quot; /&gt;
+  &lt;/svg&gt;
+  &lt;div class=&quot;spectrum-Toast-body&quot;&gt;
+    &lt;div class=&quot;spectrum-Toast-content&quot;&gt;The toast is on fire&lt;/div&gt;
+    &lt;button class=&quot;spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet&quot;&gt;
+      &lt;span class=&quot;spectrum-Button-label&quot;&gt;Eject&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;spectrum-Toast-buttons&quot;&gt;
+    &lt;button class=&quot;spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground&quot;&gt;
+      &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CrossMedium focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+        &lt;use xlink:href=&quot;#spectrum-css-icon-CrossMedium&quot; /&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                  </div>
+                </section>
+              </section>
+              <section class="sdldocs-subComponent">
+                <header class="row middle-sm sdldocs-subComponent-header" id="toast-toast-positive"><a class="sdldocs-subtleLink js-hashtitle" href="#toast-toast-positive">
+                    <h4 class="sdldocs-subComponent-name spectrum-Heading--subtitle3">Toast (Positive)</h4></a>
+                  <div class="u-tooltip-showOnHover">
+                    <div class="sdldocs-dnaStatus spectrum-Label spectrum-Label--small spectrum-Label--green">Canon
+                    </div>
+                  </div>
+                  <div class="sdldocs-cssStatus spectrum-Label spectrum-Label--small spectrum-Label--green">CSS Verified
+                    
+                  </div>
+                </header>
+                <div class="spectrum-Body--small"><p>The positive variant of Toast</p></div>
+                <section class="cssdocs-example spectrum">
+                  <div class="cssdocs-example-demo"><div class="spectrum-Toast spectrum-Toast--positive">
+  <svg class="spectrum-Icon spectrum-UIIcon-SuccessMedium spectrum-Toast-typeIcon" focusable="false" aria-hidden="true">
+    <use xlink:href="#spectrum-css-icon-SuccessMedium" />
+  </svg>
+  <div class="spectrum-Toast-body">
+    <div class="spectrum-Toast-content">The toast is golden brown</div>
+    <button class="spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet">
+      <span class="spectrum-Button-label">Eject</span>
+    </button>
+  </div>
+  <div class="spectrum-Toast-buttons">
+    <button class="spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground">
+      <svg class="spectrum-Icon spectrum-UIIcon-CrossMedium focusable="false" aria-hidden="true">
+        <use xlink:href="#spectrum-css-icon-CrossMedium" />
+      </svg>
+    </button>
+  </div>
+</div>
+</div>
+                  <div class="cssdocs-example-markup"><a class="js-markup-toggle cssdocs-example-markupToggle spectrum-Link" href="#">Show Markup</a>
+                    <pre><code data-language="html">&lt;div class=&quot;spectrum-Toast spectrum-Toast--positive&quot;&gt;
+  &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-SuccessMedium spectrum-Toast-typeIcon&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+    &lt;use xlink:href=&quot;#spectrum-css-icon-SuccessMedium&quot; /&gt;
+  &lt;/svg&gt;
+  &lt;div class=&quot;spectrum-Toast-body&quot;&gt;
+    &lt;div class=&quot;spectrum-Toast-content&quot;&gt;The toast is golden brown&lt;/div&gt;
+    &lt;button class=&quot;spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet&quot;&gt;
+      &lt;span class=&quot;spectrum-Button-label&quot;&gt;Eject&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;spectrum-Toast-buttons&quot;&gt;
+    &lt;button class=&quot;spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground&quot;&gt;
+      &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CrossMedium focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+        &lt;use xlink:href=&quot;#spectrum-css-icon-CrossMedium&quot; /&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                  </div>
+                </section>
+              </section>
+              <section class="sdldocs-subComponent">
+                <header class="row middle-sm sdldocs-subComponent-header" id="toast-toast-wrapping"><a class="sdldocs-subtleLink js-hashtitle" href="#toast-toast-wrapping">
+                    <h4 class="sdldocs-subComponent-name spectrum-Heading--subtitle3">Toast Wrapping Behavior</h4></a>
+                  <div class="u-tooltip-showOnHover">
+                    <div class="sdldocs-dnaStatus spectrum-Label spectrum-Label--small spectrum-Label--green">Canon
+                    </div>
+                  </div>
+                  <div class="sdldocs-cssStatus spectrum-Label spectrum-Label--small spectrum-Label--green">CSS Verified
+                    
+                  </div>
+                </header>
+                <section class="cssdocs-example spectrum">
+                  <div class="cssdocs-example-demo">
+<div class="spectrum-Toast spectrum-Toast--info">
+  <svg class="spectrum-Icon spectrum-UIIcon-InfoMedium spectrum-Toast-typeIcon" focusable="false" aria-hidden="true">
+    <use xlink:href="#spectrum-css-icon-InfoMedium" />
+  </svg>
+  <div class="spectrum-Toast-body">
+    <div class="spectrum-Toast-content">
+      A new version of Lightroom Classic is now available
+    </div>
+    <button class="spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet">
+      <span class="spectrum-Button-label">Update</span>
+    </button>
+  </div>
+  <div class="spectrum-Toast-buttons">
+    <button class="spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground">
+      <svg class="spectrum-Icon spectrum-UIIcon-CrossMedium focusable="false" aria-hidden="true">
+        <use xlink:href="#spectrum-css-icon-CrossMedium" />
+      </svg>
+    </button>
+  </div>
+</div>
+
+<br><br>
+
+<div class="spectrum-Toast spectrum-Toast--info" style="width: 318px;">
+  <svg class="spectrum-Icon spectrum-UIIcon-InfoMedium spectrum-Toast-typeIcon" focusable="false" aria-hidden="true">
+    <use xlink:href="#spectrum-css-icon-InfoMedium" />
+  </svg>
+  <div class="spectrum-Toast-body">
+    <div class="spectrum-Toast-content">
+      A new version of Lightroom Classic is now available
+    </div>
+    <button class="spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet">
+      <span class="spectrum-Button-label">Update</span>
+    </button>
+  </div>
+  <div class="spectrum-Toast-buttons">
+    <button class="spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground">
+      <svg class="spectrum-Icon spectrum-UIIcon-CrossMedium focusable="false" aria-hidden="true">
+        <use xlink:href="#spectrum-css-icon-CrossMedium" />
+      </svg>
+    </button>
+  </div>
+</div>
+
+<br><br>
+
+<div class="spectrum-Toast spectrum-Toast--info" style="width: 332px;">
+  <svg class="spectrum-Icon spectrum-UIIcon-InfoMedium spectrum-Toast-typeIcon" focusable="false" aria-hidden="true">
+    <use xlink:href="#spectrum-css-icon-InfoMedium" />
+  </svg>
+  <div class="spectrum-Toast-body">
+    <div class="spectrum-Toast-content">
+      A new version of Lightroom Classic is now available
+    </div>
+  </div>
+  <div class="spectrum-Toast-buttons">
+    <button class="spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground">
+      <svg class="spectrum-Icon spectrum-UIIcon-CrossMedium focusable="false" aria-hidden="true">
+        <use xlink:href="#spectrum-css-icon-CrossMedium" />
+      </svg>
+    </button>
+  </div>
+</div>
+
+<br><br>
+
+<div class="spectrum-Toast spectrum-Toast--info">
+  <svg class="spectrum-Icon spectrum-UIIcon-InfoMedium spectrum-Toast-typeIcon" focusable="false" aria-hidden="true">
+    <use xlink:href="#spectrum-css-icon-InfoMedium" />
+  </svg>
+  <div class="spectrum-Toast-body">
+    <div class="spectrum-Toast-content">An update is available</div>
+  </div>
+  <div class="spectrum-Toast-buttons">
+    <button class="spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground">
+      <svg class="spectrum-Icon spectrum-UIIcon-CrossMedium focusable="false" aria-hidden="true">
+        <use xlink:href="#spectrum-css-icon-CrossMedium" />
+      </svg>
+    </button>
+  </div>
+</div>
+</div>
+                  <div class="cssdocs-example-markup"><a class="js-markup-toggle cssdocs-example-markupToggle spectrum-Link" href="#">Show Markup</a>
+                    <pre><code data-language="html">
+&lt;div class=&quot;spectrum-Toast spectrum-Toast--info&quot;&gt;
+  &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-InfoMedium spectrum-Toast-typeIcon&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+    &lt;use xlink:href=&quot;#spectrum-css-icon-InfoMedium&quot; /&gt;
+  &lt;/svg&gt;
+  &lt;div class=&quot;spectrum-Toast-body&quot;&gt;
+    &lt;div class=&quot;spectrum-Toast-content&quot;&gt;
+      A new version of Lightroom Classic is now available
+    &lt;/div&gt;
+    &lt;button class=&quot;spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet&quot;&gt;
+      &lt;span class=&quot;spectrum-Button-label&quot;&gt;Update&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;spectrum-Toast-buttons&quot;&gt;
+    &lt;button class=&quot;spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground&quot;&gt;
+      &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CrossMedium focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+        &lt;use xlink:href=&quot;#spectrum-css-icon-CrossMedium&quot; /&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+&lt;div class=&quot;spectrum-Toast spectrum-Toast--info&quot; style=&quot;width: 318px;&quot;&gt;
+  &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-InfoMedium spectrum-Toast-typeIcon&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+    &lt;use xlink:href=&quot;#spectrum-css-icon-InfoMedium&quot; /&gt;
+  &lt;/svg&gt;
+  &lt;div class=&quot;spectrum-Toast-body&quot;&gt;
+    &lt;div class=&quot;spectrum-Toast-content&quot;&gt;
+      A new version of Lightroom Classic is now available
+    &lt;/div&gt;
+    &lt;button class=&quot;spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet&quot;&gt;
+      &lt;span class=&quot;spectrum-Button-label&quot;&gt;Update&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;spectrum-Toast-buttons&quot;&gt;
+    &lt;button class=&quot;spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground&quot;&gt;
+      &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CrossMedium focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+        &lt;use xlink:href=&quot;#spectrum-css-icon-CrossMedium&quot; /&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+&lt;div class=&quot;spectrum-Toast spectrum-Toast--info&quot; style=&quot;width: 332px;&quot;&gt;
+  &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-InfoMedium spectrum-Toast-typeIcon&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+    &lt;use xlink:href=&quot;#spectrum-css-icon-InfoMedium&quot; /&gt;
+  &lt;/svg&gt;
+  &lt;div class=&quot;spectrum-Toast-body&quot;&gt;
+    &lt;div class=&quot;spectrum-Toast-content&quot;&gt;
+      A new version of Lightroom Classic is now available
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;spectrum-Toast-buttons&quot;&gt;
+    &lt;button class=&quot;spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground&quot;&gt;
+      &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CrossMedium focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+        &lt;use xlink:href=&quot;#spectrum-css-icon-CrossMedium&quot; /&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+&lt;div class=&quot;spectrum-Toast spectrum-Toast--info&quot;&gt;
+  &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-InfoMedium spectrum-Toast-typeIcon&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+    &lt;use xlink:href=&quot;#spectrum-css-icon-InfoMedium&quot; /&gt;
+  &lt;/svg&gt;
+  &lt;div class=&quot;spectrum-Toast-body&quot;&gt;
+    &lt;div class=&quot;spectrum-Toast-content&quot;&gt;An update is available&lt;/div&gt;
+  &lt;/div&gt;
   &lt;div class=&quot;spectrum-Toast-buttons&quot;&gt;
     &lt;button class=&quot;spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground&quot;&gt;
       &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CrossMedium focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
@@ -15336,11 +16093,13 @@ Finally, if scaling to large with the diff strategy, a parent tag should have th
   <svg class="spectrum-Icon spectrum-UIIcon-AlertMedium spectrum-Toast-typeIcon" focusable="false" aria-hidden="true">
     <use xlink:href="#spectrum-css-icon-AlertMedium" />
   </svg>
-  <div class="spectrum-Toast-content">The toast. The toast. The toast is on fire. The toast. The toast. The toast is on fire. The toast. The toast. The toast is on fire. The toast. The toast. The toast is on fire. </div>
-  <div class="spectrum-Toast-buttons">
+  <div class="spectrum-Toast-body">
+    <div class="spectrum-Toast-content">The toast is on fire</div>
     <button class="spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet">
       <span class="spectrum-Button-label">Eject</span>
     </button>
+  </div>
+  <div class="spectrum-Toast-buttons">
     <button class="spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground">
       <svg class="spectrum-Icon spectrum-UIIcon-CrossMedium focusable="false" aria-hidden="true">
         <use xlink:href="#spectrum-css-icon-CrossMedium" />
@@ -15354,62 +16113,13 @@ Finally, if scaling to large with the diff strategy, a parent tag should have th
   &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-AlertMedium spectrum-Toast-typeIcon&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
     &lt;use xlink:href=&quot;#spectrum-css-icon-AlertMedium&quot; /&gt;
   &lt;/svg&gt;
-  &lt;div class=&quot;spectrum-Toast-content&quot;&gt;The toast. The toast. The toast is on fire. The toast. The toast. The toast is on fire. The toast. The toast. The toast is on fire. The toast. The toast. The toast is on fire. &lt;/div&gt;
-  &lt;div class=&quot;spectrum-Toast-buttons&quot;&gt;
+  &lt;div class=&quot;spectrum-Toast-body&quot;&gt;
+    &lt;div class=&quot;spectrum-Toast-content&quot;&gt;The toast is on fire&lt;/div&gt;
     &lt;button class=&quot;spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet&quot;&gt;
       &lt;span class=&quot;spectrum-Button-label&quot;&gt;Eject&lt;/span&gt;
-    &lt;/button&gt;
-    &lt;button class=&quot;spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground&quot;&gt;
-      &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CrossMedium focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
-        &lt;use xlink:href=&quot;#spectrum-css-icon-CrossMedium&quot; /&gt;
-      &lt;/svg&gt;
     &lt;/button&gt;
   &lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
-                  </div>
-                </section>
-              </section>
-              <section class="sdldocs-subComponent">
-                <header class="row middle-sm sdldocs-subComponent-header" id="toast-toast-negative"><a class="sdldocs-subtleLink js-hashtitle" href="#toast-toast-negative">
-                    <h4 class="sdldocs-subComponent-name spectrum-Heading--subtitle3">Toast (Negative)</h4></a>
-                  <div class="u-tooltip-showOnHover">
-                    <div class="sdldocs-dnaStatus spectrum-Label spectrum-Label--small spectrum-Label--green">Canon
-                    </div>
-                  </div>
-                  <div class="sdldocs-cssStatus spectrum-Label spectrum-Label--small spectrum-Label--green">CSS Verified
-                    
-                  </div>
-                </header>
-                <div class="spectrum-Body--small"><p>The negative variant of Toast</p></div>
-                <section class="cssdocs-example spectrum">
-                  <div class="cssdocs-example-demo"><div class="spectrum-Toast spectrum-Toast--negative">
-  <svg class="spectrum-Icon spectrum-UIIcon-AlertMedium spectrum-Toast-typeIcon" focusable="false" aria-hidden="true">
-    <use xlink:href="#spectrum-css-icon-AlertMedium" />
-  </svg>
-  <div class="spectrum-Toast-content">The toast. The toast. The toast is on fire. The toast. The toast. The toast is on fire. The toast. The toast. The toast is on fire. The toast. The toast. The toast is on fire. </div>
-  <div class="spectrum-Toast-buttons">
-    <button class="spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet">
-      <span class="spectrum-Button-label">Eject</span>
-    </button>
-    <button class="spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground">
-      <svg class="spectrum-Icon spectrum-UIIcon-CrossMedium focusable="false" aria-hidden="true">
-        <use xlink:href="#spectrum-css-icon-CrossMedium" />
-      </svg>
-    </button>
-  </div>
-</div>
-</div>
-                  <div class="cssdocs-example-markup"><a class="js-markup-toggle cssdocs-example-markupToggle spectrum-Link" href="#">Show Markup</a>
-                    <pre><code data-language="html">&lt;div class=&quot;spectrum-Toast spectrum-Toast--negative&quot;&gt;
-  &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-AlertMedium spectrum-Toast-typeIcon&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
-    &lt;use xlink:href=&quot;#spectrum-css-icon-AlertMedium&quot; /&gt;
-  &lt;/svg&gt;
-  &lt;div class=&quot;spectrum-Toast-content&quot;&gt;The toast. The toast. The toast is on fire. The toast. The toast. The toast is on fire. The toast. The toast. The toast is on fire. The toast. The toast. The toast is on fire. &lt;/div&gt;
   &lt;div class=&quot;spectrum-Toast-buttons&quot;&gt;
-    &lt;button class=&quot;spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet&quot;&gt;
-      &lt;span class=&quot;spectrum-Button-label&quot;&gt;Eject&lt;/span&gt;
-    &lt;/button&gt;
     &lt;button class=&quot;spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground&quot;&gt;
       &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CrossMedium focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
         &lt;use xlink:href=&quot;#spectrum-css-icon-CrossMedium&quot; /&gt;
@@ -15439,11 +16149,13 @@ Finally, if scaling to large with the diff strategy, a parent tag should have th
   <svg class="spectrum-Icon spectrum-UIIcon-SuccessMedium spectrum-Toast-typeIcon" focusable="false" aria-hidden="true">
     <use xlink:href="#spectrum-css-icon-SuccessMedium" />
   </svg>
-  <div class="spectrum-Toast-content">The toast is golden brown.</div>
-  <div class="spectrum-Toast-buttons">
+  <div class="spectrum-Toast-body">
+    <div class="spectrum-Toast-content">The toast is golden brown</div>
     <button class="spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet">
       <span class="spectrum-Button-label">Eject</span>
     </button>
+  </div>
+  <div class="spectrum-Toast-buttons">
     <button class="spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground">
       <svg class="spectrum-Icon spectrum-UIIcon-CrossMedium focusable="false" aria-hidden="true">
         <use xlink:href="#spectrum-css-icon-CrossMedium" />
@@ -15457,11 +16169,13 @@ Finally, if scaling to large with the diff strategy, a parent tag should have th
   &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-SuccessMedium spectrum-Toast-typeIcon&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
     &lt;use xlink:href=&quot;#spectrum-css-icon-SuccessMedium&quot; /&gt;
   &lt;/svg&gt;
-  &lt;div class=&quot;spectrum-Toast-content&quot;&gt;The toast is golden brown.&lt;/div&gt;
-  &lt;div class=&quot;spectrum-Toast-buttons&quot;&gt;
+  &lt;div class=&quot;spectrum-Toast-body&quot;&gt;
+    &lt;div class=&quot;spectrum-Toast-content&quot;&gt;The toast is golden brown&lt;/div&gt;
     &lt;button class=&quot;spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet&quot;&gt;
       &lt;span class=&quot;spectrum-Button-label&quot;&gt;Eject&lt;/span&gt;
     &lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;spectrum-Toast-buttons&quot;&gt;
     &lt;button class=&quot;spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground&quot;&gt;
       &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CrossMedium focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
         &lt;use xlink:href=&quot;#spectrum-css-icon-CrossMedium&quot; /&gt;
@@ -15474,26 +16188,39 @@ Finally, if scaling to large with the diff strategy, a parent tag should have th
                 </section>
               </section>
               <section class="sdldocs-subComponent">
-                <header class="row middle-sm sdldocs-subComponent-header" id="toast-toast-positive"><a class="sdldocs-subtleLink js-hashtitle" href="#toast-toast-positive">
-                    <h4 class="sdldocs-subComponent-name spectrum-Heading--subtitle3">Toast (Positive)</h4></a>
+                <header class="row middle-sm sdldocs-subComponent-header" id="toast-toast-oldmarkup"><a class="sdldocs-subtleLink js-hashtitle" href="#toast-toast-oldmarkup">
+                    <h4 class="sdldocs-subComponent-name spectrum-Heading--subtitle3">Deprecated Markup</h4></a>
                   <div class="u-tooltip-showOnHover">
-                    <div class="sdldocs-dnaStatus spectrum-Label spectrum-Label--small spectrum-Label--green">Canon
+                    <div class="sdldocs-dnaStatus spectrum-Label spectrum-Label--small spectrum-Label--red">Deprecated
                     </div>
                   </div>
-                  <div class="sdldocs-cssStatus spectrum-Label spectrum-Label--small spectrum-Label--green">CSS Verified
-                    
-                  </div>
                 </header>
-                <div class="spectrum-Body--small"><p>The positive variant of Toast</p></div>
+                <div class="spectrum-Body--small"><p>The old markup for Toast (no <code>.spectrum-Toast-body</code> and both buttons inside of <code>.spectrum-Toast-buttons</code>) still works, but will be removed in the next major version.</p></div>
                 <section class="cssdocs-example spectrum">
-                  <div class="cssdocs-example-demo"><div class="spectrum-Toast spectrum-Toast--positive">
-  <svg class="spectrum-Icon spectrum-UIIcon-SuccessMedium spectrum-Toast-typeIcon" focusable="false" aria-hidden="true">
-    <use xlink:href="#spectrum-css-icon-SuccessMedium" />
-  </svg>
-  <div class="spectrum-Toast-content">The toast is golden brown.</div>
+                  <div class="cssdocs-example-demo"><div class="spectrum-Toast">
+  <div class="spectrum-Toast-content">Button.xd has been archived</div>
   <div class="spectrum-Toast-buttons">
     <button class="spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet">
-      <span class="spectrum-Button-label">Eject</span>
+      <span class="spectrum-Button-label">Undo</span>
+    </button>
+    <button class="spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground">
+      <svg class="spectrum-Icon spectrum-UIIcon-CrossMedium focusable="false" aria-hidden="true">
+        <use xlink:href="#spectrum-css-icon-CrossMedium" />
+      </svg>
+    </button>
+  </div>
+</div>
+
+<br><br>
+
+<div class="spectrum-Toast spectrum-Toast--info">
+  <svg class="spectrum-Icon spectrum-UIIcon-InfoMedium spectrum-Toast-typeIcon" focusable="false" aria-hidden="true">
+    <use xlink:href="#spectrum-css-icon-InfoMedium" />
+  </svg>
+  <div class="spectrum-Toast-content">Don't use this markup, it's deprecated</div>
+  <div class="spectrum-Toast-buttons">
+    <button class="spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet">
+      <span class="spectrum-Button-label">Ok</span>
     </button>
     <button class="spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground">
       <svg class="spectrum-Icon spectrum-UIIcon-CrossMedium focusable="false" aria-hidden="true">
@@ -15504,14 +16231,30 @@ Finally, if scaling to large with the diff strategy, a parent tag should have th
 </div>
 </div>
                   <div class="cssdocs-example-markup"><a class="js-markup-toggle cssdocs-example-markupToggle spectrum-Link" href="#">Show Markup</a>
-                    <pre><code data-language="html">&lt;div class=&quot;spectrum-Toast spectrum-Toast--positive&quot;&gt;
-  &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-SuccessMedium spectrum-Toast-typeIcon&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
-    &lt;use xlink:href=&quot;#spectrum-css-icon-SuccessMedium&quot; /&gt;
-  &lt;/svg&gt;
-  &lt;div class=&quot;spectrum-Toast-content&quot;&gt;The toast is golden brown.&lt;/div&gt;
+                    <pre><code data-language="html">&lt;div class=&quot;spectrum-Toast&quot;&gt;
+  &lt;div class=&quot;spectrum-Toast-content&quot;&gt;Button.xd has been archived&lt;/div&gt;
   &lt;div class=&quot;spectrum-Toast-buttons&quot;&gt;
     &lt;button class=&quot;spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet&quot;&gt;
-      &lt;span class=&quot;spectrum-Button-label&quot;&gt;Eject&lt;/span&gt;
+      &lt;span class=&quot;spectrum-Button-label&quot;&gt;Undo&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;button class=&quot;spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground&quot;&gt;
+      &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CrossMedium focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+        &lt;use xlink:href=&quot;#spectrum-css-icon-CrossMedium&quot; /&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+&lt;div class=&quot;spectrum-Toast spectrum-Toast--info&quot;&gt;
+  &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-InfoMedium spectrum-Toast-typeIcon&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
+    &lt;use xlink:href=&quot;#spectrum-css-icon-InfoMedium&quot; /&gt;
+  &lt;/svg&gt;
+  &lt;div class=&quot;spectrum-Toast-content&quot;&gt;Don't use this markup, it's deprecated&lt;/div&gt;
+  &lt;div class=&quot;spectrum-Toast-buttons&quot;&gt;
+    &lt;button class=&quot;spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet&quot;&gt;
+      &lt;span class=&quot;spectrum-Button-label&quot;&gt;Ok&lt;/span&gt;
     &lt;/button&gt;
     &lt;button class=&quot;spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground&quot;&gt;
       &lt;svg class=&quot;spectrum-Icon spectrum-UIIcon-CrossMedium focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;
@@ -16705,36 +17448,86 @@ Because the tree view is nested, the visibility of child items is controlled by 
               </header>
               <section class="sdldocs-component-description spectrum-Body"><p>Typography elements paired to display clear content hierarchies.</p></section>
               <section class="cssdocs-example spectrum">
-                <div class="cssdocs-example-demo"><h1 class="spectrum-Heading1">Heading 1</h1>
-<p class="spectrum-Body1">Body copy that pairs with heading 1</p>
+                <div class="cssdocs-example-demo"><div class="spectrum-Typography">
+  <div style="max-width: 600px;">
+  <h1 class="spectrum-Heading1">Aliquet Mauris Eu</h1>
+  <p class="spectrum-Body1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.</p>
+  <p class="spectrum-Body1">Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-<h2 class="spectrum-Heading2">Heading 2</h1>
-<p class="spectrum-Body2">Body copy that pairs with heading 2</p>
+  <h2 class="spectrum-Heading2">Aliquet Mauris Eu</h1>
+  <p class="spectrum-Body2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.</p>
+  <p class="spectrum-Body2">Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-<h3 class="spectrum-Heading3">Heading 3</h1>
-<p class="spectrum-Body3">Body copy that pairs with heading 3</p>
+  <h1 class="spectrum-Heading2">Lorem Ipsum Dolor</h1>
+  <p class="spectrum-Body2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.</p>
+  <p class="spectrum-Body2">Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-<h4 class="spectrum-Heading4">Heading 4</h4>
-<p class="spectrum-Body4">Body copy that pairs with heading 4</p>
 
-<h5 class="spectrum-Heading5">Heading 5</h5>
-<p class="spectrum-Body5">Body copy that pairs with heading 5</p>
+  <h1 class="spectrum-Heading3">Lorem Ipsum Dolor</h1>
+  <p class="spectrum-Body3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.</p>
+  <p class="spectrum-Body3">Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+
+  <h1 class="spectrum-Heading4">Lorem Ipsum Dolor</h1>
+  <p class="spectrum-Body4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.</p>
+  <p class="spectrum-Body4">Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+
+  <h1 class="spectrum-Heading5">Lorem Ipsum Dolor</h1>
+  <p class="spectrum-Body5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.</p>
+  <p class="spectrum-Body5">Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+
+  <h1 class="spectrum-Heading6">Lorem Ipsum Dolor</h1>
+  <p class="spectrum-Body5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.</p>
+  <p class="spectrum-Body5">Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+  <h1 class="spectrum-Subheading">Lorem Ipsum Dolor</h1>
+  <p class="spectrum-Body4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.</p>
+  <p class="spectrum-Body4">Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+</div>
 </div>
                 <div class="cssdocs-example-markup"><a class="js-markup-toggle cssdocs-example-markupToggle spectrum-Link" href="#">Show Markup</a>
-                  <pre><code data-language="html">&lt;h1 class=&quot;spectrum-Heading1&quot;&gt;Heading 1&lt;/h1&gt;
-&lt;p class=&quot;spectrum-Body1&quot;&gt;Body copy that pairs with heading 1&lt;/p&gt;
+                  <pre><code data-language="html">&lt;div class=&quot;spectrum-Typography&quot;&gt;
+  &lt;div style=&quot;max-width: 600px;&quot;&gt;
+  &lt;h1 class=&quot;spectrum-Heading1&quot;&gt;Aliquet Mauris Eu&lt;/h1&gt;
+  &lt;p class=&quot;spectrum-Body1&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.&lt;/p&gt;
+  &lt;p class=&quot;spectrum-Body1&quot;&gt;Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
 
-&lt;h2 class=&quot;spectrum-Heading2&quot;&gt;Heading 2&lt;/h1&gt;
-&lt;p class=&quot;spectrum-Body2&quot;&gt;Body copy that pairs with heading 2&lt;/p&gt;
+  &lt;h2 class=&quot;spectrum-Heading2&quot;&gt;Aliquet Mauris Eu&lt;/h1&gt;
+  &lt;p class=&quot;spectrum-Body2&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.&lt;/p&gt;
+  &lt;p class=&quot;spectrum-Body2&quot;&gt;Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
 
-&lt;h3 class=&quot;spectrum-Heading3&quot;&gt;Heading 3&lt;/h1&gt;
-&lt;p class=&quot;spectrum-Body3&quot;&gt;Body copy that pairs with heading 3&lt;/p&gt;
+  &lt;h1 class=&quot;spectrum-Heading2&quot;&gt;Lorem Ipsum Dolor&lt;/h1&gt;
+  &lt;p class=&quot;spectrum-Body2&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.&lt;/p&gt;
+  &lt;p class=&quot;spectrum-Body2&quot;&gt;Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
 
-&lt;h4 class=&quot;spectrum-Heading4&quot;&gt;Heading 4&lt;/h4&gt;
-&lt;p class=&quot;spectrum-Body4&quot;&gt;Body copy that pairs with heading 4&lt;/p&gt;
 
-&lt;h5 class=&quot;spectrum-Heading5&quot;&gt;Heading 5&lt;/h5&gt;
-&lt;p class=&quot;spectrum-Body5&quot;&gt;Body copy that pairs with heading 5&lt;/p&gt;
+  &lt;h1 class=&quot;spectrum-Heading3&quot;&gt;Lorem Ipsum Dolor&lt;/h1&gt;
+  &lt;p class=&quot;spectrum-Body3&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.&lt;/p&gt;
+  &lt;p class=&quot;spectrum-Body3&quot;&gt;Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+
+
+  &lt;h1 class=&quot;spectrum-Heading4&quot;&gt;Lorem Ipsum Dolor&lt;/h1&gt;
+  &lt;p class=&quot;spectrum-Body4&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.&lt;/p&gt;
+  &lt;p class=&quot;spectrum-Body4&quot;&gt;Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+
+
+  &lt;h1 class=&quot;spectrum-Heading5&quot;&gt;Lorem Ipsum Dolor&lt;/h1&gt;
+  &lt;p class=&quot;spectrum-Body5&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.&lt;/p&gt;
+  &lt;p class=&quot;spectrum-Body5&quot;&gt;Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+
+
+  &lt;h1 class=&quot;spectrum-Heading6&quot;&gt;Lorem Ipsum Dolor&lt;/h1&gt;
+  &lt;p class=&quot;spectrum-Body5&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.&lt;/p&gt;
+  &lt;p class=&quot;spectrum-Body5&quot;&gt;Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+
+  &lt;h1 class=&quot;spectrum-Subheading&quot;&gt;Lorem Ipsum Dolor&lt;/h1&gt;
+  &lt;p class=&quot;spectrum-Body4&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.&lt;/p&gt;
+  &lt;p class=&quot;spectrum-Body4&quot;&gt;Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 </code></pre>
                 </div>
               </section>

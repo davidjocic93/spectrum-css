@@ -1,4 +1,4 @@
-/* generated from dna-version: 5.0.1 */
+/* generated from dna-version: 5.3.0 */
 .spectrum--large .spectrum-QuickActions {
   visibility: hidden;
 
@@ -10,7 +10,7 @@
 
   pointer-events: none;
 }
-/* generated from dna-version: 5.0.1 */
+/* generated from dna-version: 5.3.0 */
 .spectrum--large .spectrum-QuickActions.is-open {
   visibility: visible;
 

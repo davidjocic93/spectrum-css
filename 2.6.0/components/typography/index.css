@@ -1,5 +1,5 @@
-/* generated from dna-version: 5.0.1 */
-/* generated from dna-version: 5.0.1 */
+/* generated from dna-version: 5.3.0 */
+/* generated from dna-version: 5.3.0 */
 .spectrum {
   font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-size: 14px;
@@ -23,9 +23,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Body1 em {
               font-size: 20px;
@@ -34,6 +33,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Body1 strong {
@@ -43,6 +44,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Body2,
@@ -53,9 +56,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Body2 em,
 .spectrum-Body--large em {
@@ -65,6 +67,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Body2 strong,
@@ -75,6 +79,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Body3 {
@@ -84,9 +90,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Body3 em {
               font-size: 16px;
@@ -95,6 +100,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Body3 strong {
@@ -104,6 +111,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Body4,
@@ -114,9 +123,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Body4 em,
 .spectrum-Body--secondary em {
@@ -126,6 +134,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Body4 strong,
@@ -136,6 +146,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Body5,
@@ -146,9 +158,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Body5 em,
 .spectrum-Body--small em {
@@ -158,6 +169,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Body5 strong,
@@ -168,6 +181,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading1 {
@@ -177,9 +192,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Heading1 em {
               font-size: 36px;
@@ -188,6 +202,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading1 strong {
@@ -197,6 +213,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading2 {
@@ -206,9 +224,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Heading2 em {
               font-size: 28px;
@@ -217,6 +234,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading2 strong {
@@ -226,6 +245,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading3 {
@@ -235,9 +256,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Heading3 em {
               font-size: 22px;
@@ -246,6 +266,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading3 strong {
@@ -255,6 +277,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading4,
@@ -265,9 +289,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Heading4 em,
 .spectrum-Heading--subtitle1 em {
@@ -277,6 +300,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading4 strong,
@@ -287,6 +312,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading5 {
@@ -296,9 +323,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Heading5 em {
               font-size: 16px;
@@ -307,6 +333,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading5 strong {
@@ -316,6 +344,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading6,
@@ -326,9 +356,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Heading6 em,
 .spectrum-Heading--subtitle2 em {
@@ -338,6 +367,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading6 strong,
@@ -348,6 +379,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Subheading,
@@ -358,9 +391,8 @@
   font-style: normal;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Subheading em,
 .spectrum-Heading--subtitle3 em {
@@ -370,6 +402,8 @@
   font-style: italic;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Subheading strong,
@@ -380,6 +414,8 @@
   font-style: normal;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Detail {
@@ -389,9 +425,8 @@
   font-style: normal;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Detail em {
               font-size: 11px;
@@ -400,6 +435,8 @@
   font-style: italic;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Detail strong {
@@ -409,6 +446,8 @@
   font-style: normal;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading1--quiet {
@@ -418,9 +457,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Heading1--quiet em {
               font-size: 36px;
@@ -429,6 +467,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading1--quiet strong {
@@ -438,6 +478,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading2--quiet,
@@ -448,9 +490,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Heading2--quiet em,
 .spectrum-Heading--pageTitle em {
@@ -460,6 +501,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading2--quiet strong,
@@ -470,6 +513,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading1--strong {
@@ -479,9 +524,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Heading1--strong em {
               font-size: 36px;
@@ -490,6 +534,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading1--strong strong {
@@ -499,6 +545,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading2--strong {
@@ -508,9 +556,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Heading2--strong em {
               font-size: 28px;
@@ -519,6 +566,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading2--strong strong {
@@ -528,6 +577,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading1--display {
@@ -537,9 +588,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Heading1--display em {
               font-size: 45px;
@@ -548,6 +598,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading1--display strong {
@@ -557,6 +609,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading2--display {
@@ -566,9 +620,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Heading2--display em {
               font-size: 40px;
@@ -577,15 +630,19 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading2--display strong {
               font-size: 40px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 1.3;
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading1--display.spectrum-Heading1--strong {
@@ -595,9 +652,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Heading1--display.spectrum-Heading1--strong em {
               font-size: 45px;
@@ -606,6 +662,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading1--display.spectrum-Heading1--strong strong {
@@ -615,6 +673,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading2--display.spectrum-Heading2--strong {
@@ -624,9 +684,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Heading2--display.spectrum-Heading2--strong em {
               font-size: 40px;
@@ -635,6 +694,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading2--display.spectrum-Heading2--strong strong {
@@ -644,6 +705,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading1--display.spectrum-Heading1--quiet {
@@ -653,9 +716,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Heading1--display.spectrum-Heading1--quiet em {
               font-size: 45px;
@@ -664,6 +726,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading1--display.spectrum-Heading1--quiet strong {
@@ -673,6 +737,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading2--display.spectrum-Heading2--quiet,
@@ -683,9 +749,8 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Heading2--display.spectrum-Heading2--quiet em,
 .spectrum-Heading--display em {
@@ -695,6 +760,8 @@
   font-style: italic;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Heading2--display.spectrum-Heading2--quiet strong,
@@ -705,29 +772,132 @@
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
+.spectrum-Typography .spectrum-Body1 {
+          margin-top: 0px;
+          margin-bottom: 16px;
+        }
+.spectrum-Typography .spectrum-Body2,
+.spectrum-Typography .spectrum-Body--large {
+          margin-top: 0px;
+          margin-bottom: 13px;
+        }
+.spectrum-Typography .spectrum-Body3 {
+          margin-top: 0px;
+          margin-bottom: 12px;
+        }
+.spectrum-Typography .spectrum-Body4,
+.spectrum-Typography .spectrum-Body--secondary {
+          margin-top: 0px;
+          margin-bottom: 10px;
+        }
+.spectrum-Typography .spectrum-Body5,
+.spectrum-Typography .spectrum-Body--small {
+          margin-top: 0px;
+          margin-bottom: 9px;
+        }
+.spectrum-Typography .spectrum-Heading1 {
+          margin-top: 32px;
+          margin-bottom: 9px;
+        }
+.spectrum-Typography .spectrum-Heading2 {
+          margin-top: 25px;
+          margin-bottom: 7px;
+        }
+.spectrum-Typography .spectrum-Heading3 {
+          margin-top: 20px;
+          margin-bottom: 6px;
+        }
+.spectrum-Typography .spectrum-Heading4,
+.spectrum-Typography .spectrum-Heading--subtitle1 {
+          margin-top: 16px;
+          margin-bottom: 5px;
+        }
+.spectrum-Typography .spectrum-Heading5 {
+          margin-top: 14px;
+          margin-bottom: 4px;
+        }
+.spectrum-Typography .spectrum-Heading6,
+.spectrum-Typography .spectrum-Heading--subtitle2 {
+          margin-top: 12px;
+          margin-bottom: 3px;
+        }
+.spectrum-Typography .spectrum-Subheading,
+.spectrum-Typography .spectrum-Heading--subtitle3 {
+          margin-top: 12px;
+          margin-bottom: 3px;
+        }
+.spectrum-Typography .spectrum-Detail {
+          margin-top: 0px;
+          margin-bottom: 8px;
+        }
+.spectrum-Typography .spectrum-Heading1--quiet {
+          margin-top: 32px;
+          margin-bottom: 9px;
+        }
+.spectrum-Typography .spectrum-Heading2--quiet,
+.spectrum-Typography .spectrum-Heading--pageTitle {
+          margin-top: 25px;
+          margin-bottom: 7px;
+        }
+.spectrum-Typography .spectrum-Heading1--strong {
+          margin-top: 32px;
+          margin-bottom: 9px;
+        }
+.spectrum-Typography .spectrum-Heading2--strong {
+          margin-top: 25px;
+          margin-bottom: 7px;
+        }
+.spectrum-Typography .spectrum-Heading1--display {
+          margin-top: 40px;
+          margin-bottom: 11px;
+        }
+.spectrum-Typography .spectrum-Heading2--display {
+          margin-top: 36px;
+          margin-bottom: 10px;
+        }
+.spectrum-Typography .spectrum-Heading1--display.spectrum-Heading1--strong {
+          margin-top: 40px;
+          margin-bottom: 11px;
+        }
+.spectrum-Typography .spectrum-Heading2--display.spectrum-Heading2--strong {
+          margin-top: 36px;
+          margin-bottom: 10px;
+        }
+.spectrum-Typography .spectrum-Heading1--display.spectrum-Heading1--quiet {
+          margin-top: 40px;
+          margin-bottom: 11px;
+        }
+.spectrum-Typography .spectrum-Heading2--display.spectrum-Heading2--quiet,
+.spectrum-Typography .spectrum-Heading--display {
+          margin-top: 36px;
+          margin-bottom: 10px;
+        }
 .spectrum-Article {
-  font-family: Adobe Clean Serif, Times New Roman, serif;
+  font-family: adobe-clean-serif, "Source Serif Pro", Georgia, serif;
 }
 .spectrum-Article .spectrum-Body1 {
           font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.0125em;
+  letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Body1 em {
               font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
   font-style: italic;
-  letter-spacing: 0.0125em;
+  letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body1 strong {
@@ -735,8 +905,10 @@
   font-weight: 900;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.0125em;
+  letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body2,
@@ -745,11 +917,10 @@
   font-weight: 400;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.0125em;
+  letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Body2 em,
 .spectrum-Article .spectrum-Body--large em {
@@ -757,8 +928,10 @@
   font-weight: 400;
   line-height: 1.5;
   font-style: italic;
-  letter-spacing: 0.0125em;
+  letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body2 strong,
@@ -767,8 +940,10 @@
   font-weight: 900;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.0125em;
+  letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body3 {
@@ -776,19 +951,20 @@
   font-weight: 400;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.0125em;
+  letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Body3 em {
               font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   font-style: italic;
-  letter-spacing: 0.0125em;
+  letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body3 strong {
@@ -796,8 +972,10 @@
   font-weight: 900;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.0125em;
+  letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body4,
@@ -806,11 +984,10 @@
   font-weight: 400;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.0125em;
+  letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Body4 em,
 .spectrum-Article .spectrum-Body--secondary em {
@@ -818,8 +995,10 @@
   font-weight: 400;
   line-height: 1.5;
   font-style: italic;
-  letter-spacing: 0.0125em;
+  letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body4 strong,
@@ -828,8 +1007,10 @@
   font-weight: 900;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.0125em;
+  letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body5,
@@ -838,11 +1019,10 @@
   font-weight: 400;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.0125em;
+  letter-spacing: 0;
   text-transform: none;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Body5 em,
 .spectrum-Article .spectrum-Body--small em {
@@ -850,8 +1030,10 @@
   font-weight: 400;
   line-height: 1.5;
   font-style: italic;
-  letter-spacing: 0.0125em;
+  letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Body5 strong,
@@ -860,8 +1042,10 @@
   font-weight: 900;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.0125em;
+  letter-spacing: 0;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading1 {
@@ -871,9 +1055,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Heading1 em {
               font-size: 36px;
@@ -882,6 +1065,8 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading1 strong {
@@ -891,6 +1076,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading2 {
@@ -900,9 +1087,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Heading2 em {
               font-size: 28px;
@@ -911,6 +1097,8 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading2 strong {
@@ -920,6 +1108,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading3 {
@@ -929,9 +1119,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Heading3 em {
               font-size: 22px;
@@ -940,6 +1129,8 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading3 strong {
@@ -949,6 +1140,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading4,
@@ -959,9 +1152,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Heading4 em,
 .spectrum-Article .spectrum-Heading--subtitle1 em {
@@ -971,6 +1163,8 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading4 strong,
@@ -981,6 +1175,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading5 {
@@ -990,9 +1186,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Heading5 em {
               font-size: 16px;
@@ -1001,6 +1196,8 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading5 strong {
@@ -1010,6 +1207,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading6,
@@ -1020,9 +1219,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Heading6 em,
 .spectrum-Article .spectrum-Heading--subtitle2 em {
@@ -1032,6 +1230,8 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading6 strong,
@@ -1042,6 +1242,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Subheading,
@@ -1050,11 +1252,10 @@
   font-weight: 700;
   line-height: 1.3;
   font-style: normal;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  letter-spacing: 0.0125em;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Subheading em,
 .spectrum-Article .spectrum-Heading--subtitle3 em {
@@ -1062,8 +1263,10 @@
   font-weight: 700;
   line-height: 1.3;
   font-style: italic;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  letter-spacing: 0.0125em;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Subheading strong,
@@ -1072,8 +1275,10 @@
   font-weight: 900;
   line-height: 1.3;
   font-style: normal;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  letter-spacing: 0.0125em;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Detail {
@@ -1081,19 +1286,20 @@
   font-weight: 400;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Detail em {
               font-size: 11px;
   font-weight: 400;
   line-height: 1.5;
   font-style: italic;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Detail strong {
@@ -1101,8 +1307,10 @@
   font-weight: 700;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading1--quiet {
@@ -1112,9 +1320,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Heading1--quiet em {
               font-size: 36px;
@@ -1123,6 +1330,8 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading1--quiet strong {
@@ -1132,6 +1341,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading2--quiet,
@@ -1142,9 +1353,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Heading2--quiet em,
 .spectrum-Article .spectrum-Heading--pageTitle em {
@@ -1154,6 +1364,8 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading2--quiet strong,
@@ -1164,6 +1376,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading1--display {
@@ -1173,9 +1387,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Heading1--display em {
               font-size: 45px;
@@ -1184,6 +1397,8 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading1--display strong {
@@ -1193,6 +1408,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading2--display {
@@ -1202,9 +1419,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Heading2--display em {
               font-size: 40px;
@@ -1213,6 +1429,8 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading2--display strong {
@@ -1222,6 +1440,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading1--display.spectrum-Heading1--quiet {
@@ -1231,9 +1451,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Heading1--display.spectrum-Heading1--quiet em {
               font-size: 45px;
@@ -1242,6 +1461,8 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading1--display.spectrum-Heading1--quiet strong {
@@ -1251,6 +1472,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading2--display.spectrum-Heading2--quiet,
@@ -1261,9 +1484,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum-Article .spectrum-Heading2--display.spectrum-Heading2--quiet em,
 .spectrum-Article .spectrum-Heading--display em {
@@ -1273,6 +1495,8 @@
   font-style: italic;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Article .spectrum-Heading2--display.spectrum-Heading2--quiet strong,
@@ -1283,6 +1507,8 @@
   font-style: normal;
   letter-spacing: 0.0125em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body1, .spectrum:lang(ko) .spectrum-Body1, .spectrum:lang(zh) .spectrum-Body1 {
@@ -1292,9 +1518,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Body1 em, .spectrum:lang(ko) .spectrum-Body1 em, .spectrum:lang(zh) .spectrum-Body1 em {
               font-size: 20px;
@@ -1303,6 +1528,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body1 strong, .spectrum:lang(ko) .spectrum-Body1 strong, .spectrum:lang(zh) .spectrum-Body1 strong {
@@ -1312,6 +1539,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body2,
@@ -1326,9 +1555,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Body2 em,
 .spectrum:lang(ko) .spectrum-Body2 em,
@@ -1342,6 +1570,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body2 strong,
@@ -1356,6 +1586,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body3, .spectrum:lang(ko) .spectrum-Body3, .spectrum:lang(zh) .spectrum-Body3 {
@@ -1365,9 +1597,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Body3 em, .spectrum:lang(ko) .spectrum-Body3 em, .spectrum:lang(zh) .spectrum-Body3 em {
               font-size: 16px;
@@ -1376,6 +1607,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body3 strong, .spectrum:lang(ko) .spectrum-Body3 strong, .spectrum:lang(zh) .spectrum-Body3 strong {
@@ -1385,6 +1618,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body4,
@@ -1399,9 +1634,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Body4 em,
 .spectrum:lang(ko) .spectrum-Body4 em,
@@ -1415,6 +1649,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body4 strong,
@@ -1429,6 +1665,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body5,
@@ -1443,9 +1681,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Body5 em,
 .spectrum:lang(ko) .spectrum-Body5 em,
@@ -1459,6 +1696,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Body5 strong,
@@ -1473,6 +1712,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1, .spectrum:lang(ko) .spectrum-Heading1, .spectrum:lang(zh) .spectrum-Heading1 {
@@ -1482,9 +1723,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Heading1 em, .spectrum:lang(ko) .spectrum-Heading1 em, .spectrum:lang(zh) .spectrum-Heading1 em {
               font-size: 32px;
@@ -1493,6 +1733,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1 strong, .spectrum:lang(ko) .spectrum-Heading1 strong, .spectrum:lang(zh) .spectrum-Heading1 strong {
@@ -1502,6 +1744,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2, .spectrum:lang(ko) .spectrum-Heading2, .spectrum:lang(zh) .spectrum-Heading2 {
@@ -1511,9 +1755,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Heading2 em, .spectrum:lang(ko) .spectrum-Heading2 em, .spectrum:lang(zh) .spectrum-Heading2 em {
               font-size: 25px;
@@ -1522,6 +1765,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2 strong, .spectrum:lang(ko) .spectrum-Heading2 strong, .spectrum:lang(zh) .spectrum-Heading2 strong {
@@ -1531,6 +1776,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading3, .spectrum:lang(ko) .spectrum-Heading3, .spectrum:lang(zh) .spectrum-Heading3 {
@@ -1540,9 +1787,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Heading3 em, .spectrum:lang(ko) .spectrum-Heading3 em, .spectrum:lang(zh) .spectrum-Heading3 em {
               font-size: 20px;
@@ -1551,6 +1797,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading3 strong, .spectrum:lang(ko) .spectrum-Heading3 strong, .spectrum:lang(zh) .spectrum-Heading3 strong {
@@ -1560,6 +1808,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading4,
@@ -1574,9 +1824,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Heading4 em,
 .spectrum:lang(ko) .spectrum-Heading4 em,
@@ -1590,6 +1839,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading4 strong,
@@ -1604,6 +1855,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading5, .spectrum:lang(ko) .spectrum-Heading5, .spectrum:lang(zh) .spectrum-Heading5 {
@@ -1613,9 +1866,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Heading5 em, .spectrum:lang(ko) .spectrum-Heading5 em, .spectrum:lang(zh) .spectrum-Heading5 em {
               font-size: 16px;
@@ -1624,6 +1876,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading5 strong, .spectrum:lang(ko) .spectrum-Heading5 strong, .spectrum:lang(zh) .spectrum-Heading5 strong {
@@ -1633,6 +1887,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading6,
@@ -1647,9 +1903,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Heading6 em,
 .spectrum:lang(ko) .spectrum-Heading6 em,
@@ -1663,6 +1918,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading6 strong,
@@ -1677,6 +1934,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Subheading,
@@ -1687,13 +1946,12 @@
 .spectrum:lang(zh) .spectrum-Heading--subtitle3 {
           font-size: 11px;
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  letter-spacing: 0.05em;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Subheading em,
 .spectrum:lang(ko) .spectrum-Subheading em,
@@ -1703,10 +1961,12 @@
 .spectrum:lang(zh) .spectrum-Heading--subtitle3 em {
               font-size: 11px;
   font-weight: 800;
-  line-height: 1.3;
+  line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Subheading strong,
@@ -1717,10 +1977,12 @@
 .spectrum:lang(zh) .spectrum-Heading--subtitle3 strong {
               font-size: 11px;
   font-weight: 900;
-  line-height: 1.3;
+  line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Detail, .spectrum:lang(ko) .spectrum-Detail, .spectrum:lang(zh) .spectrum-Detail {
@@ -1728,19 +1990,20 @@
   font-weight: 400;
   line-height: 1.7;
   font-style: normal;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
+  letter-spacing: 0.05em;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Detail em, .spectrum:lang(ko) .spectrum-Detail em, .spectrum:lang(zh) .spectrum-Detail em {
               font-size: 11px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.7;
   font-style: normal;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Detail strong, .spectrum:lang(ko) .spectrum-Detail strong, .spectrum:lang(zh) .spectrum-Detail strong {
@@ -1748,8 +2011,10 @@
   font-weight: 900;
   line-height: 1.7;
   font-style: normal;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--quiet, .spectrum:lang(ko) .spectrum-Heading1--quiet, .spectrum:lang(zh) .spectrum-Heading1--quiet {
@@ -1759,9 +2024,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Heading1--quiet em, .spectrum:lang(ko) .spectrum-Heading1--quiet em, .spectrum:lang(zh) .spectrum-Heading1--quiet em {
               font-size: 32px;
@@ -1770,6 +2034,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--quiet strong, .spectrum:lang(ko) .spectrum-Heading1--quiet strong, .spectrum:lang(zh) .spectrum-Heading1--quiet strong {
@@ -1779,6 +2045,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--quiet,
@@ -1793,9 +2061,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Heading2--quiet em,
 .spectrum:lang(ko) .spectrum-Heading2--quiet em,
@@ -1809,6 +2076,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--quiet strong,
@@ -1823,6 +2092,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--strong, .spectrum:lang(ko) .spectrum-Heading1--strong, .spectrum:lang(zh) .spectrum-Heading1--strong {
@@ -1832,9 +2103,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Heading1--strong em, .spectrum:lang(ko) .spectrum-Heading1--strong em, .spectrum:lang(zh) .spectrum-Heading1--strong em {
               font-size: 32px;
@@ -1843,6 +2113,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--strong strong, .spectrum:lang(ko) .spectrum-Heading1--strong strong, .spectrum:lang(zh) .spectrum-Heading1--strong strong {
@@ -1852,6 +2124,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--strong, .spectrum:lang(ko) .spectrum-Heading2--strong, .spectrum:lang(zh) .spectrum-Heading2--strong {
@@ -1861,9 +2135,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Heading2--strong em, .spectrum:lang(ko) .spectrum-Heading2--strong em, .spectrum:lang(zh) .spectrum-Heading2--strong em {
               font-size: 25px;
@@ -1872,6 +2145,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--strong strong, .spectrum:lang(ko) .spectrum-Heading2--strong strong, .spectrum:lang(zh) .spectrum-Heading2--strong strong {
@@ -1881,6 +2156,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--display, .spectrum:lang(ko) .spectrum-Heading1--display, .spectrum:lang(zh) .spectrum-Heading1--display {
@@ -1890,9 +2167,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Heading1--display em, .spectrum:lang(ko) .spectrum-Heading1--display em, .spectrum:lang(zh) .spectrum-Heading1--display em {
               font-size: 40px;
@@ -1901,6 +2177,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--display strong, .spectrum:lang(ko) .spectrum-Heading1--display strong, .spectrum:lang(zh) .spectrum-Heading1--display strong {
@@ -1910,6 +2188,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--display, .spectrum:lang(ko) .spectrum-Heading2--display, .spectrum:lang(zh) .spectrum-Heading2--display {
@@ -1919,9 +2199,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Heading2--display em, .spectrum:lang(ko) .spectrum-Heading2--display em, .spectrum:lang(zh) .spectrum-Heading2--display em {
               font-size: 36px;
@@ -1930,6 +2209,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--display strong, .spectrum:lang(ko) .spectrum-Heading2--display strong, .spectrum:lang(zh) .spectrum-Heading2--display strong {
@@ -1939,6 +2220,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--display.spectrum-Heading1--strong, .spectrum:lang(ko) .spectrum-Heading1--display.spectrum-Heading1--strong, .spectrum:lang(zh) .spectrum-Heading1--display.spectrum-Heading1--strong {
@@ -1948,9 +2231,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Heading1--display.spectrum-Heading1--strong em, .spectrum:lang(ko) .spectrum-Heading1--display.spectrum-Heading1--strong em, .spectrum:lang(zh) .spectrum-Heading1--display.spectrum-Heading1--strong em {
               font-size: 40px;
@@ -1959,6 +2241,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--display.spectrum-Heading1--strong strong, .spectrum:lang(ko) .spectrum-Heading1--display.spectrum-Heading1--strong strong, .spectrum:lang(zh) .spectrum-Heading1--display.spectrum-Heading1--strong strong {
@@ -1968,6 +2252,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--display.spectrum-Heading2--strong, .spectrum:lang(ko) .spectrum-Heading2--display.spectrum-Heading2--strong, .spectrum:lang(zh) .spectrum-Heading2--display.spectrum-Heading2--strong {
@@ -1977,9 +2263,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Heading2--display.spectrum-Heading2--strong em, .spectrum:lang(ko) .spectrum-Heading2--display.spectrum-Heading2--strong em, .spectrum:lang(zh) .spectrum-Heading2--display.spectrum-Heading2--strong em {
               font-size: 36px;
@@ -1988,6 +2273,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--display.spectrum-Heading2--strong strong, .spectrum:lang(ko) .spectrum-Heading2--display.spectrum-Heading2--strong strong, .spectrum:lang(zh) .spectrum-Heading2--display.spectrum-Heading2--strong strong {
@@ -1997,6 +2284,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--display.spectrum-Heading1--quiet, .spectrum:lang(ko) .spectrum-Heading1--display.spectrum-Heading1--quiet, .spectrum:lang(zh) .spectrum-Heading1--display.spectrum-Heading1--quiet {
@@ -2006,9 +2295,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Heading1--display.spectrum-Heading1--quiet em, .spectrum:lang(ko) .spectrum-Heading1--display.spectrum-Heading1--quiet em, .spectrum:lang(zh) .spectrum-Heading1--display.spectrum-Heading1--quiet em {
               font-size: 40px;
@@ -2017,6 +2305,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading1--display.spectrum-Heading1--quiet strong, .spectrum:lang(ko) .spectrum-Heading1--display.spectrum-Heading1--quiet strong, .spectrum:lang(zh) .spectrum-Heading1--display.spectrum-Heading1--quiet strong {
@@ -2026,6 +2316,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--display.spectrum-Heading2--quiet,
@@ -2040,9 +2332,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
-
-          margin-bottom: 8px;
-          margin-top: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
         }
 .spectrum:lang(ja) .spectrum-Heading2--display.spectrum-Heading2--quiet em,
 .spectrum:lang(ko) .spectrum-Heading2--display.spectrum-Heading2--quiet em,
@@ -2056,6 +2347,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum:lang(ja) .spectrum-Heading2--display.spectrum-Heading2--quiet strong,
@@ -2070,6 +2363,8 @@
   font-style: normal;
   letter-spacing: 0.05em;
   text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Code1 {
@@ -2078,10 +2373,9 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
-  font-family: Source Code Pro, Monaco, monospace;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Source Code Pro", Monaco, monospace;
         }
 .spectrum-Code1 em {
               font-size: 20px;
@@ -2089,6 +2383,8 @@
   line-height: 1.5;
   font-style: italic;
   letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Code1 strong {
@@ -2097,6 +2393,8 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Code2 {
@@ -2105,10 +2403,9 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
-  font-family: Source Code Pro, Monaco, monospace;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Source Code Pro", Monaco, monospace;
         }
 .spectrum-Code2 em {
               font-size: 18px;
@@ -2116,6 +2413,8 @@
   line-height: 1.5;
   font-style: italic;
   letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Code2 strong {
@@ -2124,6 +2423,8 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Code3 {
@@ -2132,10 +2433,9 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
-  font-family: Source Code Pro, Monaco, monospace;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Source Code Pro", Monaco, monospace;
         }
 .spectrum-Code3 em {
               font-size: 16px;
@@ -2143,6 +2443,8 @@
   line-height: 1.5;
   font-style: italic;
   letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Code3 strong {
@@ -2151,6 +2453,8 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Code4 {
@@ -2159,10 +2463,9 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
-  font-family: Source Code Pro, Monaco, monospace;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Source Code Pro", Monaco, monospace;
         }
 .spectrum-Code4 em {
               font-size: 14px;
@@ -2170,6 +2473,8 @@
   line-height: 1.5;
   font-style: italic;
   letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Code4 strong {
@@ -2178,6 +2483,8 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Code5 {
@@ -2186,10 +2493,9 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
-
-          margin-bottom: 16px;
-          margin-top: 8px;
-  font-family: Source Code Pro, Monaco, monospace;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Source Code Pro", Monaco, monospace;
         }
 .spectrum-Code5 em {
               font-size: 12px;
@@ -2197,6 +2503,8 @@
   line-height: 1.5;
   font-style: italic;
   letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 .spectrum-Code5 strong {
@@ -2205,6 +2513,8 @@
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 
           }
 /* topdoc

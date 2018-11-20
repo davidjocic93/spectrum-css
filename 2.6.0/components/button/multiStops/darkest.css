@@ -1,5 +1,5 @@
-/* generated from dna-version: 5.0.1 */
-/* generated from dna-version: 5.0.1 */
+/* generated from dna-version: 5.3.0 */
+/* generated from dna-version: 5.3.0 */
 /* Temporary skin variables that need to be moved into origins */
 :root {
   /* Icon Button*/
@@ -108,12 +108,12 @@
 */
 .spectrum--darkest .spectrum-Button--secondary {
   background-color: rgba(0, 0, 0, 0);
-  border-color: rgb(133, 133, 133);
-  color: rgb(133, 133, 133);
+  border-color: rgb(135, 135, 135);
+  color: rgb(135, 135, 135);
 }
 .spectrum--darkest .spectrum-Button--secondary:hover {
-    background-color: rgb(133, 133, 133);
-    border-color: rgb(133, 133, 133);
+    background-color: rgb(135, 135, 135);
+    border-color: rgb(135, 135, 135);
     color: rgb(8, 8, 8);
   }
 .spectrum--darkest .spectrum-Button--secondary.focus-ring {
@@ -261,7 +261,7 @@
 .spectrum--darkest .spectrum-Button--secondary.spectrum-Button--quiet {
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
-  color: rgb(133, 133, 133);
+  color: rgb(135, 135, 135);
 }
 .spectrum--darkest .spectrum-Button--secondary.spectrum-Button--quiet:hover {
     background-color: rgb(38, 38, 38);
@@ -295,11 +295,11 @@
 }
 .spectrum--darkest .spectrum-ActionButton .spectrum-Icon,
 .spectrum--darkest .spectrum-Tool .spectrum-Icon {
-    color: rgb(133, 133, 133);
+    color: rgb(135, 135, 135);
   }
 .spectrum--darkest .spectrum-ActionButton .spectrum-ActionButton-hold,
 .spectrum--darkest .spectrum-Tool .spectrum-ActionButton-hold {
-    color: rgb(133, 133, 133);
+    color: rgb(135, 135, 135);
   }
 .spectrum--darkest .spectrum-ActionButton:hover,
 .spectrum--darkest .spectrum-Tool:hover {
@@ -365,7 +365,7 @@
     color: rgb(180, 180, 180);
   }
 .spectrum--darkest .spectrum-ActionButton.is-selected .spectrum-Icon {
-      color: rgb(133, 133, 133);
+      color: rgb(135, 135, 135);
     }
 .spectrum--darkest .spectrum-ActionButton.is-selected.focus-ring {
       background-color: rgb(38, 38, 38);
@@ -674,7 +674,7 @@
         color: rgb(60, 60, 60);
       }
 .spectrum--darkest .spectrum-Tool .spectrum-Tool-hold {
-    color: rgb(133, 133, 133);
+    color: rgb(135, 135, 135);
   }
 .spectrum--darkest .spectrum-Tool:hover .spectrum-Tool-hold {
       color: rgb(226, 226, 226);

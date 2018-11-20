@@ -1,5 +1,5 @@
-/* generated from dna-version: 5.0.1 */
-/* generated from dna-version: 5.0.1 */
+/* generated from dna-version: 5.3.0 */
+/* generated from dna-version: 5.3.0 */
 /* Temporary skin variables that need to be moved into origins */
 :root {
   /* Icon Button*/
@@ -38,10 +38,10 @@
   }
 .spectrum-Slider-labelContainer,
 .spectrum-Dial-labelContainer {
-  color: rgb(133, 133, 133);
+  color: rgb(135, 135, 135);
 }
 .spectrum-Slider--filled .spectrum-Slider-track:first-child::before {
-      background: rgb(133, 133, 133);
+      background: rgb(135, 135, 135);
     }
 .spectrum-Slider-buffer::before,
   .spectrum-Slider-buffer::after {
@@ -51,7 +51,7 @@
     fill: rgb(45, 45, 45);
   }
 .spectrum-Slider-handle {
-  border-color: rgb(133, 133, 133);
+  border-color: rgb(135, 135, 135);
   background: rgb(30, 30, 30);
 }
 .spectrum-Slider-handle:hover {
@@ -86,7 +86,7 @@
 {{ slider/slider-range.yml }}
 */
 .spectrum-Slider--range .spectrum-Slider-track:not(:first-of-type):not(:last-of-type):before {
-        background: rgb(133, 133, 133);
+        background: rgb(135, 135, 135);
       }
 /* topdoc
 {{ slider/slider-colored.yml }}
@@ -135,7 +135,7 @@
   box-shadow: none;
 }
 .spectrum-Dial-handle::after {
-    background-color: rgb(133, 133, 133);
+    background-color: rgb(135, 135, 135);
   }
 .spectrum-Dial-handle:hover::after {
       background-color: rgb(180, 180, 180);

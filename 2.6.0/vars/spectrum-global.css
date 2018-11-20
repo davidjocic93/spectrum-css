@@ -1,4 +1,4 @@
-/* generated from dna-version: 5.0.1 */
+/* generated from dna-version: 5.3.0 */
 :root {
   --spectrum-global-color-static-black: rgb(0, 0, 0);
   --spectrum-global-color-static-white: rgb(255, 255, 255);
@@ -11,7 +11,7 @@
   --spectrum-global-color-static-gray-400: rgb(211, 211, 211);
   --spectrum-global-color-static-gray-500: rgb(188, 188, 188);
   --spectrum-global-color-static-gray-600: rgb(149, 149, 149);
-  --spectrum-global-color-static-gray-700: rgb(118, 118, 118);
+  --spectrum-global-color-static-gray-700: rgb(116, 116, 116);
   --spectrum-global-color-static-gray-800: rgb(80, 80, 80);
   --spectrum-global-color-static-gray-900: rgb(50, 50, 50);
   --spectrum-global-color-static-blue-400: rgb(55, 142, 240);
@@ -30,9 +30,9 @@
   --spectrum-global-color-static-green-500: rgb(45, 157, 120);
   --spectrum-global-color-static-green-600: rgb(38, 142, 108);
   --spectrum-global-color-static-green-700: rgb(18, 128, 92);
-  --spectrum-global-font-family-base: Adobe Clean, Helvetica, Arial, sans-serif;
-  --spectrum-global-font-family-serif: Adobe Clean Serif, Times New Roman, serif;
-  --spectrum-global-font-family-code: Source Code Pro, Monaco, monospace;
+  --spectrum-global-font-family-base: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Trebuchet MS", "Lucida Grande", sans-serif;
+  --spectrum-global-font-family-serif: adobe-clean-serif, "Source Serif Pro", Georgia, serif;
+  --spectrum-global-font-family-code: "Source Code Pro", Monaco, monospace;
   --spectrum-global-font-weight-thin: 100;
   --spectrum-global-font-weight-ultra-light: 200;
   --spectrum-global-font-weight-light: 300;
@@ -51,11 +51,15 @@
   --spectrum-global-font-line-height-large: 1.7;
   --spectrum-global-font-line-height-medium: 1.5;
   --spectrum-global-font-line-height-small: 1.3;
+  --spectrum-global-font-multiplier-25: 0.25em;
+  --spectrum-global-font-multiplier-75: 0.75em;
   --spectrum-global-dimension-static-size-10: 1px;
   --spectrum-global-dimension-static-size-25: 2px;
   --spectrum-global-dimension-static-size-50: 4px;
+  --spectrum-global-dimension-static-size-40: 3px;
   --spectrum-global-dimension-static-size-65: 5px;
   --spectrum-global-dimension-static-size-100: 8px;
+  --spectrum-global-dimension-static-size-115: 9px;
   --spectrum-global-dimension-static-size-125: 10px;
   --spectrum-global-dimension-static-size-150: 12px;
   --spectrum-global-dimension-static-size-175: 14px;

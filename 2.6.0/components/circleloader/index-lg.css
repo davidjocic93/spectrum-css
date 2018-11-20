@@ -1,5 +1,5 @@
-/* generated from dna-version: 5.0.1 */
-/* generated from dna-version: 5.0.1 */
+/* generated from dna-version: 5.3.0 */
+/* generated from dna-version: 5.3.0 */
 .spectrum-CircleLoader--indeterminate-fill-submask-2 {
   animation: 1s infinite linear spectrum-fill-mask-2;
 }
@@ -494,17 +494,17 @@
 */
 .spectrum-CircleLoader {
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   position: relative;
 }
 .spectrum-CircleLoader-track {
   box-sizing: border-box;
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   border-style: solid;
   border-width: 4px;
-  border-radius: 40px;
+  border-radius: 32px;
 }
 .spectrum-CircleLoader-fills {
   position: absolute;
@@ -515,11 +515,11 @@
 }
 .spectrum-CircleLoader-fill {
   box-sizing: border-box;
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   border-style: solid;
   border-width: 4px;
-  border-radius: 40px;
+  border-radius: 32px;
 }
 .spectrum-CircleLoader-fillMask1,
 .spectrum-CircleLoader-fillMask2 {
@@ -545,22 +545,22 @@
 {{ circleloader/circleloader-small.yml }}
 */
 .spectrum-CircleLoader--small {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
 }
 .spectrum-CircleLoader--small .spectrum-CircleLoader-track {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     border-style: solid;
     border-width: 3px;
-    border-radius: 20px;
+    border-radius: 16px;
   }
 .spectrum-CircleLoader--small .spectrum-CircleLoader-fill {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     border-style: solid;
     border-width: 3px;
-    border-radius: 20px;
+    border-radius: 16px;
   }
 /* topdoc
 {{ circleloader/circleloader-large.yml }}

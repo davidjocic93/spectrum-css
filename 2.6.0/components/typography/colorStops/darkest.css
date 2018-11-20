@@ -1,5 +1,5 @@
-/* generated from dna-version: 5.0.1 */
-/* generated from dna-version: 5.0.1 */
+/* generated from dna-version: 5.3.0 */
+/* generated from dna-version: 5.3.0 */
 /* Temporary skin variables that need to be moved into origins */
 :root {
   /* Icon Button*/
@@ -46,7 +46,7 @@
           color: rgb(226, 226, 226);
         }
 .spectrum-Subheading {
-          color: rgb(180, 180, 180);
+          color: rgb(226, 226, 226);
         }
 .spectrum-Detail {
           color: rgb(180, 180, 180);
@@ -115,7 +115,7 @@
           color: rgb(226, 226, 226);
         }
 .spectrum-Article .spectrum-Subheading {
-          color: rgb(180, 180, 180);
+          color: rgb(226, 226, 226);
         }
 .spectrum-Article .spectrum-Detail {
           color: rgb(180, 180, 180);
@@ -172,7 +172,7 @@
           color: rgb(226, 226, 226);
         }
 .spectrum:lang(ja) .spectrum-Subheading, .spectrum:lang(ko) .spectrum-Subheading, .spectrum:lang(zh) .spectrum-Subheading {
-          color: rgb(180, 180, 180);
+          color: rgb(226, 226, 226);
         }
 .spectrum:lang(ja) .spectrum-Detail, .spectrum:lang(ko) .spectrum-Detail, .spectrum:lang(zh) .spectrum-Detail {
           color: rgb(180, 180, 180);
@@ -233,13 +233,13 @@
   color: rgb(180, 180, 180);
 }
 .spectrum-Body--secondary {
-  color: rgb(133, 133, 133);
+  color: rgb(135, 135, 135);
 }
 .spectrum-Heading--display {
   color: rgb(226, 226, 226);
 }
 .spectrum-Heading--pageTitle {
-  color: rgb(133, 133, 133);
+  color: rgb(135, 135, 135);
 }
 .spectrum-Heading--subtitle1 {
   color: rgb(226, 226, 226);
@@ -248,5 +248,5 @@
   color: rgb(226, 226, 226);
 }
 .spectrum-Heading--subtitle3 {
-  color: rgb(133, 133, 133);
+  color: rgb(135, 135, 135);
 }
